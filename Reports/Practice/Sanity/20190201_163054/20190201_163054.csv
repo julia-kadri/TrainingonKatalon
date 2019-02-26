@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sanity,Chrome 71.0.3578.98,,2019-02-01 16:31:05,2019-02-01 16:31:47,41.567s,ERROR
+,,,,,,
+Test Cases/Perolehan/Practice_test_case_ADV,Chrome 71.0.3578.98,this is a practice test case for advance scripting,2019-02-01 16:31:06,2019-02-01 16:31:45,39.514s,ERROR
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-01 16:31:06,2019-02-01 16:31:12,5.915s,PASSED
+"navigateToUrl(""https://175.143.52.101:7011/1SPEKSv2/"")",Chrome 71.0.3578.98,,2019-02-01 16:31:12,2019-02-01 16:31:16,4.314s,PASSED
+"list = getAllLinksOnCurrentPage(false, [])",Chrome 71.0.3578.98,,2019-02-01 16:31:16,2019-02-01 16:31:45,28.640s,PASSED
+openBrowser(G_SiteURL),Chrome 71.0.3578.98,Open browser and navigate to website which will show alert,2019-02-01 16:31:45,2019-02-01 16:31:45,0.007s,ERROR

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Perolehan,Chrome 71.0.3578.98,Perolehan scenario,2019-01-28 16:20:17,2019-01-28 16:20:54,36.774s,FAILED
+,,,,,,
+Test Cases/Perolehan/Left Menu Selection/Select Menu Pesanan Tempatan,Chrome 71.0.3578.98,Select Perolehan and then select Pesanan Tempatan,2019-01-28 16:20:18,2019-01-28 16:20:53,35.761s,FAILED
+"openBrowser(""https://175.143.52.101:7011/1SPEKSv2/"")",Chrome 71.0.3578.98,Open browser and input homepage URL ,2019-01-28 16:20:18,2019-01-28 16:20:24,5.792s,PASSED
+"setText(findTestObject(""Login/input_NoKadPengenalan""), ""601101955194"")",Chrome 71.0.3578.98,Input User Name,2019-01-28 16:20:24,2019-01-28 16:20:24,0.267s,PASSED
+"setText(findTestObject(""Login/input_Password""), ""password"")",Chrome 71.0.3578.98,Input Password,2019-01-28 16:20:24,2019-01-28 16:20:24,0.148s,PASSED
+"click(findTestObject(""Login/input_ButtonLogMasuk""))",Chrome 71.0.3578.98,,2019-01-28 16:20:24,2019-01-28 16:20:27,2.771s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-28 16:20:27,2019-01-28 16:20:37,10.032s,PASSED
+"click(findTestObject(""Perolehan/Left_Menu_Selection/a_ExpandMenuonLeft""))",Chrome 71.0.3578.98,,2019-01-28 16:20:37,2019-01-28 16:20:37,0.518s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,Click on Perolehan Menu,2019-01-28 16:20:37,2019-01-28 16:20:42,5.009s,PASSED
+"click(findTestObject(""Perolehan/Left_Menu_Selection/div_PanelTitlePerolehan""))",Chrome 71.0.3578.98,,2019-01-28 16:20:42,2019-01-28 16:20:43,0.107s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,Select Pesanan Tempatan Folder to open Pesanan Tempatan sub-menu,2019-01-28 16:20:43,2019-01-28 16:20:48,5.004s,PASSED
+"click(findTestObject(""Perolehan/Left_Menu_Selection/div_FolderPesananTempatan""))",Chrome 71.0.3578.98,,2019-01-28 16:20:48,2019-01-28 16:20:48,0.321s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,Select Pesanan Tempatan Menu,2019-01-28 16:20:48,2019-01-28 16:20:53,5.004s,PASSED
+"click(findTestObject(""Perolehan/Left_Menu_Selection/div_PesananTempatan""))",Chrome 71.0.3578.98,,2019-01-28 16:20:53,2019-01-28 16:20:53,0.394s,FAILED

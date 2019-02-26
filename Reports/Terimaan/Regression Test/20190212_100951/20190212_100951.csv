@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Test,Chrome 71.0.3578.98,Functional Test for module Terimaan,2019-02-12 10:15:27,2019-02-12 10:21:04,5m - 37.355s,PASSED
+,,,,,,
+Test Cases/Terimaan/Terimaan Pelbagai,Chrome 71.0.3578.98,"Peranan Penyedia dengan Peringkat PTJ cipta REKOD BARU
+Penyedia Simpan Rekod
+Penyedia Sah Simpan Rekod
+Penyedia Cetak Rekod",2019-02-12 10:15:27,2019-02-12 10:21:04,5m - 37.089s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-02-12 10:15:28,2019-02-12 10:15:33,5.289s,PASSED
+"navigateToUrl(""https://175.143.52.101:7011/1SPEKSv2/"")",Chrome 71.0.3578.98,,2019-02-12 10:15:33,2019-02-12 10:15:35,2.405s,PASSED
+"setText(findTestObject(""Object Repository/RecordandPlay/input_LOG Masuk_textbox-text v""), ""790214108888"")",Chrome 71.0.3578.98,,2019-02-12 10:15:35,2019-02-12 10:15:40,4.208s,PASSED
+"setEncryptedText(findTestObject(""RecordandPlay/input_LOG Masuk_textbox-text v_1""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 71.0.3578.98,,2019-02-12 10:15:40,2019-02-12 10:15:43,3.160s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/input_LOG Masuk_button large b""))",Chrome 71.0.3578.98,,2019-02-12 10:15:43,2019-02-12 10:15:46,3.264s,PASSED
+delay(15),Chrome 71.0.3578.98,,2019-02-12 10:15:46,2019-02-12 10:16:01,15.031s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_Housekeeping_layout-button-r""))",Chrome 71.0.3578.98,,2019-02-12 10:16:01,2019-02-12 10:16:03,2.483s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-12 10:16:03,2019-02-12 10:16:08,5.003s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_Akaun Belum Terima""))",Chrome 71.0.3578.98,,2019-02-12 10:16:08,2019-02-12 10:16:11,2.117s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-12 10:16:11,2019-02-12 10:16:16,5.003s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_Tanpa Bil""))",Chrome 71.0.3578.98,,2019-02-12 10:16:16,2019-02-12 10:16:18,2.188s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-02-12 10:16:18,2019-02-12 10:16:28,10.002s,PASSED
+ispeks.random.perananPenyediaPTJ(),Chrome 71.0.3578.98,,2019-02-12 10:16:28,2019-02-12 10:17:09,40.915s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-12 10:17:09,2019-02-12 10:17:14,5.004s,PASSED
+"verifyTextPresent(""JABATAN KERJA RAYA [021000]"", false)",Chrome 71.0.3578.98,,2019-02-12 10:17:14,2019-02-12 10:17:18,4.367s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_Peranan  Penyedia Peringka""))",Chrome 71.0.3578.98,,2019-02-12 10:17:18,2019-02-12 10:17:20,2.096s,PASSED
+"verifyTextPresent(""Peranan : [Penyedia] Peringkat : [PTJ]"", false)",Chrome 71.0.3578.98,,2019-02-12 10:17:20,2019-02-12 10:17:24,4.303s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_Housekeeping_layout-button-r""))",Chrome 71.0.3578.98,,2019-02-12 10:17:24,2019-02-12 10:17:27,2.498s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-12 10:17:27,2019-02-12 10:17:32,5.002s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_Akaun Belum Terima""))",Chrome 71.0.3578.98,,2019-02-12 10:17:32,2019-02-12 10:17:34,2.139s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-12 10:17:34,2019-02-12 10:17:39,5.002s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_Tanpa Bil""))",Chrome 71.0.3578.98,,2019-02-12 10:17:39,2019-02-12 10:17:41,2.208s,PASSED
+delay(20),Chrome 71.0.3578.98,,2019-02-12 10:17:41,2019-02-12 10:18:01,20.004s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_REKOD BARU""))",Chrome 71.0.3578.98,,2019-02-12 10:18:01,2019-02-12 10:18:03,2.120s,PASSED
+delay(20),Chrome 71.0.3578.98,,2019-02-12 10:18:03,2019-02-12 10:18:23,20.002s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_OkSimpan""))",Chrome 71.0.3578.98,,2019-02-12 10:18:23,2019-02-12 10:18:26,2.143s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a__dropdownJenisterimaan""))",Chrome 71.0.3578.98,,2019-02-12 10:18:26,2019-02-12 10:18:28,2.106s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_TERIMAAN BAYARAN PELBAGAI""))",Chrome 71.0.3578.98,,2019-02-12 10:18:28,2019-02-12 10:18:30,2.190s,PASSED
+RN = Math.random() * 10000,Chrome 71.0.3578.98,,2019-02-12 10:18:30,2019-02-12 10:18:30,0.010s,PASSED
+"setText(findTestObject(""RecordandPlay/input__nodaftarsyarikat""), ""123123999"")",Chrome 71.0.3578.98,,2019-02-12 10:18:30,2019-02-12 10:18:34,4.248s,PASSED
+"setText(findTestObject(""RecordandPlay/input__namapembayar""), ""julia kadri"")",Chrome 71.0.3578.98,,2019-02-12 10:18:34,2019-02-12 10:18:38,4.266s,PASSED
+"setText(findTestObject(""RecordandPlay/input__alamat""), ""sepang"")",Chrome 71.0.3578.98,,2019-02-12 10:18:38,2019-02-12 10:18:43,4.248s,PASSED
+"setText(findTestObject(""RecordandPlay/input__poskod""), ""43000"")",Chrome 71.0.3578.98,,2019-02-12 10:18:43,2019-02-12 10:18:47,4.191s,PASSED
+"click(findTestObject(""RecordandPlay/Drop_down_negeri""))",Chrome 71.0.3578.98,,2019-02-12 10:18:47,2019-02-12 10:18:49,2.111s,PASSED
+"click(findTestObject(""RecordandPlay/Select_Negeri_Selangor""))",Chrome 71.0.3578.98,,2019-02-12 10:18:49,2019-02-12 10:18:51,2.128s,PASSED
+"click(findTestObject(""RecordandPlay/Drop_down_Daerah""))",Chrome 71.0.3578.98,,2019-02-12 10:18:51,2019-02-12 10:18:53,2.103s,PASSED
+"click(findTestObject(""RecordandPlay/Select_Daerah_Sepang""))",Chrome 71.0.3578.98,,2019-02-12 10:18:53,2019-02-12 10:18:55,2.110s,PASSED
+"setText(findTestObject(""RecordandPlay/input__perihal""), ""this is a test for Terimaan"")",Chrome 71.0.3578.98,,2019-02-12 10:18:55,2019-02-12 10:19:00,4.207s,PASSED
+"getText(findTestObject(""Object Repository/RecordandPlay/span_29012019""))",Chrome 71.0.3578.98,,2019-02-12 10:19:00,2019-02-12 10:19:02,2.088s,PASSED
+"click(findTestObject(""RecordandPlay/a__tambahmaklumatterperinci""))",Chrome 71.0.3578.98,,2019-02-12 10:19:02,2019-02-12 10:19:04,2.147s,PASSED
+"click(findTestObject(""RecordandPlay/a_Cara_Bayaran""))",Chrome 71.0.3578.98,,2019-02-12 10:19:04,2019-02-12 10:19:06,2.140s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 10:19:06,2019-02-12 10:19:09,3.003s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_TUNAI""))",Chrome 71.0.3578.98,,2019-02-12 10:19:09,2019-02-12 10:19:11,2.155s,PASSED
+"setText(findTestObject(""RecordandPlay/input_amaun""), ""20"")",Chrome 71.0.3578.98,,2019-02-12 10:19:11,2019-02-12 10:19:15,4.163s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_Kemaskini""))",Chrome 71.0.3578.98,,2019-02-12 10:19:15,2019-02-12 10:19:17,2.133s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_tambahmaklumatterperinci""))",Chrome 71.0.3578.98,,2019-02-12 10:19:17,2019-02-12 10:19:20,2.138s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a__dropdownKodAkaun""))",Chrome 71.0.3578.98,,2019-02-12 10:19:20,2019-02-12 10:19:22,2.140s,PASSED
+"setText(findTestObject(""Object Repository/RecordandPlay/input_Perihal_perihal""), ""akaun amanah jabatan kerja raya"")",Chrome 71.0.3578.98,,2019-02-12 10:19:22,2019-02-12 10:19:26,4.718s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/div_AKAUN AMANAH JABATAN KERJA""))",Chrome 71.0.3578.98,,2019-02-12 10:19:26,2019-02-12 10:19:28,2.117s,PASSED
+"setText(findTestObject(""Object Repository/RecordandPlay/input__amaunmaklumatterperinci""), ""20"")",Chrome 71.0.3578.98,,2019-02-12 10:19:28,2019-02-12 10:19:33,4.175s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_simpanmaklumatterperinci""))",Chrome 71.0.3578.98,,2019-02-12 10:19:33,2019-02-12 10:19:35,2.106s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_Simpan""))",Chrome 71.0.3578.98,,2019-02-12 10:19:35,2019-02-12 10:19:37,2.142s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_YaSimpan""))",Chrome 71.0.3578.98,,2019-02-12 10:19:37,2019-02-12 10:19:39,2.149s,PASSED
+delay(30),Chrome 71.0.3578.98,,2019-02-12 10:19:39,2019-02-12 10:20:09,30.003s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_OkSimpan""))",Chrome 71.0.3578.98,,2019-02-12 10:20:09,2019-02-12 10:20:11,2.088s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/span_Sah Simpan""))",Chrome 71.0.3578.98,,2019-02-12 10:20:11,2019-02-12 10:20:13,2.182s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_YaSahSimpan""))",Chrome 71.0.3578.98,,2019-02-12 10:20:13,2019-02-12 10:20:15,2.139s,PASSED
+delay(30),Chrome 71.0.3578.98,,2019-02-12 10:20:15,2019-02-12 10:20:45,30.002s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_OkSahSimpan""))",Chrome 71.0.3578.98,,2019-02-12 10:20:45,2019-02-12 10:20:48,2.121s,PASSED
+"click(findTestObject(""Object Repository/RecordandPlay/a_Cetak""))",Chrome 71.0.3578.98,,2019-02-12 10:20:48,2019-02-12 10:20:50,2.119s,PASSED
+switchToWindowIndex(1),Chrome 71.0.3578.98,,2019-02-12 10:20:50,2019-02-12 10:20:52,2.340s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 10:20:52,2019-02-12 10:20:55,3.002s,PASSED
+takeScreenshot(),Chrome 71.0.3578.98,,2019-02-12 10:20:55,2019-02-12 10:20:57,2.377s,PASSED
+switchToWindowIndex(0),Chrome 71.0.3578.98,,2019-02-12 10:20:57,2019-02-12 10:20:59,2.030s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-02-12 10:20:59,2019-02-12 10:21:02,3.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-02-12 10:21:02,2019-02-12 10:21:04,1.703s,PASSED

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Perolehan,Chrome 71.0.3578.98,Perolehan scenario,2019-02-14 09:50:29,2019-02-14 09:51:51,1m - 21.476s,FAILED
+,,,,,,
+Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan,Chrome 71.0.3578.98,Select Perolehan and then select Pesanan Tempatan,2019-02-14 09:50:30,2019-02-14 09:50:49,19.094s,FAILED
+"openBrowser(""https://175.143.52.101:7011/1SPEKSv2/"")",Chrome 71.0.3578.98,Open browser and input homepage URL ,2019-02-14 09:50:30,2019-02-14 09:50:35,4.941s,PASSED
+"setText(findTestObject(""Login/input_NoKadPengenalan""), findTestData(""ispekstestdata"").getValue(1, 2))",Chrome 71.0.3578.98,Input User Name,2019-02-14 09:50:35,2019-02-14 09:50:49,13.689s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/001 Penyedia Rekod Baru,Chrome 71.0.3578.98,,2019-02-14 09:50:49,2019-02-14 09:51:01,12.342s,FAILED
+"click(findTestObject(""Perolehan/Penyedia_RekodBaru/button_REKODBARU""))",Chrome 71.0.3578.98,Click on Rekod Baru to create new record,2019-02-14 09:50:49,2019-02-14 09:51:01,12.069s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/002 Senarai Semak,Chrome 71.0.3578.98,,2019-02-14 09:51:01,2019-02-14 09:51:13,12.354s,FAILED
+"click(findTestObject(""Perolehan/Senarai Semak/button_Senarai Semak""))",Chrome 71.0.3578.98,Click on button Senarai Semak,2019-02-14 09:51:01,2019-02-14 09:51:13,12.063s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/003 Sah Simpan,Chrome 71.0.3578.98,,2019-02-14 09:51:13,2019-02-14 09:51:26,12.235s,FAILED
+"click(findTestObject(""Perolehan/Sah_Simpan/button_Sah Simpan""))",Chrome 71.0.3578.98,Click on button Sah Simpan,2019-02-14 09:51:14,2019-02-14 09:51:26,12.079s,FAILED
+,,,,,,
+Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan,Chrome 71.0.3578.98,,2019-02-14 09:51:26,2019-02-14 09:51:38,12.250s,FAILED
+reusablefunctions.reusablefunctions.PerananPengesahBN(),Chrome 71.0.3578.98,Change Peranan to Pengesah BN,2019-02-14 09:51:26,2019-02-14 09:51:38,12.055s,FAILED
+,,,,,,
+Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus,Chrome 71.0.3578.98,,2019-02-14 09:51:38,2019-02-14 09:51:50,12.265s,FAILED
+reusablefunctions.reusablefunctions.PerananPelulusPTJ(),Chrome 71.0.3578.98,Change role to Pelulus BN,2019-02-14 09:51:38,2019-02-14 09:51:50,12.095s,FAILED

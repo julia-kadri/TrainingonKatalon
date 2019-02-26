@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Perolehan,,Perolehan scenario,2019-02-13 17:26:43,2019-02-13 17:26:45,2.461s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/001 Penyedia Rekod Baru,,,2019-02-13 17:26:43,2019-02-13 17:26:44,1.008s,FAILED
+"click(findTestObject(""Perolehan/Penyedia_RekodBaru/button_REKODBARU""))",,Click on Rekod Baru to create new record,2019-02-13 17:26:44,2019-02-13 17:26:44,0.387s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/002 Senarai Semak,,,2019-02-13 17:26:44,2019-02-13 17:26:45,0.353s,FAILED
+"click(findTestObject(""Perolehan/Senarai Semak/button_Senarai Semak""))",,Click on button Senarai Semak,2019-02-13 17:26:45,2019-02-13 17:26:45,0.015s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/003 Sah Simpan,,,2019-02-13 17:26:45,2019-02-13 17:26:45,0.359s,FAILED
+"click(findTestObject(""Perolehan/Sah_Simpan/button_Sah Simpan""))",,Click on button Sah Simpan,2019-02-13 17:26:45,2019-02-13 17:26:45,0.015s,FAILED
+,,,,,,
+Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan,,,2019-02-13 17:26:45,2019-02-13 17:26:45,0.199s,FAILED
+reusablefunctions.reusablefunctions.PerananPengesahBN(),,Change Peranan to Pengesah BN,2019-02-13 17:26:45,2019-02-13 17:26:45,0.000s,FAILED
+,,,,,,
+Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus,,,2019-02-13 17:26:45,2019-02-13 17:26:45,0.190s,FAILED
+reusablefunctions.reusablefunctions.PerananPelulusPTJ(),,Change role to Pelulus BN,2019-02-13 17:26:45,2019-02-13 17:26:45,0.003s,FAILED

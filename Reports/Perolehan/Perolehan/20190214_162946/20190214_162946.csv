@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Perolehan,Chrome 71.0.3578.98,Perolehan scenario,2019-02-14 16:29:56,2019-02-14 16:30:34,38.340s,FAILED
+,,,,,,
+Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/Proses Kemasukan Terimaan Barang,Chrome 71.0.3578.98,,2019-02-14 16:29:56,2019-02-14 16:30:34,37.398s,FAILED
+reusablefunctions.reusablefunctions.openbrowser(),Chrome 71.0.3578.98,Open browser and navigate to Homepage URL,2019-02-14 16:29:57,2019-02-14 16:30:01,4.836s,PASSED
+"reusablefunctions.reusablefunctions.Login(findTestData(""ispekstestdata"").getValue(1, 2), findTestData(""ispekstestdata"").getValue(2, 2))",Chrome 71.0.3578.98,Login into ispek,2019-02-14 16:30:01,2019-02-14 16:30:34,32.090s,FAILED

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_Expand_Baucar_Bayaran</name>
+   <tag></tag>
+   <elementGuidId>7935a280-39ec-4d22-9e40-6eb2021ab962</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1550719634802</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='_easyui_tree_405']//span[@class='tree-hit tree-collapsed']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1550719634802</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Carian_get_no_dokumen</name>
+   <tag></tag>
+   <elementGuidId>11c62cf9-9c9f-415e-9c0c-cc4565b9861e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tr[@datagrid-row-index = '0' and @class = 'datagrid-row']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@datagrid-row-index = '0' and @class = 'datagrid-row']//div[@class = 'datagrid-cell datagrid-cell-c2-noDokumen']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>tr</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>datagrid-row-index</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>datagrid-row</value>
+   </webElementProperties>
+</WebElementEntity>

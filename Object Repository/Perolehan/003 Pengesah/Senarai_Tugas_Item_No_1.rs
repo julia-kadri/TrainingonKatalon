@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Senarai_Tugas_Item_No_1</name>
+   <tag></tag>
+   <elementGuidId>78a1153a-664a-4da6-9474-b7322a1488c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'datagrid-cell datagrid-cell-c2-noRekod' and (text() = '${text}' or . = '${text}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='datagrid-row-r2-2-0']/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>datagrid-cell datagrid-cell-c2-noRekod</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${text}</value>
+   </webElementProperties>
+</WebElementEntity>
