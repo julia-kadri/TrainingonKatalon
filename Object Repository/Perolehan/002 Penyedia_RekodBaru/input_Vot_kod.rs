@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'datagrid-editable-input datagrid-filter' and @name = 'kod']</value>
+         <value>//input[contains(@type, 'text') and @class = 'datagrid-editable-input datagrid-filter' and @name = 'kod']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@type = 'text' and @class = 'datagrid-editable-input datagrid-filter' and @name = 'kod'])[7]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,7 +25,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>

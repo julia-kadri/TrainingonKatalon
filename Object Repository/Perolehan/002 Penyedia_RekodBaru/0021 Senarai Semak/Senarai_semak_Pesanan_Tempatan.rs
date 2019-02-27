@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//tr[@id='datagrid-row-r30-2-1']/td/div/input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'checkbox' and @name = 'pkid' and @value = '1629']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>pkid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

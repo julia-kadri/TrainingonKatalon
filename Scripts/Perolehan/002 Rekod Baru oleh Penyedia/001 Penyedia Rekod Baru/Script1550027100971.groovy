@@ -114,13 +114,11 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_TambahCajLin
 'Click Vot Dana drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'))
 
-'Delay'
-WebUI.delay(3)
+WebUI.delay(5)
 
-'Input B31 to filter specific value'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_Vot_kod'), 'B31')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 'B31')
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'), 60)
 
 'Select Vot Dana B31'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'))
@@ -188,7 +186,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_simpan_caj_l
 'Delay'
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'), 3)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'), 3)
 
 'Click OK on prompt Bajet Mencukupi'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'))

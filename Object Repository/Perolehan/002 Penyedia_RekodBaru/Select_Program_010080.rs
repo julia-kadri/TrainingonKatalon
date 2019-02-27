@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'datagrid-cell datagrid-cell-c8-kod' and (text() = '010080' or . = '010080')]</value>
+         <value>//div[(text() = '010080' or . = '010080')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[(text() = '010080' or . = '010080')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

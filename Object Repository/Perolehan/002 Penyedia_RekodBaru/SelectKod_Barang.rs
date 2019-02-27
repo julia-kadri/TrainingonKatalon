@@ -7,13 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[(text() = '2110100000000000000' or . = '2110100000000000000')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='datagrid-cell datagrid-cell-c16-kod'][contains(text(),'2110100000000000000')]</value>
+         <value>//div[contains(text(),'2110100000000000000')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2110100000000000000</value>
+   </webElementProperties>
 </WebElementEntity>
