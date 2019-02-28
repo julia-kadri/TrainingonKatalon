@@ -74,6 +74,8 @@ WebUI.verifyMatch(jumlah, '6.25', false)
 'Click on Sah button to sah'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/button_sah'))
 
+WebUI.delay(3)
+
 'click on Ya to confirm sah'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/Button_ya_sahkan'))
 

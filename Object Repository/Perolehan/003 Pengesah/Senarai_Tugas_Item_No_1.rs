@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'datagrid-cell datagrid-cell-c2-noRekod' and (text() = '${text}' or . = '${text}')]</value>
+         <value>//div[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

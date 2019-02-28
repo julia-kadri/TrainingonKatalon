@@ -7,12 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//div[(text() = '00400101' or . = '00400101')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r13-2-0']</value>
+         <value>(//div[(text() = '00400101' or . = '00400101')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>00400101</value>
+   </webElementProperties>
 </WebElementEntity>

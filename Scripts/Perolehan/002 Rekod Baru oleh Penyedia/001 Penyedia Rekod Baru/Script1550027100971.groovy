@@ -116,6 +116,8 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'
 
 WebUI.delay(5)
 
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 60)
+
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 'B31')
 
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'), 60)
@@ -229,11 +231,15 @@ WebUI.delay(3)
 'Select Jabatan 004000'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_jabatan_004000'))
 
+WebUI.delay(3)
+
 'Click to select drop down value '
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_master_PTJ'))
 
 'Delay'
 WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ'), 60)
 
 'Select 00400101 - Pejabat Kewangan & Perbendaharaan (Pegawai Kewangan Negeri)'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ'))

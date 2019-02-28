@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r1-2-13']/td[8]/div/div</value>
+         <value>//tr[@id='datagrid-row-r4-2-9']//td[@field='belumLulus1']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'hoverStyle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,14 +24,14 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>hoverStyle</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
