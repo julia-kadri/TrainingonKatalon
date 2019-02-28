@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'datagrid-cell datagrid-cell-c2-noRekod' and (text() = '${text}' or . = '${text}')]</value>
+         <value>//div[starts-with(@class, 'datagrid-cell datagrid-cell-c') and (text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -25,10 +25,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>datagrid-cell datagrid-cell-c2-noRekod</value>
+      <value>datagrid-cell datagrid-cell-c</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

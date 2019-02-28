@@ -7,16 +7,34 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//tr[@id='datagrid-row-r7-2-0']//input[@name='ck']</value>
+         <value>//input[@type = 'checkbox' and @name = 'ck']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type = 'checkbox' and @name = 'ck'])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>//tr[@id='datagrid-row-r7-2-0']//input[@name='ck']</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ck</value>
    </webElementProperties>
 </WebElementEntity>

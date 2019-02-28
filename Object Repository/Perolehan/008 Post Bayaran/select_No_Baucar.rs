@@ -6,12 +6,12 @@
    <elementGuidId>8ef8bb31-70c2-4756-885e-e878e2a82ef5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r6-2-0']/td/div</value>
+         <key>BASIC</key>
+         <value>//div[contains(@class, 'datagrid-cell datagrid-cell-c6-noBaucar') and (text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'datagrid-cell datagrid-cell-c6-noBaucar' and (text() = '${text}' or . = '${text}')]</value>
+         <key>XPATH</key>
+         <value>//tr[@id='datagrid-row-r6-2-0']/td/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,10 +25,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>datagrid-cell datagrid-cell-c6-noBaucar</value>
+      <value>datagrid-cell datagrid-cell-</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

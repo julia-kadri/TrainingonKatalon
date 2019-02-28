@@ -6,12 +6,12 @@
    <elementGuidId>0cca73dc-20e7-4a38-b8aa-3f9629f65af1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r4-2-9']//td[@field='belumLulus1']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@class = 'hoverStyle']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='datagrid-row-r4-2-13']//td[@field='belumLulus1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

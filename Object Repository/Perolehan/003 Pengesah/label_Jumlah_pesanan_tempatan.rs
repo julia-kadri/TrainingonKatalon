@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='maklumat_terperinci']/table/tbody/tr[8]/td[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id = 'totalAmaunPT' and (text() = '6.25' or . = '6.25')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,13 +36,6 @@
       <name>text</name>
       <type>Main</type>
       <value>6.25</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;totalAmaunPT&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

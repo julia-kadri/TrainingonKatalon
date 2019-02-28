@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Kembali' or . = 'Kembali')]</value>
+         <value>//span[(text() = 'Kembali' or . = 'Kembali') and contains(@class, 'btn-text')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,5 +25,12 @@
       <name>text</name>
       <type>Main</type>
       <value>Kembali</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-text</value>
    </webElementProperties>
 </WebElementEntity>

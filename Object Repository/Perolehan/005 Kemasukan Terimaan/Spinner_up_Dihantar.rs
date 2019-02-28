@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r5-2-0']/td[3]/div/table/tbody/tr/td/span/span/a/a</value>
+         <value>//div[contains(@class, 'dihantar datagrid')]//a[@class='spinner-arrow-up']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class, 'dihantar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,35 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:void(0)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>spinner-arrow-up</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;datagrid-row-r5-2-0&quot;)/td[3]/div[@class=&quot;datagrid-cell datagrid-cell-c5-dihantar datagrid-editable&quot;]/table[1]/tbody[1]/tr[1]/td[1]/span[@class=&quot;textbox numberbox spinner textbox-focused&quot;]/span[@class=&quot;textbox-addon textbox-addon-right&quot;]/a[@class=&quot;textbox-icon spinner-arrow&quot;]/a[@class=&quot;spinner-arrow-up&quot;]</value>
+      <value>dihantar</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

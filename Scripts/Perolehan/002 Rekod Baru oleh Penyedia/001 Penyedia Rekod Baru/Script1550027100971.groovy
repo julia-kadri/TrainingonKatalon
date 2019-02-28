@@ -114,7 +114,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_TambahCajLin
 'Click Vot Dana drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 60)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r4-2-12']//td[@field='belumSemak']</value>
+         <value>//tr[@id='datagrid-row-r4-2-15']//td[@field='belumSemak']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

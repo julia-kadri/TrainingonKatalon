@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[37]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]</value>
+         <value>(//a[starts-with(@class, 'datebox-button-') and (text() = 'Today' or . = 'Today')])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Today' or . = 'Today')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,39 +24,11 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datebox-button-a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:void(0)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>datebox-button-index</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Today</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;panel combo-p&quot;]/div[@class=&quot;combo-panel panel-body panel-body-noheader&quot;]/div[@class=&quot;datebox-button&quot;]/table[1]/tbody[1]/tr[1]/td[1]/a[@class=&quot;datebox-button-a&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

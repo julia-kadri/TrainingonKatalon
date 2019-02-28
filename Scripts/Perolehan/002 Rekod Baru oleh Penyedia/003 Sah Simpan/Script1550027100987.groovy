@@ -43,6 +43,8 @@ println(PTRekodID)
 'set global variable value of RekodID with variable RekodNo'
 GlobalVariable.PesananTempatanRekodID = PTRekodID
 
+WebUI.delay(3)
+
 'Click OK to close the prompt box'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/button_OK_Sah_Simpan'))
 

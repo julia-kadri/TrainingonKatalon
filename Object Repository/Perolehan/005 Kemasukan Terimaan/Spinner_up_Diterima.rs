@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r5-2-0']/td[4]/div/table/tbody/tr/td/span/span/a/a</value>
+         <value>//div[contains(@class, 'diterima datagrid')]//a[@class='spinner-arrow-up']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -79,7 +79,7 @@ WebUI.click(findTestObject('Perolehan/004 Pelulus/button_Lulus'))
 WebUI.click(findTestObject('Perolehan/004 Pelulus/button_ya_luluskan'))
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(8)
 
 WebUI.waitForElementClickable(findTestObject('Perolehan/004 Pelulus/button_OK_Berjaya_lulus'), 180)
 

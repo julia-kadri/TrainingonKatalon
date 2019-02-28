@@ -62,6 +62,8 @@ String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/003 Pengesah/Label
 'verify tarikh semasa matches system date'
 WebUI.verifyMatch(TarikhSemasa, formattedDate, false)
 
+WebUI.delay(3)
+
 'get jumlah pesanan tempatan value '
 String jumlah = WebUI.getText(findTestObject('Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan'))
 
@@ -80,7 +82,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/003 Pengesah/Button_ya_sahkan'))
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.waitForElementClickable(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 60)
 

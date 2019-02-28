@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = '${text}' or . = '${text}')]</value>
+         <value>//div[(text() = '${text}' or . = '${text}') and contains(@class, 'noRekod')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,17 +24,17 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datagrid-cell datagrid-cell-c2-noRekod</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>${text}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>noRekod</value>
    </webElementProperties>
 </WebElementEntity>

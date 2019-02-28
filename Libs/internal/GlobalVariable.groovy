@@ -34,11 +34,6 @@ public class GlobalVariable {
     public static Object TahunKewangan
      
     /**
-     * <p>Profile Staging : rekod id for Kemasukan Terimaan</p>
-     */
-    public static Object RekodID
-     
-    /**
      * <p>Profile Staging : rekod id for Arahan Bayaran</p>
      */
     public static Object ArahanBayaranRekodID
@@ -63,7 +58,7 @@ public class GlobalVariable {
         def allVariables = [:]        
         allVariables.put('default', [:])
         allVariables.put('Production', allVariables['default'] + [:])
-        allVariables.put('Staging', allVariables['default'] + ['username' : '790214108888', 'password' : '8SQVv/p9jVScEs4/2CZsLw==', 'URL_Homepage' : 'https://175.143.52.101:7011/1SPEKSv2/', 'TahunKewangan' : '2019', 'RekodID' : '19DAPT030100098', 'ArahanBayaranRekodID' : '19DAAB030100044', 'Nombor_Baucar' : '19DABB0400082', 'PesananTempatanRekodID' : '19DAPT030100074', 'PesananTempatanDokumenID' : '19DAPT0300080'])
+        allVariables.put('Staging', allVariables['default'] + ['username' : '790214108888', 'password' : '8SQVv/p9jVScEs4/2CZsLw==', 'URL_Homepage' : 'https://175.143.52.101:7011/1SPEKSv2/', 'TahunKewangan' : '2019', 'ArahanBayaranRekodID' : '19DAAB030100068', 'Nombor_Baucar' : '19DABB0400088', 'PesananTempatanRekodID' : '19DAPT030100149', 'PesananTempatanDokumenID' : '19DAPT0300080'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         def selectedVariables = allVariables[profileName]
@@ -79,7 +74,6 @@ public class GlobalVariable {
         password = selectedVariables["password"]
         URL_Homepage = selectedVariables["URL_Homepage"]
         TahunKewangan = selectedVariables["TahunKewangan"]
-        RekodID = selectedVariables["RekodID"]
         ArahanBayaranRekodID = selectedVariables["ArahanBayaranRekodID"]
         Nombor_Baucar = selectedVariables["Nombor_Baucar"]
         PesananTempatanRekodID = selectedVariables["PesananTempatanRekodID"]

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(//a[@id=''])[42]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Ya' or . = 'Ya')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
