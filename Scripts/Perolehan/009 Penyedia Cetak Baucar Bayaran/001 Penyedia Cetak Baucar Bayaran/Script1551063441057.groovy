@@ -54,13 +54,13 @@ WebUI.setText(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(15)
 
 'click on button cetak to print the baucar again'
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(10)
 
 'switch to window tab index 1 to get the baucar displayed'
 WebUI.switchToWindowIndex(1)

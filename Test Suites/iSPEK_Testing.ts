@@ -9,20 +9,20 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Staging</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Perolehan/Perolehan</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Perolehan/01 Pesanan Tempatan Cara Bayaran EFT Tiada Pemfaktoran</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
+            <profileName>Staging</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Terimaan/Regression Test</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Perolehan/02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

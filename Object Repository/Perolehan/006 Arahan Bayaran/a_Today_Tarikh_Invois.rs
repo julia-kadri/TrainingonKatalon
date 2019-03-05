@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Today')]</value>
+         <value>(//a[starts-with(@class, 'datebox-button-') and (text() = 'Today' or . = 'Today')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

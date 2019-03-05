@@ -63,14 +63,18 @@ String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/003 Pengesah/Label
 'verify tarikh semasa matches system date'
 WebUI.verifyMatch(TarikhSemasa, formattedDate, false)
 
+WebUI.delay(20)
+
 'get jumlah pesanan tempatan value '
 String jumlah = WebUI.getText(findTestObject('Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan'))
+
+WebUI.delay(3)
 
 'print jumlah'
 println(jumlah)
 
 'verify jumlah is matched with the one created by Penyedia which is 6.25'
-WebUI.verifyMatch(jumlah, '6.25', false)
+WebUI.verifyMatch(jumlah, GlobalVariable.TotalAmaunPT, false)
 
 'Click on Lulus button to approve'
 WebUI.click(findTestObject('Perolehan/004 Pelulus/button_Lulus'))
@@ -97,6 +101,8 @@ println(PTDokumenID)
 
 'set global variable value of RekodID with variable RekodNo'
 GlobalVariable.PesananTempatanDokumenID = PTDokumenID
+
+WebUI.delay(3)
 
 'click on OK to close the prompt after lulus is complete'
 WebUI.click(findTestObject('Perolehan/004 Pelulus/button_OK_Berjaya_lulus'))

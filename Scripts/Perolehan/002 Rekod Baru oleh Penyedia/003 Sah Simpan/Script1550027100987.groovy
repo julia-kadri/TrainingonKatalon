@@ -13,6 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(5)
+
+'Get the Amaun'
+String Total = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT'))
+
+'print Total'
+println(Total)
+
+'set global variable value of TotalAmaun with variable Total'
+GlobalVariable.TotalAmaunPT = Total
+
 WebUI.delay(3)
 
 'Click on button Sah Simpan'
@@ -28,19 +39,19 @@ WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/0
 'Take screenshot of the Rekod ID'
 WebUI.takeScreenshot()
 
-'Get the Rekod ID from popup'
+'Get the PTRekodberjayaID from popup'
 String PTRekodberjayaID = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/RekodBerjayadiSahSimpan'))
 
-'print PTRekodID'
+'print PTRekodberjayaID'
 println(PTRekodberjayaID)
 
-'Take only the RekodID value from the get text'
+'Take only the PTRekodID value from the get text'
 String PTRekodID = PTRekodberjayaID[(47..61)]
 
 'print the value'
 println(PTRekodID)
 
-'set global variable value of RekodID with variable RekodNo'
+'set global variable value of PesananTempatanRekodID with variable PTRekodID'
 GlobalVariable.PesananTempatanRekodID = PTRekodID
 
 WebUI.delay(3)

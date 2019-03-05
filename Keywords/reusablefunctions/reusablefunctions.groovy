@@ -100,7 +100,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(30)
+		WebUI.delay(20)
 
 		'Verify Peranan is now Penyemak PTJ'
 		WebUI.verifyTextPresent('Peranan : [Penyemak] Peringkat : [PTJ]', false)
@@ -121,7 +121,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(30)
+		WebUI.delay(20)
 
 		'Verify Peranan is now Penyedia PTJ'
 		WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)
@@ -142,7 +142,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(30)
+		WebUI.delay(20)
 
 		'Verify Peranan is now Pengesah BN'
 		WebUI.verifyTextPresent('Peranan : [Pengesah] Peringkat : [BN]', false)
@@ -162,7 +162,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(30)
+		WebUI.delay(20)
 
 		'Verify Peranan is now Pelulus PTJ'
 		WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [PTJ]', false)
@@ -182,7 +182,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(30)
+		WebUI.delay(20)
 
 		'Verify Peranan is now Pelulus BN'
 		WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [BN]', false)

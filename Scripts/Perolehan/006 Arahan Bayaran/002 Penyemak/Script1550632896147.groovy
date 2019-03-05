@@ -13,11 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'open browser and enter ispek URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
+'login into the system as PROC test'
 CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
         2, 2))
 
+'change peranan to penyemak ptj'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyemakPTJ'()
 
 WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak'))
@@ -47,6 +50,8 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_
 WebUI.delay(3)
 
 WebUI.takeScreenshot()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak'))
 

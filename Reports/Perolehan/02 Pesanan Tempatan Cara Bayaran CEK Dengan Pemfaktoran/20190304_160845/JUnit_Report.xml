@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran" time="183" tests="0" failures="2" errors="0">
+   <testsuite name="02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran" tests="0" failures="2" errors="0" time="183" timestamp="2019-03-04 16:08:54" hostname="Consultant_MSPHitect - DESKTOP-V9TS2EM" id="Test Suites/Perolehan/02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845"/>
+         <property name="logFiles" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845\\1551687022784.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845\\1551687117093.png"/>
+         <property name="hostName" value="Consultant_MSPHitect - DESKTOP-V9TS2EM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.172.132"/>
+         <property name="sessionId" value="18c014f5e002596ff793e4f5b480bb5e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK" classname="Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-04 16:08:55 - [TEST_CASE][FAILED] - Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK: Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+
+
+2019-03-04 16:08:55 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-04 16:08:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 16:08:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-04 16:09:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-04 16:09:00 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-04 16:09:00 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-04 16:09:02 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-04 16:09:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-04 16:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-04 16:09:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-04 16:09:15 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-04 16:09:15 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ(): reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-04 16:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-04 16:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPenyediaPTJ' is clicked on
+
+2019-03-04 16:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-04 16:09:45 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-03-04 16:09:51 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-03-04 16:09:51 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-04 16:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-04 16:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-04 16:09:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-04 16:09:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan' is clicked on
+
+2019-03-04 16:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan' is clicked on
+
+2019-03-04 16:09:55 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-04 16:09:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang' is clicked on
+
+2019-03-04 16:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang' is clicked on
+
+2019-03-04 16:09:58 - [TEST_STEP][PASSED] - assert true: null
+
+2019-03-04 16:09:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/button_REKOD BARU")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/button_REKOD BARU' is clicked on
+
+2019-03-04 16:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/button_REKOD BARU' is clicked on
+
+2019-03-04 16:10:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokumen")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokumen' is clicked on
+
+2019-03-04 16:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokumen' is clicked on
+
+2019-03-04 16:10:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value"), PesananTempatanDokumenID): Text '19DAPT0300113' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value'
+
+2019-03-04 16:10:08 - [MESSAGE][PASSED] - Text '19DAPT0300113' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value'
+
+2019-03-04 16:10:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-04 16:10:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-04 16:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/select_No_Dokumen")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/select_No_Dokumen' is clicked on
+
+2019-03-04 16:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/select_No_Dokumen' is clicked on
+
+2019-03-04 16:10:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/button_Cari")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/button_Cari' is clicked on
+
+2019-03-04 16:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/button_Cari' is clicked on
+
+2019-03-04 16:10:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/OK_Rekod_Wujud")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/OK_Rekod_Wujud' is clicked on
+
+2019-03-04 16:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/OK_Rekod_Wujud' is clicked on
+
+2019-03-04 16:10:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:22 - [TEST_STEP][FAILED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan")): click(findTestObject("Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+
+
+2019-03-04 16:10:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845\\1551687022784.png]]
+
+2019-03-04 16:10:23 - [MESSAGE][FAILED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-04 16:08:55 - [TEST_CASE][FAILED] - Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK: Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK" classname="Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 002 Arahan Bayaran - CEK.run(002 Arahan Bayaran - CEK:112)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-04 16:10:23 - [TEST_CASE][FAILED] - Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK: Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 002 Arahan Bayaran - CEK.run(002 Arahan Bayaran - CEK:112)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+
+
+2019-03-04 16:10:23 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-04 16:10:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-04 16:10:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 16:10:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-04 16:10:27 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-04 16:10:27 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-04 16:10:27 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-04 16:10:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-04 16:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-04 16:10:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-04 16:10:39 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-04 16:10:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:10:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:10:42 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ(): reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-04 16:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-04 16:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPenyediaPTJ' is clicked on
+
+2019-03-04 16:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-04 16:11:13 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2019-03-04 16:11:18 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-03-04 16:11:18 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-04 16:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-04 16:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-04 16:11:19 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-04 16:11:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-03-04 16:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-03-04 16:11:22 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-03-04 16:11:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-03-04 16:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-03-04 16:11:25 - [TEST_STEP][PASSED] - assert true: null
+
+2019-03-04 16:11:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:28 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/button_REKOD_BARU")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/button_REKOD_BARU' is clicked on
+
+2019-03-04 16:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/button_REKOD_BARU' is clicked on
+
+2019-03-04 16:11:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Drop_Down_Jenis_Baucar_Bayaran"), STOP_ON_FAILURE): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Jenis_Baucar_Bayaran' is clicked on
+
+2019-03-04 16:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Jenis_Baucar_Bayaran' is clicked on
+
+2019-03-04 16:11:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Select_Kod_Jenis_Baucar_Bayaran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Kod_Jenis_Baucar_Bayaran' is clicked on
+
+2019-03-04 16:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Kod_Jenis_Baucar_Bayaran' is clicked on
+
+2019-03-04 16:11:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Drop_Down_Nama_Pembekal")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Nama_Pembekal' is clicked on
+
+2019-03-04 16:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Nama_Pembekal' is clicked on
+
+2019-03-04 16:11:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:41 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/input_name_nama_pembekal"), "JAMAL CHEF CATERING"): Text 'JAMAL CHEF CATERING' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/input_name_nama_pembekal'
+
+2019-03-04 16:11:42 - [MESSAGE][PASSED] - Text 'JAMAL CHEF CATERING' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/input_name_nama_pembekal'
+
+2019-03-04 16:11:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/select_Pembekal Jamal")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/select_Pembekal Jamal' is clicked on
+
+2019-03-04 16:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/select_Pembekal Jamal' is clicked on
+
+2019-03-04 16:11:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Drop_Down_Cara_Bayaran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Cara_Bayaran' is clicked on
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Cara_Bayaran' is clicked on
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Select_Cara_Bayaran - CEK")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Cara_Bayaran - CEK' is clicked on
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Cara_Bayaran - CEK' is clicked on
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfaktoran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfaktoran' is clicked on
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfaktoran' is clicked on
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran' is clicked on
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran' is clicked on
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/input_Perihal"), "This is a test for Arahan Bayaran Cek " + mydate): Text 'This is a test for Arahan Bayaran Cek Mon Mar 04 16:11:50 SGT 2019' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/input_Perihal'
+
+2019-03-04 16:11:50 - [MESSAGE][PASSED] - Text 'This is a test for Arahan Bayaran Cek Mon Mar 04 16:11:50 SGT 2019' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/input_Perihal'
+
+2019-03-04 16:11:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:53 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/Maklumat_Terimaan_Barang_line_1")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Maklumat_Terimaan_Barang_line_1' is double clicked on
+
+2019-03-04 16:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/Maklumat_Terimaan_Barang_line_1' is double clicked on
+
+2019-03-04 16:11:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-04 16:11:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-04 16:11:57 - [TEST_STEP][PASSED] - RN = Math.random() * 10000: null
+
+2019-03-04 16:11:57 - [TEST_STEP][PASSED] - println(RN): null
+
+2019-03-04 16:11:57 - [TEST_STEP][FAILED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/input_No_Invois"), "INV0" + RN): setText(findTestObject("Perolehan/006 Arahan Bayaran/input_No_Invois"), "INV0" + RN) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 002 Arahan Bayaran - CEK.run(002 Arahan Bayaran - CEK:112)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)
+
+
+2019-03-04 16:11:57 - [MESSAGE][FAILED] - Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran\\20190304_160845\\1551687117093.png]]
+
+2019-03-04 16:11:57 - [MESSAGE][FAILED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/input_No_Invois"), "INV0" + RN) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 002 Arahan Bayaran - CEK.run(002 Arahan Bayaran - CEK:112)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-04 16:10:23 - [TEST_CASE][FAILED] - Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK: Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'INV07707' of object 'Object Repository/Perolehan/006 Arahan Bayaran/input_No_Invois'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at 002 Arahan Bayaran - CEK.run(002 Arahan Bayaran - CEK:112)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-04 16:08:54 - [TEST_SUITE][FAILED] - 02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran: Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-04 16:08:54 - [TEST_SUITE][FAILED] - 02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran: Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 002 Proses Kemasukan Terimaan Barang - CEK.run(002 Proses Kemasukan Terimaan Barang - CEK:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551686925378.run(TempTestSuite1551686925378.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

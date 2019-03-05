@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran,Chrome 72.0.3626.119,,2019-03-04 14:39:47,2019-03-04 14:49:16,9m - 29.162s,FAILED
+,,,,,,
+Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/002 Proses Kemasukan Terimaan Barang - CEK,Chrome 72.0.3626.119,Penyedia will create REKOD BARU using dokumen ID from Pesanan Tempatan,2019-03-04 14:39:47,2019-03-04 14:41:19,1m - 31.574s,PASSED
+reusablefunctions.reusablefunctions.openbrowser(),Chrome 72.0.3626.119,Open browser and navigate to Homepage URL,2019-03-04 14:39:48,2019-03-04 14:39:52,4.064s,PASSED
+"reusablefunctions.reusablefunctions.Login(findTestData(""ispekstestdata"").getValue(1, 2), findTestData(""ispekstestdata"").getValue(2, 2))",Chrome 72.0.3626.119,Login into ispek,2019-03-04 14:39:52,2019-03-04 14:40:04,12.192s,PASSED
+reusablefunctions.reusablefunctions.PerananPenyediaPTJ(),Chrome 72.0.3626.119,Change role to Penyedia PTJ,2019-03-04 14:40:04,2019-03-04 14:40:37,32.739s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft""))",Chrome 72.0.3626.119,Click on Menu Sisi to display Menu selections,2019-03-04 14:40:37,2019-03-04 14:40:37,0.449s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,Delay,2019-03-04 14:40:37,2019-03-04 14:40:40,3.010s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan""))",Chrome 72.0.3626.119,Select Perolehan Sub-menu,2019-03-04 14:40:40,2019-03-04 14:40:41,0.077s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,Delay,2019-03-04 14:40:41,2019-03-04 14:40:44,3.005s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang""))",Chrome 72.0.3626.119,Click on Menu sisi Kemasukan Terimaan Barang atau perkhidmatan,2019-03-04 14:40:44,2019-03-04 14:40:44,0.146s,PASSED
+assert true,Chrome 72.0.3626.119,,2019-03-04 14:40:44,2019-03-04 14:40:44,0.001s,PASSED
+delay(3),Chrome 72.0.3626.119,Carian page loaded successfully,2019-03-04 14:40:44,2019-03-04 14:40:47,3.002s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_REKOD BARU""))",Chrome 72.0.3626.119,Click on button Rekod Baru ,2019-03-04 14:40:47,2019-03-04 14:40:47,0.075s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:40:47,2019-03-04 14:40:50,3.005s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokumen""))",Chrome 72.0.3626.119,Click No Dokumen drop down list,2019-03-04 14:40:50,2019-03-04 14:40:50,0.109s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:40:50,2019-03-04 14:40:53,3.005s,PASSED
+"setText(findTestObject(""Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value""), PesananTempatanDokumenID)",Chrome 72.0.3626.119,Set text RekodID based on the variable get from Pelulus page on Pesanan Tempatan  ,2019-03-04 14:40:53,2019-03-04 14:40:53,0.413s,PASSED
+delay(5),Chrome 72.0.3626.119,Delay,2019-03-04 14:40:53,2019-03-04 14:40:58,5.005s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/select_No_Dokumen""))",Chrome 72.0.3626.119,Select the No Dokumen displayed after the filter,2019-03-04 14:40:58,2019-03-04 14:40:58,0.075s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-04 14:40:58,2019-03-04 14:41:01,3.005s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_Cari""))",Chrome 72.0.3626.119,,2019-03-04 14:41:01,2019-03-04 14:41:01,0.090s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-04 14:41:01,2019-03-04 14:41:04,3.003s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/OK_Rekod_Wujud""))",Chrome 72.0.3626.119,Click on OK to close the prompt box ,2019-03-04 14:41:04,2019-03-04 14:41:05,0.086s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:41:05,2019-03-04 14:41:08,3.004s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan""))",Chrome 72.0.3626.119,Click on drop down Jenis terimaan ,2019-03-04 14:41:08,2019-03-04 14:41:08,0.103s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/select_TERIMAAN_BARANG_PENUH""))",Chrome 72.0.3626.119,Select value Terimaan Barang Penuh ,2019-03-04 14:41:08,2019-03-04 14:41:08,0.069s,PASSED
+"setText(findTestObject(""Perolehan/005 Kemasukan Terimaan/input_No_nota_penghantaran""), ""Test Nota No 123"")",Chrome 72.0.3626.119,Set text Nota Penghantaran ,2019-03-04 14:41:08,2019-03-04 14:41:08,0.140s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/Date_Picker_Tarikh_Terimaan""))",Chrome 72.0.3626.119,Click on Date Picker to select tarikh terimaan ,2019-03-04 14:41:08,2019-03-04 14:41:08,0.092s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/Select_Today""))",Chrome 72.0.3626.119,Click on Todays date ,2019-03-04 14:41:08,2019-03-04 14:41:08,0.066s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:41:08,2019-03-04 14:41:11,3.003s,PASSED
+"doubleClick(findTestObject(""Perolehan/005 Kemasukan Terimaan/Perihal_Barang - CEK""))",Chrome 72.0.3626.119,Double click on the field to make it editable,2019-03-04 14:41:11,2019-03-04 14:41:11,0.142s,PASSED
+for (def index : (1..3)),Chrome 72.0.3626.119,Input value for Dihantar using spinner - click until 5 times,2019-03-04 14:41:11,2019-03-04 14:41:11,0.199s,PASSED
+for (def index : (1..3)),Chrome 72.0.3626.119,Input value for Diterima using spinner - click until 5 times,2019-03-04 14:41:11,2019-03-04 14:41:12,0.173s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_Simpan""))",Chrome 72.0.3626.119,Click Simpan to save the record,2019-03-04 14:41:12,2019-03-04 14:41:12,0.089s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:41:12,2019-03-04 14:41:15,3.005s,PASSED
+"waitForElementClickable(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan""), 60)",Chrome 72.0.3626.119,,2019-03-04 14:41:15,2019-03-04 14:41:15,0.060s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan""))",Chrome 72.0.3626.119,Click OK to close the prompt box,2019-03-04 14:41:15,2019-03-04 14:41:15,0.059s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_Sah_Simpan""))",Chrome 72.0.3626.119,Click on Sah Simpan button,2019-03-04 14:41:15,2019-03-04 14:41:15,0.088s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_Ya_Sah_Simpan""))",Chrome 72.0.3626.119,Click Ya to confirm Sah Simpan,2019-03-04 14:41:15,2019-03-04 14:41:15,0.064s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:41:15,2019-03-04 14:41:18,3.001s,PASSED
+"waitForElementClickable(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan""), 60)",Chrome 72.0.3626.119,,2019-03-04 14:41:18,2019-03-04 14:41:18,0.031s,PASSED
+takeScreenshot(),Chrome 72.0.3626.119,Take screenshot of the rekod ID,2019-03-04 14:41:18,2019-03-04 14:41:18,0.339s,PASSED
+"click(findTestObject(""Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan""))",Chrome 72.0.3626.119,Click OK to close the prompt box,2019-03-04 14:41:18,2019-03-04 14:41:18,0.083s,PASSED
+closeBrowser(),Chrome 72.0.3626.119,Close browser,2019-03-04 14:41:18,2019-03-04 14:41:19,0.643s,PASSED
+,,,,,,
+Test Cases/Perolehan/006 Arahan Bayaran/002 Arahan Bayaran - CEK,Chrome 72.0.3626.119,Create new REKOD BARU for arahan bayaran after kemasukan terimaan barang is saved,2019-03-04 14:41:19,2019-03-04 14:49:16,7m - 56.590s,FAILED
+reusablefunctions.reusablefunctions.openbrowser(),Chrome 72.0.3626.119,Open browser,2019-03-04 14:41:19,2019-03-04 14:41:22,2.898s,PASSED
+"reusablefunctions.reusablefunctions.Login(findTestData(""ispekstestdata"").getValue(1, 2), findTestData(""ispekstestdata"").getValue(2, 2))",Chrome 72.0.3626.119,Login into the system,2019-03-04 14:41:22,2019-03-04 14:41:34,11.718s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:41:34,2019-03-04 14:41:37,3.004s,PASSED
+reusablefunctions.reusablefunctions.PerananPenyediaPTJ(),Chrome 72.0.3626.119,,2019-03-04 14:41:37,2019-03-04 14:42:10,32.777s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft""))",Chrome 72.0.3626.119,Click on Menu Sisi to display Menu selections,2019-03-04 14:42:10,2019-03-04 14:42:10,0.423s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,Delay,2019-03-04 14:42:10,2019-03-04 14:42:13,3.003s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan""))",Chrome 72.0.3626.119,Select Perolehan Sub-menu,2019-03-04 14:42:13,2019-03-04 14:42:13,0.112s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 72.0.3626.119,Delay,2019-03-04 14:42:13,2019-03-04 14:42:16,3.004s,PASSED
+"click(findTestObject(""Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran""))",Chrome 72.0.3626.119,Click on Menu sisi and select Arahan Bayaran,2019-03-04 14:42:16,2019-03-04 14:42:16,0.137s,PASSED
+assert true,Chrome 72.0.3626.119,,2019-03-04 14:42:16,2019-03-04 14:42:16,0.000s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:16,2019-03-04 14:42:19,3.003s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/button_REKOD_BARU""))",Chrome 72.0.3626.119,Arahan Bayaran page loaded successfully,2019-03-04 14:42:19,2019-03-04 14:42:19,0.084s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:19,2019-03-04 14:42:22,3.003s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Drop_Down_Jenis_Baucar_Bayaran""), STOP_ON_FAILURE)",Chrome 72.0.3626.119,Click Jenis Baucar Bayaran drop down,2019-03-04 14:42:22,2019-03-04 14:42:23,0.103s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:23,2019-03-04 14:42:26,3.005s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Select_Kod_Jenis_Baucar_Bayaran""))",Chrome 72.0.3626.119,Select Kod Jenis Baucar Bayaran that is ARAHAN BAYARAN-PESANAN TEMPATAN,2019-03-04 14:42:26,2019-03-04 14:42:26,0.183s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:26,2019-03-04 14:42:29,3.002s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Drop_Down_Nama_Pembekal""))",Chrome 72.0.3626.119,Click Nama Pembekal drop down,2019-03-04 14:42:29,2019-03-04 14:42:29,0.120s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:29,2019-03-04 14:42:32,3.004s,PASSED
+"setText(findTestObject(""Perolehan/006 Arahan Bayaran/input_name_Nama Pembekal""), ""JAMAL CHEF CATERING"")",Chrome 72.0.3626.119,,2019-03-04 14:42:32,2019-03-04 14:42:33,0.646s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-04 14:42:33,2019-03-04 14:42:36,3.004s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/select_Pembekal Jamal""))",Chrome 72.0.3626.119,Select Nama Pembekal AA DUA,2019-03-04 14:42:36,2019-03-04 14:42:36,0.102s,PASSED
+delay(3),Chrome 72.0.3626.119,Delay,2019-03-04 14:42:36,2019-03-04 14:42:39,3.004s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Drop_Down_Cara_Bayaran""))",Chrome 72.0.3626.119,,2019-03-04 14:42:39,2019-03-04 14:42:39,0.084s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Select_Cara_Bayaran - CEK""))",Chrome 72.0.3626.119,,2019-03-04 14:42:39,2019-03-04 14:42:39,0.073s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfaktoran""))",Chrome 72.0.3626.119,,2019-03-04 14:42:39,2019-03-04 14:42:39,0.084s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran""))",Chrome 72.0.3626.119,,2019-03-04 14:42:39,2019-03-04 14:49:16,6m - 36.743s,FAILED

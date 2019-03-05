@@ -71,7 +71,7 @@ String jumlah = WebUI.getText(findTestObject('Perolehan/003 Pengesah/label_Jumla
 println(jumlah)
 
 'verify that jumlah pesanan tempatan is same as the record created by penyedia'
-WebUI.verifyMatch(jumlah, '6.25', false)
+WebUI.verifyMatch(jumlah, GlobalVariable.TotalAmaunPT, false)
 
 'Click on Sah button to sah'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/button_sah'))
@@ -85,6 +85,9 @@ WebUI.click(findTestObject('Perolehan/003 Pengesah/Button_ya_sahkan'))
 WebUI.delay(5)
 
 WebUI.waitForElementClickable(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 60)
+
+'Delay'
+WebUI.delay(3)
 
 'click on OK to close the prompt after Sah is complete'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'))

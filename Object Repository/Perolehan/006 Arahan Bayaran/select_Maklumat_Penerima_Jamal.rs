@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Maklumat_Penerima_Jamal</name>
+   <tag></tag>
+   <elementGuidId>1b599f81-734b-4964-8aa9-9dbf71e38cb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class, 'kodPelanggan') and (text() = 'K0806SS29058' or . = 'K0806SS29058')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kodPelanggan</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>K0806SS29058</value>
+   </webElementProperties>
+</WebElementEntity>

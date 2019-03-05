@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@id = 'totalAmaunPT' and (text() = '6.25' or . = '6.25')]</value>
+         <value>//span[@id = 'totalAmaunPT']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,13 +29,6 @@
       <name>id</name>
       <type>Main</type>
       <value>totalAmaunPT</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>6.25</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
