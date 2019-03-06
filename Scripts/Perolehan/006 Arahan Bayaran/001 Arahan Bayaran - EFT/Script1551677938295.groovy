@@ -181,6 +181,7 @@ println(ArahanBayaranID)
 'set global variable value of RekodID with variable RekodNo'
 GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 
+'delay'
 WebUI.delay(3)
 
 'Click OK to close the prompt box'

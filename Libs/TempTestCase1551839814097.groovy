@@ -14,7 +14,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\007 Proses Baucar Bayaran\\002 Pelulus Proses Baucar Bayaran - CEK\\20190305_155757\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\007 Proses Baucar Bayaran\\002 Pelulus Proses Baucar Bayaran - CEK\\20190306_103654\\execution.properties')
 
 TestCaseMain.beforeStart()
 

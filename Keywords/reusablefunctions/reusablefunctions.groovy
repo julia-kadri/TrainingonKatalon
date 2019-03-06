@@ -121,7 +121,7 @@ class reusablefunctions {
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-		WebUI.delay(20)
+		WebUI.delay(30)
 
 		'Verify Peranan is now Penyedia PTJ'
 		WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)

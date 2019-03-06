@@ -23,6 +23,7 @@ CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekst
 'Delay'
 WebUI.delay(3)
 
+'change peranan to penyedia PTJ'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
 
 'Click on Menu Sisi to display Menu selections'
@@ -69,22 +70,28 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Nama_Pembekal
 'Delay'
 WebUI.delay(3)
 
+'input nama pembekal - jamal chef catering to search for this pembekal record'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_name_nama_pembekal'), 'JAMAL CHEF CATERING')
 
+'delay'
 WebUI.delay(3)
 
-'Select Nama Pembekal AA DUA'
+'Select Nama Pembekal Jamal chef catering'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/select_Pembekal Jamal'))
 
 'Delay'
 WebUI.delay(5)
 
+'click on drop down cara bayaran to select'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Cara_Bayaran'))
 
+'select cara bayaran as CEK'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Select_Cara_Bayaran - CEK'))
 
+'click on drop down dengan pemfaktoran'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfaktoran'))
 
+'select dengan pemfaktoran as Ya'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran'))
 
 'Get todays year, date and time'
@@ -135,26 +142,37 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Today_Tarikh_Terima_O
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_Save_Maklumat_Terima_Barang'))
 
+'delay'
 WebUI.delay(3)
 
+'click on + icon to add information on Maklumat Penerima'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_Tambah_Maklumat_Penerima'))
 
+'click on drop down Penerima No K/P or Daftar'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Penerima_No_Daftar'))
 
+'delay'
 WebUI.delay(3)
 
+'enter pembekal with kod K0806SS29058'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_name_kod Pembekal'), 'K0806SS29058')
 
+'delay'
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/select_Maklumat_Penerima_Jamal'))
+'select the pembekal as K0806SS29058'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/select_Maklumat_Penerima_Armada'))
 
+'delay'
 WebUI.delay(5)
 
+'input total amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Penerima_Amaun'), GlobalVariable.TotalAmaunPT)
 
+'save the information'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_Save_Maklumat_Penerima'))
 
+'delay'
 WebUI.delay(3)
 
 'Click on Simpan button to save the record'

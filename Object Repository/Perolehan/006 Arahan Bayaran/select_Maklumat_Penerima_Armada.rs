@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Maklumat_Penerima_Jamal</name>
+   <name>select_Maklumat_Penerima_Armada</name>
    <tag></tag>
    <elementGuidId>1b599f81-734b-4964-8aa9-9dbf71e38cb6</elementGuidId>
    <selectorCollection>
