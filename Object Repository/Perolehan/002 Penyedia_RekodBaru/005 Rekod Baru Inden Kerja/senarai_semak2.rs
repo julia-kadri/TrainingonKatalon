@@ -1,99 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_DatePicker</name>
+   <name>senarai_semak2</name>
    <tag></tag>
-   <elementGuidId>83d26e39-e4d6-404d-9e75-0822ec47dfb4</elementGuidId>
+   <elementGuidId>71d320eb-d233-4d5d-b89f-ce382944c725</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'checkbox' and @name = 'pkid' and @value = '509']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//form[@id='procPesananTempatanFormV2']/table/tbody/tr[14]/td[2]/span/span/a</value>
+         <value>//tr[@id='datagrid-row-r33-2-1']/td/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>javascript:void(0)</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>name</name>
       <type>Main</type>
-      <value>textbox-icon combo-arrow</value>
+      <value>pkid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>icon-index</name>
+      <name>value</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
+      <value>509</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;procPesananTempatanFormV2&quot;)/table[1]/tbody[1]/tr[@class=&quot;tarikhBekal kerja&quot;]/td[2]/span[@class=&quot;textbox combo datebox textbox-focused&quot;]/span[@class=&quot;textbox-addon textbox-addon-right&quot;]/a[@class=&quot;textbox-icon combo-arrow&quot;]</value>
+      <value>id(&quot;datagrid-row-r33-2-1&quot;)/td[1]/div[@class=&quot;datagrid-cell-check&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='procPesananTempatanFormV2']/table/tbody/tr[14]/td[2]/span/span/a</value>
+      <value>//tr[@id='datagrid-row-r33-2-1']/td/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>(//input[@name='pkid'])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sila Bekalkan Sebelum atau Pada :'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Surat tawaran Inden kerja'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cawangan Pembekal :'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perkara'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Tanggungan :'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sijil pembekal'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amaun Tanggungan :'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, 'javascript:void(0)')])[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maklumat kerja terperinci'])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[14]/td[2]/span/span/a</value>
+      <value>//div[2]/table/tbody/tr[2]/td/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

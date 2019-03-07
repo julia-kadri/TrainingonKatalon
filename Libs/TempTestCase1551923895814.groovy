@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\006 Arahan Bayaran\\002 Penyemak\\20190306_101251\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\001 Left Menu Selection\\Select Menu Pesanan Tempatan\\20190307_095815\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Perolehan/006 Arahan Bayaran/002 Penyemak', new TestCaseBinding('Test Cases/Perolehan/006 Arahan Bayaran/002 Penyemak',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan', new TestCaseBinding('Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
