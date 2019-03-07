@@ -11,97 +11,34 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text']</value>
+         <value>//div[@class = '${class}' and (contains(text(), 'BANK ISLAM MALAYSIA BERHAD - 08013010036050') or contains(., 'BANK ISLAM MALAYSIA BERHAD - 08013010036050'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.panel.combo-p:nth-child(21) div.combo-panel.panel-body.panel-body-noheader div.panel.datagrid.easyui-fluid div.datagrid-wrap.panel-body.panel-body-noheader.panel-body-noborder div.datagrid-view div.datagrid-view2:nth-child(2) div.datagrid-body table.datagrid-btable tbody:nth-child(1) tr.datagrid-row.datagrid-row-checked.datagrid-row-selected td:nth-child(1) > div.datagrid-cell.datagrid-cell-c5-kodBank</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textbox-text validatebox-text</value>
+      <value>${class}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>readonly</name>
-      <type>Main</type>
-      <value>readonly</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;procPesananTempatanFormV2&quot;)/table[1]/tbody[1]/tr[@class=&quot;pembekal kerja&quot;]/td[2]/span[@class=&quot;textbox combo textbox-focused&quot;]/input[@class=&quot;textbox-text validatebox-text&quot;]</value>
-   </webElementProperties>
-   <webElementXpaths>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//form[@id='procPesananTempatanFormV2']/table/tbody/tr[12]/td[2]/span/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>(//input[@type='text'])[12]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No.Akaun Pembekal :'])[1]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Pendaftaran GST :'])[1]/following::input[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cawangan Pembekal :'])[1]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sila Bekalkan Sebelum atau Pada :'])[1]/preceding::input[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//tr[12]/td[2]/span/input</value>
-   </webElementXpaths>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BANK ISLAM MALAYSIA BERHAD - 08013010036050</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -45,14 +45,19 @@ public class GlobalVariable {
     public static Object PesananTempatanRekodID
      
     /**
-     * <p></p>
+     * <p>Profile Staging : Dokumen ID generated after lulus</p>
      */
     public static Object PesananTempatanDokumenID
      
     /**
-     * <p></p>
+     * <p>Profile Staging : get the total amount in the record</p>
      */
     public static Object TotalAmaunPT
+     
+    /**
+     * <p>Profile Staging : get no rujukan for inden kerja</p>
+     */
+    public static Object IKno_rujukan
      
 
     static {
@@ -70,6 +75,7 @@ public class GlobalVariable {
             PesananTempatanRekodID = selectedVariables['PesananTempatanRekodID']
             PesananTempatanDokumenID = selectedVariables['PesananTempatanDokumenID']
             TotalAmaunPT = selectedVariables['TotalAmaunPT']
+            IKno_rujukan = selectedVariables['IKno_rujukan']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

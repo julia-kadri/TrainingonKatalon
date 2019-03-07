@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru'))
 
@@ -22,6 +24,9 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Jenis_Urusniaga'))
 
 WebUI.delay(2)
+
+'Get todays year and date'
+mydate = new Date()
 
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_INDEN KERJA AUTO'))
@@ -35,22 +40,9 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Pembekal_Green_Miracle'))
 
-WebUI.delay(5)
-
-'Click Rekod Baru button'
-String noakaunpembekal = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/No_akaun_Pembekal'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-println(noakaunpembekal)
-
-WebUI.verifyMatch(noakaunpembekal, 'BANK ISLAM MALAYSIA BERHAD - 08013010036050', false)
-
-'Click Rekod Baru button'
-String cawanganpembekal = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Cawangan_Pembekal'), 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch(cawanganpembekal, 'NO. 144, JALAN PUTRA A/8, TAMAN KLEBANG PUTRA, 31200 CHEMOR, PERAK ', false)
-
+/*
+ * WebUI.verifyMatch(cawanganpembekal, 'NO. 144, JALAN PUTRA A/8, TAMAN KLEBANG PUTRA, 31200 CHEMOR, PERAK ', false)
+ */
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan'))
 
@@ -71,14 +63,23 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 'Click Rekod Baru button'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ringkasan_kerja'), 'ringkasan kerja untuk inden kerja')
 
-'Click Rekod Baru button'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'), 'IK0011')
+'int RN is created to generete random number'
+int RN = ((Math.random() * 100000) as int)
 
 'Click Rekod Baru button'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'), 'kerja terperinci')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'), 'IK00' + 
+    RN)
+
+'get Input Rujukan fail value'
+GlobalVariable.IKno_rujukan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'))
 
 'Click Rekod Baru button'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'), 'test here')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'), 'kerja terperinci ' + 
+    mydate)
+
+'Click Rekod Baru button'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'), 'test here ' + 
+    mydate)
 
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci'))
@@ -154,8 +155,17 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 'Click'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_maklumat_berjaya_disimpan'))
 
-'Click'
+'Click X button on top left to close Senarai Semak screen'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_X_close_senarai_semak'))
+
+'Get the Amaun'
+String Total = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT'))
+
+'print Total'
+println(Total)
+
+'set global variable value of TotalAmaun with variable Total'
+GlobalVariable.TotalAmaunPT = Total
 
 'Click'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_sah_simpan'))
@@ -180,5 +190,9 @@ GlobalVariable.PesananTempatanRekodID = PTRekodID
 
 WebUI.delay(3)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan'))
+
+WebUI.closeBrowser()
 

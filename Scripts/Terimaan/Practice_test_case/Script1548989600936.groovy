@@ -13,27 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Open URL'
-WebUI.navigateToUrl(GlobalVariable.URL_Homepage)
+for (def index : (1..9)) {
+	
+    WebUI.delay(3)
 
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+    WebUI.doubleClick(findTestObject('Object Repository/30JAN_Record_and_Play/div_19DAPT030100122'))
 
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyemakPTJ'()
+    WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/span_Batal'))
 
-WebUI.check(findTestObject('RecordandPlay/check_box_Senarai_semak', [('name') : 'pkid', ('value') : '505']))
+    WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/a_Ya'))
 
-WebUI.check(findTestObject('RecordandPlay/check_box_Senarai_semak', [('name') : 'pkid', ('value') : '1629']))
+    WebUI.delay(3)
 
-WebUI.delay(5)
+    WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/a_Ok'))
 
-println(GlobalVariable.ArahanBayaranRekodID)
+}
 
-WebUI.doubleClick(findTestObject('RecordandPlay/Dashboard_Senarai_Tugas', [('text') : '19DAAB030100031']))
-
-attribute = WebUI.getAttribute(findTestObject('RecordandPlay/get_attribute_rekodID'), 'text')
-
-println(attribute)
+WebUI.closeBrowser()
 
