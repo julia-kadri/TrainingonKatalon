@@ -6,13 +6,28 @@
    <elementGuidId>28b4857e-c2e8-452d-8cdb-cd8518115148</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='maklumat_ArahanBayaran']//span[@class='textbox textbox-invalid']</value>
+         <key>BASIC</key>
+         <value>//textarea[starts-with(@class, 'textbox-text validatebox-text')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//textarea[@class='textbox-text validatebox-text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textbox-text validatebox-text</value>
+   </webElementProperties>
 </WebElementEntity>

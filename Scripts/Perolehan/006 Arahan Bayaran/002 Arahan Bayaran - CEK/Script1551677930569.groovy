@@ -94,11 +94,13 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfak
 'select dengan pemfaktoran as Ya'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran'))
 
+WebUI.delay(3)
+
 'Get todays year, date and time'
 mydate = new Date()
 
 'Input Perihal'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Perihal'), 'This is a test for Arahan Bayaran Cek ' + mydate)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Perihal'), 'This is a test for Pesanan Tempatan Cara Bayaran CEK ' + mydate)
 
 'Delay'
 WebUI.delay(3)

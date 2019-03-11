@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran,Chrome 72.0.3626.121,,2019-03-11 09:34:34,2019-03-11 09:47:16,12m - 41.233s,FAILED
+,,,,,,
+Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan,Chrome 72.0.3626.121,Select Perolehan and then select Pesanan Tempatan,2019-03-11 09:34:35,2019-03-11 09:37:47,3m - 12.582s,FAILED
+"openBrowser(""https://175.143.52.101:7011/1SPEKSv2/"")",Chrome 72.0.3626.121,Open browser and input homepage URL ,2019-03-11 09:34:35,2019-03-11 09:34:40,4.824s,PASSED
+"setText(findTestObject(""Login/input_NoKadPengenalan""), findTestData(""ispekstestdata"").getValue(1, 2))",Chrome 72.0.3626.121,Input User Name,2019-03-11 09:34:40,2019-03-11 09:37:47,3m - 7.287s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/004 Penyedia Rekod Baru - CEK,Chrome 72.0.3626.121,this is a test case to create REKOD BARU for Pesanan Tempatan,2019-03-11 09:37:47,2019-03-11 09:40:54,3m - 6.576s,FAILED
+"click(findTestObject(""Perolehan/002 Penyedia_RekodBaru/button_REKODBARU""))",Chrome 72.0.3626.121,Click on Rekod Baru to create new record,2019-03-11 09:37:47,2019-03-11 09:40:54,3m - 6.338s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/002 Senarai Semak,Chrome 72.0.3626.121,This test case is to add senarai semak information,2019-03-11 09:40:54,2019-03-11 09:44:04,3m - 9.846s,FAILED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 09:40:54,2019-03-11 09:40:57,3.015s,PASSED
+"click(findTestObject(""Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/button_Senarai Semak""))",Chrome 72.0.3626.121,Click on button Senarai Semak,2019-03-11 09:40:57,2019-03-11 09:44:04,3m - 6.658s,FAILED
+,,,,,,
+Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/003 Sah Simpan,Chrome 72.0.3626.121,This test case is doing Sah Simpan for the record created,2019-03-11 09:44:04,2019-03-11 09:47:15,3m - 11.320s,FAILED
+delay(5),Chrome 72.0.3626.121,,2019-03-11 09:44:04,2019-03-11 09:44:09,5.003s,PASSED
+"Total = getText(findTestObject(""Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT""))",Chrome 72.0.3626.121,Get the Amaun,2019-03-11 09:44:09,2019-03-11 09:47:15,3m - 6.155s,FAILED

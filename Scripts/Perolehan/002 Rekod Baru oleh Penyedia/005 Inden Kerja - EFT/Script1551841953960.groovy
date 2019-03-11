@@ -83,8 +83,12 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci'))
 
+WebUI.delay(3)
+
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana'))
+
+WebUI.delay(8)
 
 'Click Rekod Baru button'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Vot_kod'), 'B31')

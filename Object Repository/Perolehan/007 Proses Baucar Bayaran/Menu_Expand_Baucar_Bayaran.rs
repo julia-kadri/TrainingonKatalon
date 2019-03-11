@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='_easyui_tree_405']//span[@class='tree-hit tree-collapsed']</value>
+         <value>//ul[@id='APTree']/li[2]/div[@class='tree-node']/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
