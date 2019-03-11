@@ -40,9 +40,6 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Pembekal_Green_Miracle'))
 
-/*
- * WebUI.verifyMatch(cawanganpembekal, 'NO. 144, JALAN PUTRA A/8, TAMAN KLEBANG PUTRA, 31200 CHEMOR, PERAK ', false)
- */
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan'))
 
@@ -72,6 +69,8 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 
 'get Input Rujukan fail value'
 GlobalVariable.IKno_rujukan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'))
+
+println(GlobalVariable.IKno_rujukan)
 
 'Click Rekod Baru button'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'), 'kerja terperinci ' + 

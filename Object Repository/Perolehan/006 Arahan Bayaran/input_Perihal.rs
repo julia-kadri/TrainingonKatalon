@@ -6,12 +6,11 @@
    <elementGuidId>28b4857e-c2e8-452d-8cdb-cd8518115148</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='maklumat_ArahanBayaran']//span[@class='textbox textbox-invalid']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@class='textbox-text validatebox-text textbox-prompt validatebox-invalid']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
