@@ -6,6 +6,10 @@
    <elementGuidId>7b52e006-2569-4cf3-b5c2-72f5cce9c5a8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Sah Simpan' or . = 'Sah Simpan')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='btnAreaSahSimpan']/span/span</value>
       </entry>

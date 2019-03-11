@@ -6,11 +6,15 @@
    <elementGuidId>93c2cab3-c605-4c4c-83e6-19a37cc12110</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Ok' or . = 'Ok')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DATB030500020 ]'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

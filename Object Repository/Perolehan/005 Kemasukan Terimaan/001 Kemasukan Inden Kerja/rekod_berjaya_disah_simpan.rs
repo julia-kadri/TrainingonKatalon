@@ -6,12 +6,12 @@
    <elementGuidId>1f4c238b-e1f4-48da-9ef7-36ff059c4e92</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::div[4]</value>
+         <key>BASIC</key>
+         <value>//div[(starts-with(text(), 'Rekod Telah Berjaya Di Sah Simpan. [') or starts-with(., 'Rekod Telah Berjaya Di Sah Simpan. ['))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DATB030500020 ] ' or . = 'Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DATB030500020 ] ')]</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifikasi'])[1]/following::div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,10 +25,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>starts with</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DATB030500020 ] </value>
+      <value>Rekod Telah Berjaya Di Sah Simpan. [</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,11 +6,15 @@
    <elementGuidId>3b4105b2-2bb5-41c5-9da8-e6654fd5bff1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@class, 'btn-small') and (text() = 'Ya' or . = 'Ya')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//a[@id=''])[37]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,18 +24,18 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>l-btn l-btn-small l-btn-focus</value>
+      <value>btn-small</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
