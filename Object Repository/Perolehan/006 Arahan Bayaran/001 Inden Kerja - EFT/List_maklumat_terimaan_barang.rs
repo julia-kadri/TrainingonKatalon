@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Date_Picker_Sila_Bekalkan</name>
+   <name>List_maklumat_terimaan_barang</name>
    <tag></tag>
-   <elementGuidId>c3c47fed-2e9d-4a77-84b3-c08bbfa09b3f</elementGuidId>
+   <elementGuidId>4534ceab-2099-4afa-ae7f-28977ebdb43d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@class='tarikhBekal kerja']//a[@class='textbox-icon combo-arrow']</value>
+         <value>//tr[@id='datagrid-row-r9-2-0']/td/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:void(0)</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textbox-icon combo-arrow</value>
+      <value>datagrid-cell datagrid-cell-c9-noDokumen</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>icon-index</name>
+      <name>text</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>-1</value>
+      <value>19DAIK0300025</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;procPesananTempatanFormV2&quot;)/table[1]/tbody[1]/tr[@class=&quot;tarikhBekal kerja&quot;]/td[2]/span[@class=&quot;textbox combo datebox textbox-focused&quot;]/span[@class=&quot;textbox-addon textbox-addon-right&quot;]/a[@class=&quot;textbox-icon combo-arrow&quot;]</value>
+      <value>id(&quot;cajline_grid_terimaBarang&quot;)/div[@class=&quot;panel datagrid easyui-fluid&quot;]/div[@class=&quot;datagrid-wrap panel-body panel-body-noheader&quot;]/div[@class=&quot;datagrid-view&quot;]/div[@class=&quot;datagrid-view2&quot;]/div[@class=&quot;datagrid-body&quot;]/table[@class=&quot;datagrid-btable&quot;]/tbody[1]/tr[@id=&quot;datagrid-row-r9-2-0&quot;]/td[1]/div[@class=&quot;datagrid-cell datagrid-cell-c9-noDokumen&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='procPesananTempatanFormV2']/table/tbody/tr[14]/td[2]/span/span/a</value>
+      <value>//tr[@id='datagrid-row-r9-2-0']/td/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sila Bekalkan Sebelum atau Pada :'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amaun (RM)'])[3]/following::div[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cawangan Pembekal :'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rujukan Nota'])[1]/following::div[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Tanggungan :'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST HERE MON MAR 11 15:17:24 SGT 2019'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amaun Tanggungan :'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, 'javascript:void(0)')])[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TEST HERE MON MAR 11 17:07:52 SGT 2019'])[1]/preceding::div[15]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[14]/td[2]/span/span/a</value>
+      <value>//div[2]/div[2]/table/tbody/tr/td/div</value>
    </webElementXpaths>
 </WebElementEntity>

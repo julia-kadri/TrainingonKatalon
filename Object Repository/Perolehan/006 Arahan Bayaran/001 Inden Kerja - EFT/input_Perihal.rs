@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Date_Picker_Sila_Bekalkan</name>
+   <name>input_Perihal</name>
    <tag></tag>
-   <elementGuidId>c3c47fed-2e9d-4a77-84b3-c08bbfa09b3f</elementGuidId>
+   <elementGuidId>aea89f81-9a29-484e-b8af-15479229b9c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@class='tarikhBekal kerja']//a[@class='textbox-icon combo-arrow']</value>
+         <value>//form[@id='procArahanBayaran']/table/tbody/tr[14]/td[2]/span/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,70 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>javascript:void(0)</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textbox-icon combo-arrow</value>
+      <value>textbox-text validatebox-text tooltip-f validatebox-invalid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>icon-index</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>0</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>-1</value>
+      <value>135</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;procPesananTempatanFormV2&quot;)/table[1]/tbody[1]/tr[@class=&quot;tarikhBekal kerja&quot;]/td[2]/span[@class=&quot;textbox combo datebox textbox-focused&quot;]/span[@class=&quot;textbox-addon textbox-addon-right&quot;]/a[@class=&quot;textbox-icon combo-arrow&quot;]</value>
+      <value>id(&quot;maklumat_ArahanBayaran&quot;)/form[@id=&quot;procArahanBayaran&quot;]/table[1]/tbody[1]/tr[14]/td[2]/span[@class=&quot;textbox textbox-invalid textbox-focused&quot;]/textarea[@class=&quot;textbox-text validatebox-text tooltip-f validatebox-invalid&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='procPesananTempatanFormV2']/table/tbody/tr[14]/td[2]/span/span/a</value>
+      <value>//form[@id='procArahanBayaran']/table/tbody/tr[14]/td[2]/span/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sila Bekalkan Sebelum atau Pada :'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perihal :'])[1]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cawangan Pembekal :'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis AP :'])[1]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No. Tanggungan :'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maklumat Terimaan Barang'])[1]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amaun Tanggungan :'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>(//a[contains(@href, 'javascript:void(0)')])[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Dokumen :'])[1]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tr[14]/td[2]/span/span/a</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

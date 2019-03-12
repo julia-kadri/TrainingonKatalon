@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Kemasukan_Teri
 assert true
 
 'Carian page loaded successfully'
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Click on button Rekod Baru '
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_REKOD BARU'))
@@ -128,7 +128,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Ya_Sah_Simpa
 'Delay'
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 180)
 
 'Take screenshot of the rekod ID'
 WebUI.takeScreenshot()

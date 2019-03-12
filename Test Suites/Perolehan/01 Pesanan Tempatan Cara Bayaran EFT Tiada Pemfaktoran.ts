@@ -80,7 +80,7 @@
       <guid>b8476e1c-2766-41b2-931f-ee9d924c0d1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/002 Penyemak</testCaseId>
+      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/Penyemak</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b556de65-7826-4d7a-ba62-654254499a50</guid>
