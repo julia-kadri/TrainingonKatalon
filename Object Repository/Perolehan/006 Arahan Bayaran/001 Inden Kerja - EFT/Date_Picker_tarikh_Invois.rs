@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='edit']/tbody/tr/td[2]/table/tbody/tr[7]/td[2]/span/span/a</value>
+         <value>//table[@id='edit']//table//tbody//tr//td//a[@class='textbox-icon combo-arrow']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panelKemasukanTerimaan tr:nth-of-type(7) [icon-index]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

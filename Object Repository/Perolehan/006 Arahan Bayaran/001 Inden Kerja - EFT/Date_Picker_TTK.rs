@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='edit']/tbody/tr/td[2]/table/tbody/tr[8]/td[2]/span/span/a</value>
+         <value>/html//table[@id='edit']/tbody/tr/td[2]/table/tbody/tr[8]/td[2]/span/span[@class='textbox-addon textbox-addon-right']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

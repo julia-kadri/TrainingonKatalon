@@ -1,4 +1,25 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\006 Arahan Bayaran\\003 Arahan Bayaran Inden Kerja - EFT\\20190313_114111\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -14,16 +35,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Open browser'
-CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData(
+        'ispekstestdata').getValue(2, 2))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
 
 'Click on Menu Sisi to display Menu selections'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
@@ -105,9 +126,6 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/D
 'Click today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
 
-'Input Amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
-
 'int RN is created to generete random number'
 int RN = ((Math.random() * 10000) as int)
 
@@ -117,7 +135,13 @@ println(RN)
 'Input No Invois with random number generated from RN'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
 
-WebUI.delay(8)
+WebUI.delay(3)
+
+'Input Amaun'
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
+
+'Delay'
+WebUI.delay(2)
 
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
@@ -137,7 +161,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(5)
 
 'input total amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)
@@ -217,3 +241,5 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/b
 'Close the browser'
 WebUI.closeBrowser()
 
+''', 'Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT', new TestCaseBinding('Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    

@@ -1,4 +1,25 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
+import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
+import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
+
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+
+
+RunConfiguration.setExecutionSettingFile('C:\\Users\\CONSUL~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Perolehan\\006 Arahan Bayaran\\003 Arahan Bayaran Inden Kerja - EFT\\20190313_120315\\execution.properties')
+
+TestCaseMain.beforeStart()
+
+        TestCaseMain.runTestCaseRawScript(
+'''import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -14,110 +35,114 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Open browser'
-CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData(
+        'ispekstestdata').getValue(2, 2))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
+not_run: CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
 
 'Click on Menu Sisi to display Menu selections'
-WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
+not_run: WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
 'Delay'
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Select Perolehan Sub-menu'
-WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
+not_run: WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
 
 'Delay'
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Click on Menu sisi and select Arahan Bayaran'
-WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
+not_run: WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
 
-assert true
+not_run: assert true
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Arahan Bayaran page loaded successfully'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_REKOD_BARU'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_REKOD_BARU'))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Click Jenis Baucar Bayaran drop down'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Select Kod Jenis Baucar Bayaran that is ARAHAN BAYARAN-PESANAN TEMPATAN'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_AB0303_Inden_Kerja'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_AB0303_Inden_Kerja'))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Click Nama Pembekal drop down'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Nama_Pembekal'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Nama_Pembekal'))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Select Nama Pembekal AA DUA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_G0804CM29379'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_G0804CM29379'))
 
 'Delay'
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya'))
 
 'Get todays year, date and time'
-mydate = new Date()
+not_run: mydate = new Date()
 
 'Input Perihal'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
+not_run: WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
     mydate)
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 'Click on 1st item from the list of records'
-WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/List_maklumat_terimaan_barang'))
+not_run: WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/List_maklumat_terimaan_barang'))
 
 'Delay'
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TI'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TI'))
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_picker_TI_Today'))
+not_run: WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_picker_TI_Today'))
+
+'int RN is created to generete random number'
+not_run: int RN = ((Math.random() * 10000) as int)
+
+'Print the RN value'
+not_run: println(RN)
+
+'Input No Invois with random number generated from RN'
+not_run: WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
+
+not_run: WebUI.delay(5)
+
+'Input Amaun'
+not_run: WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
+
+'Delay'
+not_run: WebUI.delay(2)
 
 'Click on Date Picker to display calendar to choose date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK'), FailureHandling.STOP_ON_FAILURE)
 
 'Click today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
-
-'Input Amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
-
-'int RN is created to generete random number'
-int RN = ((Math.random() * 10000) as int)
-
-'Print the RN value'
-println(RN)
-
-'Input No Invois with random number generated from RN'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
-
-WebUI.delay(8)
 
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
@@ -137,7 +162,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(5)
 
 'input total amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)
@@ -217,3 +242,5 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/b
 'Close the browser'
 WebUI.closeBrowser()
 
+''', 'Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT', new TestCaseBinding('Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT',[:]), FailureHandling.STOP_ON_FAILURE , false)
+    

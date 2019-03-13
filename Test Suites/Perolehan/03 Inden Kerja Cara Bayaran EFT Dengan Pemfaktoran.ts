@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Inden Kerja Cara Bayaran EFT</name>
+   <name>03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -33,5 +33,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/003 Proses Kemasukan Inden Kerja - EFT</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7981bfc-5546-406b-926d-1ccff4417240</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
