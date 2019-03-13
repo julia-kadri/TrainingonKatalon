@@ -40,4 +40,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/003 Arahan Bayaran Inden Kerja - EFT</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7c4fc534-c5e0-40c5-adf7-de878f197c7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b36f0eb3-3430-4af8-b629-21219ddaa770</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fa5789c8-b0fe-4364-9593-b4f2df3f6092</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10fe8076-74dc-414c-9fc3-289c81c21c13</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

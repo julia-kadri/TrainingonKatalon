@@ -6,12 +6,12 @@
    <elementGuidId>15350a4c-accf-49aa-9115-aaa35b64545f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[starts-with(@class, 'datagrid-editable-input') and @name = 'nama']</value>
+         <key>XPATH</key>
+         <value>//td[@field='nama']//span[@class='textbox']//input[@type='text']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[starts-with(@class, 'datagrid-editable-input') and @name = 'nama'])[1]</value>
+         <key>BASIC</key>
+         <value>//input[starts-with(@class, 'datagrid-editable-input') and @name = 'nama']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

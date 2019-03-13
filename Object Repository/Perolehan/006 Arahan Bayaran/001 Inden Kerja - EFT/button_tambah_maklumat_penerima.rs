@@ -9,8 +9,16 @@
          <key>XPATH</key>
          <value>//a[@id='btnTambahFaktor']/span/span[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@class, 'icon-add')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#toolbarGridPenerimaPemfaktoran .icon-add</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,14 +28,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>l-btn-icon icon-add</value>
+      <value>icon-add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

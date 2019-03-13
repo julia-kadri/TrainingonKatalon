@@ -60,12 +60,6 @@ WebUI.delay(15)
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak'))
 
 'delay'
-WebUI.delay(10)
-
-'switch to window tab index 1 to get the baucar displayed'
-WebUI.switchToWindowIndex(1)
-
-'delay'
 WebUI.delay(3)
 
 'wait for the page to load the document which will take some times'
@@ -74,7 +68,7 @@ WebUI.waitForPageLoad(180)
 'take the screen shot of the document loaded'
 WebUI.takeScreenshot()
 
-'swith back to the main window tab'
+'switch to window tab index 1 to get the baucar displayed'
 WebUI.switchToWindowIndex(0)
 
 'delay'

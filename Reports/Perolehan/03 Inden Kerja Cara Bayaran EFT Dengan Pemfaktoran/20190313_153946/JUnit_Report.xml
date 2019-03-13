@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran" time="317" tests="4" failures="0" errors="0">
+   <testsuite name="03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran" tests="4" failures="0" errors="0" time="317" timestamp="2019-03-13 15:39:55" hostname="Consultant_MSPHitect - DESKTOP-V9TS2EM" id="Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946"/>
+         <property name="logFiles" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462851737.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462932351.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463030648.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463108912.png"/>
+         <property name="hostName" value="Consultant_MSPHitect - DESKTOP-V9TS2EM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.172.132"/>
+         <property name="sessionId" value="ae37401ad98411e2f7a1fb31beab60c8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja" classname="Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja" status="PASSED">
+         <system-out><![CDATA[2019-03-13 15:39:55 - [TEST_CASE][PASSED] - Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja: Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja
+
+2019-03-13 15:39:55 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:39:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 15:39:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-13 15:40:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-13 15:40:00 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:40:00 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:40:00 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-13 15:40:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-13 15:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-13 15:40:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-13 15:40:12 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:40:12 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyemakPTJ(): reusablefunctions.reusablefunctions.PerananPenyemakPTJ is PASSED
+
+2019-03-13 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-13 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPenyemakPTJ' is clicked on
+
+2019-03-13 15:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-13 15:40:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-03-13 15:40:35 - [MESSAGE][PASSED] - Text 'Peranan : [Penyemak] Peringkat : [PTJ]' is present on page 
+
+2019-03-13 15:40:35 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyemakPTJ is PASSED
+
+2019-03-13 15:40:35 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak' is double clicked on
+
+2019-03-13 15:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak' is double clicked on
+
+2019-03-13 15:40:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:38 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod"), ArahanBayaranRekodID): Text '19DAAB030300021' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-03-13 15:40:39 - [MESSAGE][PASSED] - Text '19DAAB030300021' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-03-13 15:40:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod", ["text":ArahanBayaranRekodID])): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod' is double clicked on
+
+2019-03-13 15:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod' is double clicked on
+
+2019-03-13 15:40:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-03-13 15:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-03-13 15:40:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak' is clicked on
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak' is clicked on
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak' is clicked on
+
+2019-03-13 15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak' is clicked on
+
+2019-03-13 15:40:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-03-13 15:40:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462851737.png]]
+
+2019-03-13 15:40:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:40:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-03-13 15:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-03-13 15:40:55 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-03-13 15:40:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT" classname="Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT" status="PASSED">
+         <system-out><![CDATA[2019-03-13 15:40:55 - [TEST_CASE][PASSED] - Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT: Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT
+
+2019-03-13 15:40:55 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:40:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 15:40:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-13 15:40:58 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:40:58 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:40:59 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-13 15:40:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-13 15:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-13 15:41:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-13 15:41:10 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:41:10 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPelulusPTJ(): reusablefunctions.reusablefunctions.PerananPelulusPTJ is PASSED
+
+2019-03-13 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-13 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPelulusPTJ' is clicked on
+
+2019-03-13 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-13 15:41:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-03-13 15:41:33 - [MESSAGE][PASSED] - Text 'Peranan : [Pelulus] Peringkat : [PTJ]' is present on page 
+
+2019-03-13 15:41:33 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPelulusPTJ is PASSED
+
+2019-03-13 15:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/Menu_Sisi")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Sisi' is clicked on
+
+2019-03-13 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Sisi' is clicked on
+
+2019-03-13 15:41:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar' is clicked on
+
+2019-03-13 15:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar' is clicked on
+
+2019-03-13 15:41:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran' is clicked on
+
+2019-03-13 15:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran' is clicked on
+
+2019-03-13 15:41:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman' is clicked on
+
+2019-03-13 15:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman' is clicked on
+
+2019-03-13 15:41:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:45 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/007 Proses Baucar Bayaran/input_No_Rekod"), ArahanBayaranRekodID): Text '19DAAB030300021' is set on object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/input_No_Rekod'
+
+2019-03-13 15:41:46 - [MESSAGE][PASSED] - Text '19DAAB030300021' is set on object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/input_No_Rekod'
+
+2019-03-13 15:41:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:49 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/007 Proses Baucar Bayaran/select_No_Rekod", ["text":ArahanBayaranRekodID])): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/select_No_Rekod' is double clicked on
+
+2019-03-13 15:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/select_No_Rekod' is double clicked on
+
+2019-03-13 15:41:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:52 - [TEST_STEP][PASSED] - namapenerima = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima")): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima' is: 'MANJUNG POINT ONE ENTERPRISE'
+
+2019-03-13 15:41:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima' is: 'MANJUNG POINT ONE ENTERPRISE'
+
+2019-03-13 15:41:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:55 - [TEST_STEP][PASSED] - verifyMatch(namapenerima, "MANJUNG POINT ONE ENTERPRISE", false): Actual text 'MANJUNG POINT ONE ENTERPRISE' and expected text 'MANJUNG POINT ONE ENTERPRISE' are matched 
+
+2019-03-13 15:41:55 - [MESSAGE][PASSED] - Actual text 'MANJUNG POINT ONE ENTERPRISE' and expected text 'MANJUNG POINT ONE ENTERPRISE' are matched 
+
+2019-03-13 15:41:55 - [TEST_STEP][PASSED] - jumlahkeseluruhan = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/jumlah_amaun")): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/jumlah_amaun' is: '11.05'
+
+2019-03-13 15:41:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/jumlah_amaun' is: '11.05'
+
+2019-03-13 15:41:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:41:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:41:58 - [TEST_STEP][PASSED] - verifyMatch(jumlahkeseluruhan, "11.05", false): Actual text '11.05' and expected text '11.05' are matched 
+
+2019-03-13 15:41:58 - [MESSAGE][PASSED] - Actual text '11.05' and expected text '11.05' are matched 
+
+2019-03-13 15:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/button_Lulus")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Lulus' is clicked on
+
+2019-03-13 15:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Lulus' is clicked on
+
+2019-03-13 15:41:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus' is clicked on
+
+2019-03-13 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus' is clicked on
+
+2019-03-13 15:42:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - No_Baucar = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan")): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan' is: 'Rekod Berjaya Diluluskan.
+No. Baucar : 19DABB0400116
+Adakah Anda Ingin Mencetak Rekod Ini?
+YaTidak'
+
+2019-03-13 15:42:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan' is: 'Rekod Berjaya Diluluskan.
+No. Baucar : 19DABB0400116
+Adakah Anda Ingin Mencetak Rekod Ini?
+YaTidak'
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - println(No_Baucar): null
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - Baucar_id = No_Baucar[(39..51)]: null
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - println(Baucar_id): null
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - Nombor_Baucar = Baucar_id: null
+
+2019-03-13 15:42:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak' is clicked on
+
+2019-03-13 15:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak' is clicked on
+
+2019-03-13 15:42:08 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-03-13 15:42:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-03-13 15:42:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:11 - [TEST_STEP][PASSED] - waitForPageLoad(180): Wait for page load successfully
+
+2019-03-13 15:42:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-13 15:42:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-03-13 15:42:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462932351.png]]
+
+2019-03-13 15:42:12 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-03-13 15:42:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-03-13 15:42:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-13 15:42:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT" classname="Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT" status="PASSED">
+         <system-out><![CDATA[2019-03-13 15:42:16 - [TEST_CASE][PASSED] - Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT: Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT
+
+2019-03-13 15:42:16 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:42:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 15:42:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-13 15:42:19 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:42:19 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:42:19 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-13 15:42:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-13 15:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-13 15:42:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-13 15:42:31 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:42:31 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPelulusBN(): reusablefunctions.reusablefunctions.PerananPelulusBN is PASSED
+
+2019-03-13 15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-13 15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPelulusBN' is clicked on
+
+2019-03-13 15:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-13 15:42:51 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-03-13 15:42:54 - [MESSAGE][PASSED] - Text 'Peranan : [Pelulus] Peringkat : [BN]' is present on page 
+
+2019-03-13 15:42:54 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPelulusBN is PASSED
+
+2019-03-13 15:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-13 15:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-13 15:42:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:42:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai' is clicked on
+
+2019-03-13 15:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai' is clicked on
+
+2019-03-13 15:42:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PostBayaran")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PostBayaran' is clicked on
+
+2019-03-13 15:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PostBayaran' is clicked on
+
+2019-03-13 15:43:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:03 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/Drop_down_No_Baucar")): Object: 'Object Repository/Perolehan/008 Post Bayaran/Drop_down_No_Baucar' is clicked on
+
+2019-03-13 15:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/Drop_down_No_Baucar' is clicked on
+
+2019-03-13 15:43:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:06 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar"), Nombor_Baucar): Text '19DABB0400116' is set on object 'Object Repository/Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar'
+
+2019-03-13 15:43:07 - [MESSAGE][PASSED] - Text '19DABB0400116' is set on object 'Object Repository/Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar'
+
+2019-03-13 15:43:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:10 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/select_No_Baucar", ["text":Nombor_Baucar])): Object: 'Object Repository/Perolehan/008 Post Bayaran/select_No_Baucar' is clicked on
+
+2019-03-13 15:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/select_No_Baucar' is clicked on
+
+2019-03-13 15:43:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_Cari")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Cari' is clicked on
+
+2019-03-13 15:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Cari' is clicked on
+
+2019-03-13 15:43:13 - [TEST_STEP][PASSED] - delay(23): Delayed 23 second(s)
+
+2019-03-13 15:43:36 - [MESSAGE][PASSED] - Delayed 23 second(s)
+
+2019-03-13 15:43:36 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/008 Post Bayaran/checkbox_proses")): Object 'Object Repository/Perolehan/008 Post Bayaran/checkbox_proses' is checked
+
+2019-03-13 15:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/008 Post Bayaran/checkbox_proses' is checked
+
+2019-03-13 15:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_proses")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_proses' is clicked on
+
+2019-03-13 15:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_proses' is clicked on
+
+2019-03-13 15:43:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_Ya_Proses")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Ya_Proses' is clicked on
+
+2019-03-13 15:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Ya_Proses' is clicked on
+
+2019-03-13 15:43:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-03-13 15:43:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-13 15:43:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Perolehan/008 Post Bayaran/button_OK"), 180): Object 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is present
+
+2019-03-13 15:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is present
+
+2019-03-13 15:43:49 - [TEST_STEP][PASSED] - verifyTextPresent("Proses Posting Berjaya.", false): Text 'Proses Posting Berjaya.' is present on page 
+
+2019-03-13 15:43:50 - [MESSAGE][PASSED] - Text 'Proses Posting Berjaya.' is present on page 
+
+2019-03-13 15:43:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-03-13 15:43:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463030648.png]]
+
+2019-03-13 15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_OK")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is clicked on
+
+2019-03-13 15:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is clicked on
+
+2019-03-13 15:43:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:43:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:43:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-13 15:43:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran" classname="Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran" status="PASSED">
+         <system-out><![CDATA[2019-03-13 15:43:54 - [TEST_CASE][PASSED] - Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran
+
+2019-03-13 15:43:55 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:43:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-13 15:43:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-13 15:43:57 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-13 15:43:57 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:43:58 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-13 15:43:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-13 15:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-13 15:44:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-13 15:44:13 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-13 15:44:13 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ(): reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-13 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-13 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPenyediaPTJ' is clicked on
+
+2019-03-13 15:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-13 15:44:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-03-13 15:44:36 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-03-13 15:44:36 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-03-13 15:44:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-13 15:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-03-13 15:44:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:44:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:44:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar' is clicked on
+
+2019-03-13 15:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar' is clicked on
+
+2019-03-13 15:44:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:44:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar' is clicked on
+
+2019-03-13 15:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar' is clicked on
+
+2019-03-13 15:44:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:44:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian' is clicked on
+
+2019-03-13 15:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian' is clicked on
+
+2019-03-13 15:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar' is clicked on
+
+2019-03-13 15:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar' is clicked on
+
+2019-03-13 15:44:50 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar"), Nombor_Baucar): Text '19DABB0400116' is set on object 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar'
+
+2019-03-13 15:44:50 - [MESSAGE][PASSED] - Text '19DABB0400116' is set on object 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar'
+
+2019-03-13 15:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari' is clicked on
+
+2019-03-13 15:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari' is clicked on
+
+2019-03-13 15:44:50 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-03-13 15:45:05 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-03-13 15:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak' is clicked on
+
+2019-03-13 15:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak' is clicked on
+
+2019-03-13 15:45:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:45:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:45:08 - [TEST_STEP][PASSED] - waitForPageLoad(180): Wait for page load successfully
+
+2019-03-13 15:45:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-13 15:45:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-03-13 15:45:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463108912.png]]
+
+2019-03-13 15:45:09 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-03-13 15:45:09 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-03-13 15:45:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-13 15:45:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-13 15:45:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-13 15:45:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-13 15:39:55 - [TEST_SUITE][PASSED] - 03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -12,7 +12,7 @@
             <profileName>Staging</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Perolehan/01 Pesanan Tempatan Cara Bayaran EFT Tiada Pemfaktoran</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -21,8 +21,17 @@
             <profileName>Staging</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Perolehan/02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

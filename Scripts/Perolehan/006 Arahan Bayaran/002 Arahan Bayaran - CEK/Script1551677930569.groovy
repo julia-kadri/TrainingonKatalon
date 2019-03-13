@@ -100,7 +100,8 @@ WebUI.delay(3)
 mydate = new Date()
 
 'Input Perihal'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Perihal'), 'This is a test for Pesanan Tempatan Cara Bayaran CEK ' + mydate)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Perihal'), 'This is a test for Pesanan Tempatan Cara Bayaran CEK ' + 
+    mydate)
 
 'Delay'
 WebUI.delay(3)

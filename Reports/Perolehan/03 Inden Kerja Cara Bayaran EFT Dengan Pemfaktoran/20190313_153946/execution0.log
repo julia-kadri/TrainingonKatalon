@@ -1,0 +1,4864 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795046</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795060</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Consultant_MSPHitect - DESKTOP-V9TS2EM</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Consultant_MSPHitect - DESKTOP-V9TS2EM</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795061</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795061</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.172.132</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.172.132</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795062</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795282</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</property>
+  <property name="description">Penyemak will check the record and click Semak button to verify</property>
+  <property name="id">Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</property>
+  <property name="source">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Test Cases\\Perolehan\\006 Arahan Bayaran\\006 Penyemak Inden Kerja.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:55</date>
+  <millis>1552462795732</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">open browser and enter ispek URL</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:56</date>
+  <millis>1552462796075</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:39:56</date>
+  <millis>1552462796112</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:39:59</date>
+  <millis>1552462799161</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d8106005d60839959fd2d69c2e212b1e</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">d8106005d60839959fd2d69c2e212b1e</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:59</date>
+  <millis>1552462799205</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.121</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.121</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:59</date>
+  <millis>1552462799206</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:59</date>
+  <millis>1552462799209</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-03-13T15:39:59</date>
+  <millis>1552462799211</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:00</date>
+  <millis>1552462800036</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://175.143.52.101:7011/1SPEKSv2/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:00</date>
+  <millis>1552462800037</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.openbrowser is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:00</date>
+  <millis>1552462800038</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:00</date>
+  <millis>1552462800039</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">login into the system as PROC test</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:00</date>
+  <millis>1552462800939</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;601101955194&amp;apos; is set on object &amp;apos;Object Repository/Login/input_NoKadPengenalan&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:01</date>
+  <millis>1552462801062</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Login/input_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:02</date>
+  <millis>1552462802299</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/input_ButtonLogMasuk&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812326</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812327</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.Login is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812327</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812328</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.PerananPenyemakPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">change peranan to penyemak ptj</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812413</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/IconTukarPeranan&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812518</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/input_TukarPenyemakPTJ&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:12</date>
+  <millis>1552462812583</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/button_Ya&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:32</date>
+  <millis>1552462832584</millis>
+  <sequence>85</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 20 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835029</millis>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Peranan : [Penyemak] Peringkat : [PTJ]&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835030</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.PerananPenyemakPTJ is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835030</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.PerananPenyemakPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835031</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : doubleClick(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835442</millis>
+  <sequence>98</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak&amp;apos; is double clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835443</millis>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : doubleClick(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:35</date>
+  <millis>1552462835444</millis>
+  <sequence>100</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:38</date>
+  <millis>1552462838447</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:38</date>
+  <millis>1552462838450</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:38</date>
+  <millis>1552462838450</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod\&amp;quot;), ArahanBayaranRekodID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:39</date>
+  <millis>1552462839057</millis>
+  <sequence>116</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;19DAAB030300021&amp;apos; is set on object &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:39</date>
+  <millis>1552462839057</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod\&amp;quot;), ArahanBayaranRekodID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:39</date>
+  <millis>1552462839057</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842060</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842062</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842062</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : doubleClick(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod\&amp;quot;, [\&amp;quot;text\&amp;quot;:ArahanBayaranRekodID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842161</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod&amp;apos; is double clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842162</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : doubleClick(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod\&amp;quot;, [\&amp;quot;text\&amp;quot;:ArahanBayaranRekodID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:42</date>
+  <millis>1552462842163</millis>
+  <sequence>131</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845164</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845165</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845165</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845365</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845366</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:45</date>
+  <millis>1552462845366</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848367</millis>
+  <sequence>146</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848369</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848370</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848414</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848414</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848414</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848464</millis>
+  <sequence>162</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848465</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848465</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848499</millis>
+  <sequence>170</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848499</millis>
+  <sequence>171</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementChecked(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3\&amp;quot;), 3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848500</millis>
+  <sequence>172</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848563</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848564</millis>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848564</millis>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848643</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848644</millis>
+  <sequence>189</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848644</millis>
+  <sequence>190</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848719</millis>
+  <sequence>197</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848720</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:48</date>
+  <millis>1552462848720</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:51</date>
+  <millis>1552462851722</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:51</date>
+  <millis>1552462851723</millis>
+  <sequence>202</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:51</date>
+  <millis>1552462851723</millis>
+  <sequence>203</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:52</date>
+  <millis>1552462852032</millis>
+  <sequence>204</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462851737.png</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:52</date>
+  <millis>1552462852033</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:52</date>
+  <millis>1552462852033</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855035</millis>
+  <sequence>208</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855037</millis>
+  <sequence>209</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855037</millis>
+  <sequence>210</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855125</millis>
+  <sequence>217</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855126</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855126</millis>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser(STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855778</millis>
+  <sequence>221</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855778</millis>
+  <sequence>222</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser(STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855778</millis>
+  <sequence>223</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855778</millis>
+  <sequence>224</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855781</millis>
+  <sequence>225</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</property>
+  <property name="description">Pelulus will process the baucar bayaran</property>
+  <property name="id">Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</property>
+  <property name="source">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Test Cases\\Perolehan\\007 Proses Baucar Bayaran\\003 Pelulus Baucar Bayaran IK - EFT.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855979</millis>
+  <sequence>227</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">open browser and enter ispek URL</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:55</date>
+  <millis>1552462855979</millis>
+  <sequence>229</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858080</millis>
+  <sequence>231</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 62a1b826bbbd0e72d59caa2f3770776f</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">62a1b826bbbd0e72d59caa2f3770776f</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858118</millis>
+  <sequence>232</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.121</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.121</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858118</millis>
+  <sequence>233</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858119</millis>
+  <sequence>234</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858119</millis>
+  <sequence>235</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858829</millis>
+  <sequence>237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://175.143.52.101:7011/1SPEKSv2/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858830</millis>
+  <sequence>238</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.openbrowser is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858830</millis>
+  <sequence>239</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:58</date>
+  <millis>1552462858830</millis>
+  <sequence>240</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">login into the system</property>
+</record>
+<record>
+  <date>2019-03-13T15:40:59</date>
+  <millis>1552462859018</millis>
+  <sequence>260</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;601101955194&amp;apos; is set on object &amp;apos;Object Repository/Login/input_NoKadPengenalan&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:40:59</date>
+  <millis>1552462859104</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Login/input_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:00</date>
+  <millis>1552462860372</millis>
+  <sequence>276</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/input_ButtonLogMasuk&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870374</millis>
+  <sequence>278</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870374</millis>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.Login is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870375</millis>
+  <sequence>280</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870375</millis>
+  <sequence>281</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.PerananPelulusPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">change peranan to Pelulus PTJ</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870462</millis>
+  <sequence>288</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/IconTukarPeranan&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870550</millis>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/input_TukarPelulusPTJ&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:10</date>
+  <millis>1552462870614</millis>
+  <sequence>302</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/button_Ya&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:30</date>
+  <millis>1552462890616</millis>
+  <sequence>304</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 20 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893112</millis>
+  <sequence>307</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Peranan : [Pelulus] Peringkat : [PTJ]&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893112</millis>
+  <sequence>308</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.PerananPelulusPTJ is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893112</millis>
+  <sequence>309</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.PerananPelulusPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893113</millis>
+  <sequence>310</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Sisi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+  <property name="description">click on menu sisi to expand menu selection</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893551</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Sisi&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893552</millis>
+  <sequence>318</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Sisi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:33</date>
+  <millis>1552462893552</millis>
+  <sequence>319</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896554</millis>
+  <sequence>321</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896555</millis>
+  <sequence>322</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896557</millis>
+  <sequence>323</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+  <property name="description">select on sub-menu akaun belum bayar</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896691</millis>
+  <sequence>330</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896692</millis>
+  <sequence>331</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:36</date>
+  <millis>1552462896692</millis>
+  <sequence>332</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899694</millis>
+  <sequence>334</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899697</millis>
+  <sequence>335</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899697</millis>
+  <sequence>336</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+  <property name="description">expand baucar bayaran sub-menu</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899778</millis>
+  <sequence>343</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899779</millis>
+  <sequence>344</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:39</date>
+  <millis>1552462899779</millis>
+  <sequence>345</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902781</millis>
+  <sequence>347</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902782</millis>
+  <sequence>348</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902783</millis>
+  <sequence>349</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">select menu Integrasi dalaman</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902925</millis>
+  <sequence>356</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902925</millis>
+  <sequence>357</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:42</date>
+  <millis>1552462902925</millis>
+  <sequence>358</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:45</date>
+  <millis>1552462905926</millis>
+  <sequence>360</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:45</date>
+  <millis>1552462905927</millis>
+  <sequence>361</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:45</date>
+  <millis>1552462905927</millis>
+  <sequence>362</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/input_No_Rekod\&amp;quot;), ArahanBayaranRekodID)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+  <property name="description">enter baucar bayaran rekod id into the filter field</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:46</date>
+  <millis>1552462906250</millis>
+  <sequence>374</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;19DAAB030300021&amp;apos; is set on object &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/input_No_Rekod&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:46</date>
+  <millis>1552462906251</millis>
+  <sequence>375</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/input_No_Rekod\&amp;quot;), ArahanBayaranRekodID)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:46</date>
+  <millis>1552462906251</millis>
+  <sequence>376</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">13</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909252</millis>
+  <sequence>378</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909253</millis>
+  <sequence>379</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909255</millis>
+  <sequence>380</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : doubleClick(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/select_No_Rekod\&amp;quot;, [\&amp;quot;text\&amp;quot;:ArahanBayaranRekodID]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">14</property>
+  <property name="description">double click on the filter result</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909353</millis>
+  <sequence>387</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/select_No_Rekod&amp;apos; is double clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909354</millis>
+  <sequence>388</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : doubleClick(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/select_No_Rekod\&amp;quot;, [\&amp;quot;text\&amp;quot;:ArahanBayaranRekodID]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:49</date>
+  <millis>1552462909354</millis>
+  <sequence>389</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">15</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912358</millis>
+  <sequence>391</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912360</millis>
+  <sequence>392</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912361</millis>
+  <sequence>393</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : namapenerima = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">16</property>
+  <property name="description">get the value of Nama Penerima</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912418</millis>
+  <sequence>400</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima&amp;apos; is: &amp;apos;MANJUNG POINT ONE ENTERPRISE&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912419</millis>
+  <sequence>401</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : namapenerima = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:52</date>
+  <millis>1552462912419</millis>
+  <sequence>402</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">65</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915420</millis>
+  <sequence>404</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915421</millis>
+  <sequence>405</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915423</millis>
+  <sequence>406</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyMatch(namapenerima, \&amp;quot;MANJUNG POINT ONE ENTERPRISE\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">18</property>
+  <property name="description">verify that nama penerima is what is set when filling in dengan pemfaktoran = Ya</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915431</millis>
+  <sequence>408</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;MANJUNG POINT ONE ENTERPRISE&amp;apos; and expected text &amp;apos;MANJUNG POINT ONE ENTERPRISE&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915431</millis>
+  <sequence>409</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyMatch(namapenerima, \&amp;quot;MANJUNG POINT ONE ENTERPRISE\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915431</millis>
+  <sequence>410</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : jumlahkeseluruhan = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/jumlah_amaun\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">71</property>
+  <property name="stepIndex">19</property>
+  <property name="description">get text of amount from the screen</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915471</millis>
+  <sequence>417</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/jumlah_amaun&amp;apos; is: &amp;apos;11.05&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915472</millis>
+  <sequence>418</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : jumlahkeseluruhan = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/jumlah_amaun\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:55</date>
+  <millis>1552462915472</millis>
+  <sequence>419</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">20</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918473</millis>
+  <sequence>421</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918474</millis>
+  <sequence>422</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918475</millis>
+  <sequence>423</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyMatch(jumlahkeseluruhan, \&amp;quot;11.05\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">77</property>
+  <property name="stepIndex">21</property>
+  <property name="description">verify that amount is a match</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918476</millis>
+  <sequence>425</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;11.05&amp;apos; and expected text &amp;apos;11.05&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918476</millis>
+  <sequence>426</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyMatch(jumlahkeseluruhan, \&amp;quot;11.05\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918476</millis>
+  <sequence>427</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Lulus\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">22</property>
+  <property name="description">click on button Lulus to approve the record</property>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918653</millis>
+  <sequence>434</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Lulus&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918653</millis>
+  <sequence>435</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Lulus\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:41:58</date>
+  <millis>1552462918654</millis>
+  <sequence>436</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">83</property>
+  <property name="stepIndex">23</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921657</millis>
+  <sequence>438</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921657</millis>
+  <sequence>439</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921658</millis>
+  <sequence>440</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">24</property>
+  <property name="description">click Ya to confirm approve</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921726</millis>
+  <sequence>447</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921727</millis>
+  <sequence>448</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:01</date>
+  <millis>1552462921727</millis>
+  <sequence>449</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">89</property>
+  <property name="stepIndex">25</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924730</millis>
+  <sequence>451</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924732</millis>
+  <sequence>452</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924733</millis>
+  <sequence>453</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : No_Baucar = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">26</property>
+  <property name="description">Get text of No Baucar from the prompt</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924800</millis>
+  <sequence>460</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan&amp;apos; is: &amp;apos;Rekod Berjaya Diluluskan.\nNo. Baucar : 19DABB0400116\nAdakah Anda Ingin Mencetak Rekod Ini?\nYaTidak&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924801</millis>
+  <sequence>461</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : No_Baucar = getText(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924801</millis>
+  <sequence>462</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(No_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">95</property>
+  <property name="stepIndex">27</property>
+  <property name="description">print the text</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>463</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(No_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>464</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Baucar_id = No_Baucar[(39..51)]</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">28</property>
+  <property name="description">take only the baucar ID which is from index 40 until 52</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>465</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Baucar_id = No_Baucar[(39..51)]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>466</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(Baucar_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">101</property>
+  <property name="stepIndex">29</property>
+  <property name="description">print baucar id</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>467</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(Baucar_id)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>468</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Nombor_Baucar = Baucar_id</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">30</property>
+  <property name="description">set global variable value of Nombor_Baucar with variable Baucar_id</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>469</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Nombor_Baucar = Baucar_id</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:04</date>
+  <millis>1552462924803</millis>
+  <sequence>470</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">107</property>
+  <property name="stepIndex">31</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:07</date>
+  <millis>1552462927804</millis>
+  <sequence>472</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:07</date>
+  <millis>1552462927805</millis>
+  <sequence>473</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:07</date>
+  <millis>1552462927805</millis>
+  <sequence>474</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">110</property>
+  <property name="stepIndex">32</property>
+  <property name="description">click on Ya button to confirm cetak</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928193</millis>
+  <sequence>481</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928194</millis>
+  <sequence>482</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928194</millis>
+  <sequence>483</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowIndex(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">113</property>
+  <property name="stepIndex">33</property>
+  <property name="description">switch to second tab to get screenshot of baucar bayaran after select cetak = Ya</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928230</millis>
+  <sequence>486</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928231</millis>
+  <sequence>487</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowIndex(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:08</date>
+  <millis>1552462928231</millis>
+  <sequence>488</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">34</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:11</date>
+  <millis>1552462931234</millis>
+  <sequence>490</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:11</date>
+  <millis>1552462931235</millis>
+  <sequence>491</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:11</date>
+  <millis>1552462931236</millis>
+  <sequence>492</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(180)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">119</property>
+  <property name="stepIndex">35</property>
+  <property name="description">wait 180seconds  for the baucar bayaran page to load </property>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932344</millis>
+  <sequence>494</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932345</millis>
+  <sequence>495</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(180)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932345</millis>
+  <sequence>496</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">36</property>
+  <property name="description">take screenshot of baucar bayaran</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932696</millis>
+  <sequence>497</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552462932351.png</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932696</millis>
+  <sequence>498</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932696</millis>
+  <sequence>499</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowIndex(0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">125</property>
+  <property name="stepIndex">37</property>
+  <property name="description">switch back the tab to main tab</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932719</millis>
+  <sequence>502</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932719</millis>
+  <sequence>503</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowIndex(0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:12</date>
+  <millis>1552462932720</millis>
+  <sequence>504</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">38</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:15</date>
+  <millis>1552462935723</millis>
+  <sequence>506</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:15</date>
+  <millis>1552462935725</millis>
+  <sequence>507</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:15</date>
+  <millis>1552462935725</millis>
+  <sequence>508</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">131</property>
+  <property name="stepIndex">39</property>
+  <property name="description">close the browser</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936379</millis>
+  <sequence>510</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936379</millis>
+  <sequence>511</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936379</millis>
+  <sequence>512</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936380</millis>
+  <sequence>513</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936383</millis>
+  <sequence>514</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</property>
+  <property name="description">Posting Bayaran is done in CM to process the baucar with cara bayaran EFT</property>
+  <property name="id">Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</property>
+  <property name="source">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Test Cases\\Perolehan\\008 Posting Bayaran\\001 Posting Bayaran - EFT.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936612</millis>
+  <sequence>516</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">open chrome browser and input ispek URL</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:16</date>
+  <millis>1552462936612</millis>
+  <sequence>518</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:18</date>
+  <millis>1552462938780</millis>
+  <sequence>520</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f8e36590f401992bc699fdbf37032074</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">f8e36590f401992bc699fdbf37032074</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:18</date>
+  <millis>1552462938817</millis>
+  <sequence>521</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.121</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.121</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:18</date>
+  <millis>1552462938817</millis>
+  <sequence>522</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:18</date>
+  <millis>1552462938818</millis>
+  <sequence>523</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:18</date>
+  <millis>1552462938819</millis>
+  <sequence>524</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:19</date>
+  <millis>1552462939806</millis>
+  <sequence>526</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://175.143.52.101:7011/1SPEKSv2/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:19</date>
+  <millis>1552462939807</millis>
+  <sequence>527</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.openbrowser is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:19</date>
+  <millis>1552462939807</millis>
+  <sequence>528</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:19</date>
+  <millis>1552462939808</millis>
+  <sequence>529</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">login into the system</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:19</date>
+  <millis>1552462939984</millis>
+  <sequence>549</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;601101955194&amp;apos; is set on object &amp;apos;Object Repository/Login/input_NoKadPengenalan&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:20</date>
+  <millis>1552462940068</millis>
+  <sequence>558</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Login/input_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:21</date>
+  <millis>1552462941216</millis>
+  <sequence>565</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/input_ButtonLogMasuk&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951218</millis>
+  <sequence>567</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951218</millis>
+  <sequence>568</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.Login is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951220</millis>
+  <sequence>569</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951220</millis>
+  <sequence>570</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.PerananPelulusBN()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">change peranan to Pelulus BN</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951298</millis>
+  <sequence>577</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/IconTukarPeranan&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951396</millis>
+  <sequence>584</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/input_TukarPelulusBN&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:31</date>
+  <millis>1552462951457</millis>
+  <sequence>591</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/button_Ya&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:51</date>
+  <millis>1552462971458</millis>
+  <sequence>593</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 20 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974024</millis>
+  <sequence>596</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Peranan : [Pelulus] Peringkat : [BN]&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974025</millis>
+  <sequence>597</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.PerananPelulusBN is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974026</millis>
+  <sequence>598</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.PerananPelulusBN()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974026</millis>
+  <sequence>599</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+  <property name="description">expand menu sis</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974469</millis>
+  <sequence>606</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974469</millis>
+  <sequence>607</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:54</date>
+  <millis>1552462974469</millis>
+  <sequence>608</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977471</millis>
+  <sequence>610</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977472</millis>
+  <sequence>611</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977473</millis>
+  <sequence>612</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+  <property name="description">select menu Pengurusan Tunai</property>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977547</millis>
+  <sequence>619</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977547</millis>
+  <sequence>620</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:42:57</date>
+  <millis>1552462977547</millis>
+  <sequence>621</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980550</millis>
+  <sequence>623</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980551</millis>
+  <sequence>624</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980552</millis>
+  <sequence>625</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_PostBayaran\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+  <property name="description">select sub-menu post bayaran</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980707</millis>
+  <sequence>632</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/div_PostBayaran&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980707</millis>
+  <sequence>633</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_PostBayaran\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:00</date>
+  <millis>1552462980708</millis>
+  <sequence>634</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983709</millis>
+  <sequence>636</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983711</millis>
+  <sequence>637</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983712</millis>
+  <sequence>638</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/Drop_down_No_Baucar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">click on drop down no baucar</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983803</millis>
+  <sequence>645</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/Drop_down_No_Baucar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983803</millis>
+  <sequence>646</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/Drop_down_No_Baucar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:03</date>
+  <millis>1552462983803</millis>
+  <sequence>647</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:06</date>
+  <millis>1552462986805</millis>
+  <sequence>649</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:06</date>
+  <millis>1552462986805</millis>
+  <sequence>650</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:06</date>
+  <millis>1552462986806</millis>
+  <sequence>651</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar\&amp;quot;), Nombor_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+  <property name="description">input no baucar that is saved in global variable</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:07</date>
+  <millis>1552462987153</millis>
+  <sequence>663</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;19DABB0400116&amp;apos; is set on object &amp;apos;Object Repository/Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:07</date>
+  <millis>1552462987154</millis>
+  <sequence>664</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar\&amp;quot;), Nombor_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:07</date>
+  <millis>1552462987154</millis>
+  <sequence>665</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">13</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990155</millis>
+  <sequence>667</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990156</millis>
+  <sequence>668</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990157</millis>
+  <sequence>669</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/select_No_Baucar\&amp;quot;, [\&amp;quot;text\&amp;quot;:Nombor_Baucar]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">14</property>
+  <property name="description">click on the record after it has been filtered. only one record will be displayed based on no baucar entered</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990254</millis>
+  <sequence>676</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/select_No_Baucar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990254</millis>
+  <sequence>677</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/select_No_Baucar\&amp;quot;, [\&amp;quot;text\&amp;quot;:Nombor_Baucar]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:10</date>
+  <millis>1552462990255</millis>
+  <sequence>678</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">15</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993256</millis>
+  <sequence>680</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993257</millis>
+  <sequence>681</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993258</millis>
+  <sequence>682</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_Cari\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">16</property>
+  <property name="description">click on button cari</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993341</millis>
+  <sequence>689</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/button_Cari&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993341</millis>
+  <sequence>690</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_Cari\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:13</date>
+  <millis>1552462993341</millis>
+  <sequence>691</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(23)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">17</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016344</millis>
+  <sequence>693</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 23 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016346</millis>
+  <sequence>694</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(23)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016346</millis>
+  <sequence>695</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : check(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/checkbox_proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">18</property>
+  <property name="description">check on the checkbox which is located on the end of record </property>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016477</millis>
+  <sequence>702</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Perolehan/008 Post Bayaran/checkbox_proses&amp;apos; is checked</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016477</millis>
+  <sequence>703</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : check(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/checkbox_proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016478</millis>
+  <sequence>704</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+  <property name="description">click button proses to process the record</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016670</millis>
+  <sequence>711</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/button_proses&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016670</millis>
+  <sequence>712</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:36</date>
+  <millis>1552463016670</millis>
+  <sequence>713</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">20</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019673</millis>
+  <sequence>715</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019673</millis>
+  <sequence>716</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019673</millis>
+  <sequence>717</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_Ya_Proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">21</property>
+  <property name="description">click on Ya to confirm process</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019903</millis>
+  <sequence>724</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/button_Ya_Proses&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019904</millis>
+  <sequence>725</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_Ya_Proses\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:39</date>
+  <millis>1552463019905</millis>
+  <sequence>726</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">81</property>
+  <property name="stepIndex">22</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029909</millis>
+  <sequence>728</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029910</millis>
+  <sequence>729</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029911</millis>
+  <sequence>730</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_OK\&amp;quot;), 180)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">84</property>
+  <property name="stepIndex">23</property>
+  <property name="description">wait for 180seconds for the pop-up to display, before verify the posting is successful</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029944</millis>
+  <sequence>736</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Perolehan/008 Post Bayaran/button_OK&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029944</millis>
+  <sequence>737</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_OK\&amp;quot;), 180)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:49</date>
+  <millis>1552463029945</millis>
+  <sequence>738</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyTextPresent(\&amp;quot;Proses Posting Berjaya.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">87</property>
+  <property name="stepIndex">24</property>
+  <property name="description">verify that posting is successful</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030646</millis>
+  <sequence>741</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Proses Posting Berjaya.&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030646</millis>
+  <sequence>742</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyTextPresent(\&amp;quot;Proses Posting Berjaya.\&amp;quot;, false)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030646</millis>
+  <sequence>743</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">25</property>
+  <property name="description">take screenshot</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030930</millis>
+  <sequence>744</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463030648.png</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030930</millis>
+  <sequence>745</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:50</date>
+  <millis>1552463030930</millis>
+  <sequence>746</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_OK\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">93</property>
+  <property name="stepIndex">26</property>
+  <property name="description">click on ok button to close the prompt</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:51</date>
+  <millis>1552463031204</millis>
+  <sequence>753</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/008 Post Bayaran/button_OK&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:51</date>
+  <millis>1552463031204</millis>
+  <sequence>754</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/008 Post Bayaran/button_OK\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:51</date>
+  <millis>1552463031204</millis>
+  <sequence>755</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">27</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034207</millis>
+  <sequence>757</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034208</millis>
+  <sequence>758</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034209</millis>
+  <sequence>759</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">99</property>
+  <property name="stepIndex">28</property>
+  <property name="description">close browser</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034853</millis>
+  <sequence>761</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034853</millis>
+  <sequence>762</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034853</millis>
+  <sequence>763</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034853</millis>
+  <sequence>764</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:54</date>
+  <millis>1552463034856</millis>
+  <sequence>765</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</property>
+  <property name="description">Penyedia will access AP and cetak baucar bayaran after the posting</property>
+  <property name="id">Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</property>
+  <property name="source">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Test Cases\\Perolehan\\009 Penyedia Cetak Baucar Bayaran\\001 Penyedia Cetak Baucar Bayaran.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:55</date>
+  <millis>1552463035087</millis>
+  <sequence>767</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Open browser and get to ispek URL</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:55</date>
+  <millis>1552463035087</millis>
+  <sequence>769</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037215</millis>
+  <sequence>771</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ae37401ad98411e2f7a1fb31beab60c8</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">ae37401ad98411e2f7a1fb31beab60c8</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037254</millis>
+  <sequence>772</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 72.0.3626.121</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 72.0.3626.121</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037255</millis>
+  <sequence>773</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037255</millis>
+  <sequence>774</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037256</millis>
+  <sequence>775</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037954</millis>
+  <sequence>777</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://175.143.52.101:7011/1SPEKSv2/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037955</millis>
+  <sequence>778</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.openbrowser is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037955</millis>
+  <sequence>779</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.openbrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:57</date>
+  <millis>1552463037955</millis>
+  <sequence>780</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Login into the application</property>
+</record>
+<record>
+  <date>2019-03-13T15:43:58</date>
+  <millis>1552463038143</millis>
+  <sequence>800</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;601101955194&amp;apos; is set on object &amp;apos;Object Repository/Login/input_NoKadPengenalan&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:43:58</date>
+  <millis>1552463038229</millis>
+  <sequence>809</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Login/input_Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:03</date>
+  <millis>1552463043312</millis>
+  <sequence>816</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login/input_ButtonLogMasuk&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053315</millis>
+  <sequence>818</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 10 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053315</millis>
+  <sequence>819</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.Login is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053316</millis>
+  <sequence>820</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.Login(findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(1, 2), findTestData(\&amp;quot;ispekstestdata\&amp;quot;).getValue(2, 2))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053316</millis>
+  <sequence>821</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : reusablefunctions.reusablefunctions.PerananPenyediaPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Change peranan to Penyedia PTJ</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053392</millis>
+  <sequence>828</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/IconTukarPeranan&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053486</millis>
+  <sequence>835</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/input_TukarPenyediaPTJ&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:13</date>
+  <millis>1552463053550</millis>
+  <sequence>842</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/TukarPeranan/button_Ya&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:33</date>
+  <millis>1552463073553</millis>
+  <sequence>844</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 20 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076094</millis>
+  <sequence>847</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Peranan : [Penyedia] Peringkat : [PTJ]&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076095</millis>
+  <sequence>848</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076095</millis>
+  <sequence>849</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : reusablefunctions.reusablefunctions.PerananPenyediaPTJ()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076095</millis>
+  <sequence>850</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Expand menu sisi</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076533</millis>
+  <sequence>857</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076534</millis>
+  <sequence>858</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:36</date>
+  <millis>1552463076534</millis>
+  <sequence>859</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079536</millis>
+  <sequence>861</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079536</millis>
+  <sequence>862</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079537</millis>
+  <sequence>863</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">6</property>
+  <property name="description">click on menu akaun belum bayar</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079615</millis>
+  <sequence>870</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079615</millis>
+  <sequence>871</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:39</date>
+  <millis>1552463079615</millis>
+  <sequence>872</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082618</millis>
+  <sequence>874</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082618</millis>
+  <sequence>875</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082619</millis>
+  <sequence>876</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+  <property name="description">click on menu carian akaun belum bayar to retrieve the baucar id that is previously processed</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082768</millis>
+  <sequence>883</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082768</millis>
+  <sequence>884</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:42</date>
+  <millis>1552463082769</millis>
+  <sequence>885</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">9</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:45</date>
+  <millis>1552463085770</millis>
+  <sequence>887</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:45</date>
+  <millis>1552463085770</millis>
+  <sequence>888</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:45</date>
+  <millis>1552463085770</millis>
+  <sequence>889</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">10</property>
+  <property name="description">click on drop down jenis carian</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090319</millis>
+  <sequence>896</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090320</millis>
+  <sequence>897</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090320</millis>
+  <sequence>898</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+  <property name="description">select carian by nombor baucar</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090521</millis>
+  <sequence>905</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090521</millis>
+  <sequence>906</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090521</millis>
+  <sequence>907</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar\&amp;quot;), Nombor_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">51</property>
+  <property name="stepIndex">12</property>
+  <property name="description">input no baucar that is a global variable baucar id</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090644</millis>
+  <sequence>919</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;19DABB0400116&amp;apos; is set on object &amp;apos;Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090644</millis>
+  <sequence>920</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar\&amp;quot;), Nombor_Baucar)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090644</millis>
+  <sequence>921</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">13</property>
+  <property name="description">click on button cari to search for the record</property>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090715</millis>
+  <sequence>928</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090715</millis>
+  <sequence>929</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:44:50</date>
+  <millis>1552463090716</millis>
+  <sequence>930</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">57</property>
+  <property name="stepIndex">14</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105717</millis>
+  <sequence>932</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 15 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105718</millis>
+  <sequence>933</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105719</millis>
+  <sequence>934</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">15</property>
+  <property name="description">click on button cetak to print the baucar again</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105893</millis>
+  <sequence>941</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105894</millis>
+  <sequence>942</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:05</date>
+  <millis>1552463105894</millis>
+  <sequence>943</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">16</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108896</millis>
+  <sequence>945</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108896</millis>
+  <sequence>946</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108897</millis>
+  <sequence>947</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForPageLoad(180)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">17</property>
+  <property name="description">wait for the page to load the document which will take some times</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108910</millis>
+  <sequence>949</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108910</millis>
+  <sequence>950</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForPageLoad(180)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:08</date>
+  <millis>1552463108910</millis>
+  <sequence>951</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">69</property>
+  <property name="stepIndex">18</property>
+  <property name="description">take the screen shot of the document loaded</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109262</millis>
+  <sequence>952</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Taking screenshot successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran\\20190313_153946\\1552463108912.png</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109263</millis>
+  <sequence>953</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109263</millis>
+  <sequence>954</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : switchToWindowIndex(0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">19</property>
+  <property name="description">switch to window tab index 1 to get the baucar displayed</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109272</millis>
+  <sequence>957</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;0&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109272</millis>
+  <sequence>958</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : switchToWindowIndex(0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:09</date>
+  <millis>1552463109272</millis>
+  <sequence>959</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">75</property>
+  <property name="stepIndex">20</property>
+  <property name="description">delay</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112274</millis>
+  <sequence>961</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112275</millis>
+  <sequence>962</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112276</millis>
+  <sequence>963</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">21</property>
+  <property name="description">close browser</property>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112933</millis>
+  <sequence>965</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112933</millis>
+  <sequence>966</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112933</millis>
+  <sequence>967</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112934</millis>
+  <sequence>968</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-03-13T15:45:12</date>
+  <millis>1552463112961</millis>
+  <sequence>969</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
