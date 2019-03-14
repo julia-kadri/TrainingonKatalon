@@ -30,7 +30,7 @@
             <profileName>default</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Perolehan/03 Inden Kerja Cara Bayaran EFT Dengan Pemfaktoran</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
