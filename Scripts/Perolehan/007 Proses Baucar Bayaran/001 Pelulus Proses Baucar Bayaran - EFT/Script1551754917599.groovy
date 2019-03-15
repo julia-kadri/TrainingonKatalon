@@ -63,7 +63,7 @@ WebUI.delay(3)
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/jumlah_amaun'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(15)
 
 'verify that amount is a match'
 WebUI.verifyMatch(jumlahkeseluruhan, '4.90', false)

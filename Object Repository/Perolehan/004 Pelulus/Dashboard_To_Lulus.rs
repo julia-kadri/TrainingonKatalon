@@ -6,12 +6,12 @@
    <elementGuidId>0cca73dc-20e7-4a38-b8aa-3f9629f65af1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@class = 'hoverStyle']</value>
+         <key>XPATH</key>
+         <value>//div[@id='holder']/div[@id='body']/div[1]/div[@title='']//div[@class='datagrid-view2']/div[@class='datagrid-body']/table[@class='datagrid-btable']/tbody/tr[15]/td[8]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='datagrid-row-r4-2-13']//td[@field='belumLulus1']</value>
+         <key>BASIC</key>
+         <value>//div[@class = 'hoverStyle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

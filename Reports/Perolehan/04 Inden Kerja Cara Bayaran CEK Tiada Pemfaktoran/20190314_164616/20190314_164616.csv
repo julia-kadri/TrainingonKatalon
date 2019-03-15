@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran,Chrome 72.0.3626.121,,2019-03-14 16:46:25,2019-03-14 16:47:26,1m - 0.559s,PASSED
+,,,,,,
+Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja,Chrome 72.0.3626.121,Penyemak will check the record and click Semak button to verify,2019-03-14 16:46:25,2019-03-14 16:47:26,1m - 0.268s,PASSED
+reusablefunctions.reusablefunctions.openbrowser(),Chrome 72.0.3626.121,open browser and enter ispek URL,2019-03-14 16:46:26,2019-03-14 16:46:30,4.282s,PASSED
+"reusablefunctions.reusablefunctions.Login(findTestData(""ispekstestdata"").getValue(1, 2), findTestData(""ispekstestdata"").getValue(2, 2))",Chrome 72.0.3626.121,login into the system as PROC test,2019-03-14 16:46:30,2019-03-14 16:46:42,12.036s,PASSED
+reusablefunctions.reusablefunctions.PerananPenyemakPTJ(),Chrome 72.0.3626.121,change peranan to penyemak ptj,2019-03-14 16:46:42,2019-03-14 16:47:05,22.718s,PASSED
+"doubleClick(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:05,2019-03-14 16:47:05,0.415s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:05,2019-03-14 16:47:08,3.004s,PASSED
+"setText(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod""), ArahanBayaranRekodID)",Chrome 72.0.3626.121,,2019-03-14 16:47:08,2019-03-14 16:47:09,0.594s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:09,2019-03-14 16:47:12,3.003s,PASSED
+"doubleClick(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod"", [""text"":ArahanBayaranRekodID]))",Chrome 72.0.3626.121,,2019-03-14 16:47:12,2019-03-14 16:47:12,0.093s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:12,2019-03-14 16:47:15,3.004s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:15,2019-03-14 16:47:15,0.120s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:15,2019-03-14 16:47:18,3.006s,PASSED
+"verifyElementChecked(findTestObject(""Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1""), 3)",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.052s,PASSED
+"verifyElementChecked(findTestObject(""Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2""), 3)",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.032s,PASSED
+"verifyElementChecked(findTestObject(""Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3""), 3)",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.033s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.062s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.080s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:18,0.078s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:18,2019-03-14 16:47:21,3.005s,PASSED
+takeScreenshot(),Chrome 72.0.3626.121,,2019-03-14 16:47:21,2019-03-14 16:47:22,0.440s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-14 16:47:22,2019-03-14 16:47:25,3.003s,PASSED
+"click(findTestObject(""Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak""))",Chrome 72.0.3626.121,,2019-03-14 16:47:25,2019-03-14 16:47:25,0.108s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 72.0.3626.121,,2019-03-14 16:47:25,2019-03-14 16:47:26,0.646s,PASSED

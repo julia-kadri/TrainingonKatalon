@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran" time="60" tests="1" failures="0" errors="0">
+   <testsuite name="04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran" tests="1" failures="0" errors="0" time="60" timestamp="2019-03-14 16:46:25" hostname="Consultant_MSPHitect - DESKTOP-V9TS2EM" id="Test Suites/Perolehan/04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran\\20190314_164616"/>
+         <property name="logFiles" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran\\20190314_164616\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran\\20190314_164616\\1552553241828.png"/>
+         <property name="hostName" value="Consultant_MSPHitect - DESKTOP-V9TS2EM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.172.132"/>
+         <property name="sessionId" value="39408106a73ea4bce635a0d2d73ed930"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja" classname="Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja" status="PASSED">
+         <system-out><![CDATA[2019-03-14 16:46:25 - [TEST_CASE][PASSED] - Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja: Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja
+
+2019-03-14 16:46:26 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-14 16:46:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-14 16:46:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-14 16:46:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-03-14 16:46:30 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-03-14 16:46:30 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(findTestData("ispekstestdata").getValue(1, 2), findTestData("ispekstestdata").getValue(2, 2)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-14 16:46:31 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-03-14 16:46:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-03-14 16:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-03-14 16:46:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-03-14 16:46:42 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-03-14 16:46:42 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyemakPTJ(): reusablefunctions.reusablefunctions.PerananPenyemakPTJ is PASSED
+
+2019-03-14 16:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-03-14 16:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPenyemakPTJ' is clicked on
+
+2019-03-14 16:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-03-14 16:47:02 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-03-14 16:47:05 - [MESSAGE][PASSED] - Text 'Peranan : [Penyemak] Peringkat : [PTJ]' is present on page 
+
+2019-03-14 16:47:05 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyemakPTJ is PASSED
+
+2019-03-14 16:47:05 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak' is double clicked on
+
+2019-03-14 16:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak' is double clicked on
+
+2019-03-14 16:47:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod"), ArahanBayaranRekodID): Text '19DAAB030300029' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-03-14 16:47:09 - [MESSAGE][PASSED] - Text '19DAAB030300029' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-03-14 16:47:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:12 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod", ["text":ArahanBayaranRekodID])): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod' is double clicked on
+
+2019-03-14 16:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod' is double clicked on
+
+2019-03-14 16:47:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-03-14 16:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-03-14 16:47:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak' is clicked on
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak' is clicked on
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak' is clicked on
+
+2019-03-14 16:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak' is clicked on
+
+2019-03-14 16:47:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-03-14 16:47:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran\\20190314_164616\\1552553241828.png]]
+
+2019-03-14 16:47:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-14 16:47:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-14 16:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-03-14 16:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-03-14 16:47:25 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-03-14 16:47:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-14 16:46:25 - [TEST_SUITE][PASSED] - 04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran: Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

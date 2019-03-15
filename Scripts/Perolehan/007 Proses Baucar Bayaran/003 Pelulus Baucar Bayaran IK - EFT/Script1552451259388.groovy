@@ -60,7 +60,7 @@ WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/select_No_
 WebUI.delay(3)
 
 'get the value of Nama Penerima'
-String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima'))
+String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus IK/Nama_Penerima - EFT'))
 
 WebUI.delay(3)
 
@@ -71,7 +71,7 @@ WebUI.verifyMatch(namapenerima, 'MANJUNG POINT ONE ENTERPRISE', false)
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/jumlah_amaun'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(15)
 
 'verify that amount is a match'
 WebUI.verifyMatch(jumlahkeseluruhan, '11.05', false)

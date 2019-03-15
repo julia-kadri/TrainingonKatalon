@@ -69,15 +69,22 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/D
 'Delay'
 WebUI.delay(3)
 
+'Search for Nama Pembekal JULIA COMPETENCY TRAINING'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/Input_Nama_Pembekal'), 'JULIA COMPETENCY TRAINING & SERVICES')
 
-WebUI.click(findTestObject(null), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-'Select Nama Pembekal AA DUA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_G0804CM29379'))
+'select nama pembekal from the filter result'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/select_nama_pembekal'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/Drop_down_cara_bayaran'))
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/Select_CEK'))
 
 'Delay'
-WebUI.delay(10)
+WebUI.delay(3)
 
 'Get todays year, date and time'
 mydate = new Date()
@@ -95,7 +102,27 @@ WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja -
 'Delay'
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TI'))
+'int RN is created to generete random number'
+def RN = ((Math.random() * 10000) as int)
+
+'Print the RN value'
+println(RN)
+
+'Input No Invois with random number generated from RN'
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
+
+WebUI.delay(3)
+
+'Input Amaun'
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/Label_Tarikh_Invois'))
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - CEK/Date_Picker_TI'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_picker_TI_Today'))
 
@@ -105,55 +132,12 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/D
 'Click today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-'Input Amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
-
-'int RN is created to generete random number'
-int RN = ((Math.random() * 10000) as int)
-
-'Print the RN value'
-println(RN)
-
-'Input No Invois with random number generated from RN'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
-
 WebUI.delay(5)
 
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
 
 WebUI.delay(3)
-
-WebUI.scrollToElement(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
-    180)
-
-WebUI.waitForElementPresent(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
-    180)
-
-'click on + icon to add information on Maklumat Penerima'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'))
-
-WebUI.delay(3)
-
-'click on drop down Penerima No K/P or Daftar'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat'))
-
-'delay'
-WebUI.delay(3)
-
-'select the pembekal as K0806SS29058'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
-
-'delay'
-WebUI.delay(3)
-
-'input total amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)
-
-'save the information'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_button_save'))
 
 'Click on Simpan button to save the record'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Simpan'))
