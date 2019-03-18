@@ -80,6 +80,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/a_Pembekal _textbox
 
 WebUI.delay(3)
 
+'set text value as JAMAL CHEF CATERING into Nama Pembekal to filter for this pembekal'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_name_Nama Pembekal'), 'JAMAL CHEF CATERING')
 
 WebUI.delay(3)
@@ -126,10 +127,13 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'
 
 WebUI.delay(8)
 
+'wait for the element becomes clickable'
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 60)
 
+'set value Vot Dana B31 into the filter for KOD'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 'B31')
 
+'wait for the element to become visible before click on it'
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'), 60)
 
 'Select Vot Dana B31'
@@ -143,7 +147,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Program_A
 'Delay'
 WebUI.delay(3)
 
-'Select Program Aktiviti 010080'
+'Select Program Aktiviti 160080'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Program_160080'))
 
 WebUI.delay(3)
@@ -154,13 +158,13 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Akaun
 'Delay'
 WebUI.delay(3)
 
-'Search for Kod Akaun B0221101'
+'Search for Kod Akaun B0229401'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_kod_akaun'), 'B0229401')
 
 'Delay'
 WebUI.delay(3)
 
-'Select Kod Akaun B0221101'
+'Select Kod Akaun B0229401'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kod_Akaun_B0229401'))
 
 WebUI.delay(3)
@@ -170,7 +174,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Baran
 
 WebUI.delay(8)
 
-'Select kod barang 2110100000000000000 - MAKANAN DAN MINUMAN'
+'Select kod barang 2940100000000000000 - MAKANAN DAN MINUMAN'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/SelectKod_Barang_2940100000000000000'))
 
 'Click Kategori Pesanan drop down to select a value'
@@ -191,7 +195,7 @@ WebUI.delay(3)
 'Select unit ukuran buah'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_unit_ukuran_buah'))
 
-'Input Harga Seunit as 1'
+'Input Harga Seunit as 1.77'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_harga_seunit'), '1.77')
 
 'Click on button Simpan to save the record'
@@ -200,6 +204,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_simpan_caj_l
 'Delay'
 WebUI.delay(3)
 
+'wait for the element becomes clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'), 3)
 
 'Click OK on prompt Bajet Mencukupi'
@@ -211,6 +216,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod
 'Delay'
 WebUI.delay(3)
 
+'wait for the element becomes clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
 
 'Click OK to close the prompt'
@@ -253,6 +259,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_master_PT
 'Delay'
 WebUI.delay(3)
 
+'wait for the element to becomes visible'
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ'), 60)
 
 'Select 00400101 - Pejabat Kewangan & Perbendaharaan (Pegawai Kewangan Negeri)'
@@ -261,6 +268,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ')
 'Delay'
 WebUI.delay(3)
 
+'check on Alamat Utama checkbox'
 WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/checkbox_alamat_utama'))
 
 'Click on button Tambah Senarai Barang'
@@ -296,6 +304,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod
 'Delay'
 WebUI.delay(3)
 
+'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
 
 'take screenshot'

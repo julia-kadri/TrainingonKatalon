@@ -72,7 +72,9 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/008 Post Bayaran/button_Cari'))
 
 'delay'
-WebUI.delay(23)
+WebUI.delay(25)
+
+WebUI.waitForElementClickable(findTestObject('Perolehan/008 Post Bayaran/checkbox_proses'), 180)
 
 'check on the checkbox which is located on the end of record '
 WebUI.check(findTestObject('Perolehan/008 Post Bayaran/checkbox_proses'))

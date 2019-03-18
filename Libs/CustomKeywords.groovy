@@ -8,50 +8,6 @@ import com.kms.katalon.core.testobject.TestObject
 import java.lang.String
 
 
-def static "ispeks.random.refreshBrowser"() {
-    (new ispeks.random()).refreshBrowser()
-}
-
-def static "ispeks.random.clickElement"(
-    	TestObject to	) {
-    (new ispeks.random()).clickElement(
-        	to)
-}
-
-def static "ispeks.random.getHtmlTableRows"(
-    	TestObject table	
-     , 	String outerTagName	) {
-    (new ispeks.random()).getHtmlTableRows(
-        	table
-         , 	outerTagName)
-}
-
-def static "ispeks.random.randomEngagementNameGenerator"() {
-    (new ispeks.random()).randomEngagementNameGenerator()
-}
-
-def static "ispeks.random.randomString"(
-    	int length	) {
-    (new ispeks.random()).randomString(
-        	length)
-}
-
-def static "ispeks.random.loginfunction"(
-    	String Username	
-     , 	String Password	) {
-    (new ispeks.random()).loginfunction(
-        	Username
-         , 	Password)
-}
-
-def static "ispeks.random.perananPenyediaPTJ"() {
-    (new ispeks.random()).perananPenyediaPTJ()
-}
-
-def static "ispeks.random.perananPenyemakPTJ"() {
-    (new ispeks.random()).perananPenyemakPTJ()
-}
-
 def static "reusablefunctions.reusablefunctions.refreshBrowser"() {
     (new reusablefunctions.reusablefunctions()).refreshBrowser()
 }

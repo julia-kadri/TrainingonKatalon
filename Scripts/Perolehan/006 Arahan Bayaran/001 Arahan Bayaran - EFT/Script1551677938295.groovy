@@ -92,7 +92,7 @@ WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/Maklumat_Terimaan
 WebUI.delay(3)
 
 'int RN is created to generete random number'
-int RN = ((Math.random() * 10000) as int)
+def RN = ((Math.random() * 10000) as int)
 
 'Print the RN value'
 println(RN)
@@ -100,8 +100,14 @@ println(RN)
 'Input No Invois with random number generated from RN'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_No_Invois'), 'INV0' + RN)
 
+WebUI.delay(3)
+
 'Input Amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Amaun_Invois_RM'), GlobalVariable.TotalAmaunPT)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Label_Tarikh_Invois'))
 
 'Click on Date Picker to display calendar to choose date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Tarikh_Invois'), FailureHandling.STOP_ON_FAILURE)

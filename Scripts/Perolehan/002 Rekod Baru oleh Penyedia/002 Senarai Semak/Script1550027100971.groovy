@@ -32,6 +32,7 @@ WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/
 'Click on Simpan to save Senarai Semak'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/button_simpan_senarai_semak'))
 
+'put a wait to get the element becomes clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/button_OK_Senarai_Semak_berjaya_disimpan'), 
     60)
 

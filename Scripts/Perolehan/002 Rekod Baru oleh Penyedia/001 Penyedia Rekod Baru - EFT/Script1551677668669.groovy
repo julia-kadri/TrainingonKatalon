@@ -34,7 +34,7 @@ println(formattedDate)
 'print year in yyyy format'
 println(formattedYear)
 
-'Get the year of Tahun Kewangan'
+'Get the year of Tahun Kewangan from the top section of the page'
 String TahunKewangan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/span_tahun_kewangan'))
 
 'Verify the year is a match'
@@ -120,10 +120,13 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'
 
 WebUI.delay(8)
 
+'put a wait to find element Vot Dana. This is important to not let the test failed as Vot Dana takes time to filter'
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 60)
 
+'set text B31 into Vot Dana filter'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 'B31')
 
+'Wait for 60seconds to get the result in the page'
 WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'), 60)
 
 'Select Vot Dana B31'
@@ -160,7 +163,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kod_Akaun_B0
 'Click kod barang drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Barang'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Select kod barang 2110100000000000000 - MAKANAN DAN MINUMAN'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/SelectKod_Barang'))
@@ -192,6 +195,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_simpan_caj_l
 'Delay'
 WebUI.delay(3)
 
+'Click on OK button to close the popup message'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'), 3)
 
 'Click OK on prompt Bajet Mencukupi'
@@ -203,6 +207,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod
 'Delay'
 WebUI.delay(3)
 
+'wait for the pop up with OK button to be clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
 
 'Click OK to close the prompt'
@@ -286,6 +291,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod
 'Delay'
 WebUI.delay(3)
 
+'wait for the element to be clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
 
 'take screenshot'

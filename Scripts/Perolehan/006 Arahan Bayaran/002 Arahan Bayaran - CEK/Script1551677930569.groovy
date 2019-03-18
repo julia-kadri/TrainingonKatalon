@@ -113,7 +113,7 @@ WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/Maklumat_Terimaan
 WebUI.delay(3)
 
 'int RN is created to generete random number'
-int RN = ((Math.random() * 10000) as int)
+def RN = ((Math.random() * 10000) as int)
 
 'Print the RN value'
 println(RN)

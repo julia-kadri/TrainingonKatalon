@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Kemasukan_Teri
 assert true
 
 'Carian page loaded successfully'
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Click on button Rekod Baru '
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_REKOD BARU'))

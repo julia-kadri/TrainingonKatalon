@@ -34,6 +34,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/but
 
 WebUI.delay(3)
 
+'wait for the element to be clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/button_OK_Sah_Simpan'), 60)
 
 'Take screenshot of the Rekod ID'
