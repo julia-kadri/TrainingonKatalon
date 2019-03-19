@@ -26,13 +26,16 @@ CustomKeywords.'reusablefunctions.reusablefunctions.PerananPengesahBN'()
 'Select Pesanan Tempatan - Jumlah untuk disahkan from Dashboard'
 WebUI.doubleClick(findTestObject('Perolehan/003 Pengesah/Dashboard_To_Sah'))
 
+'delay'
 WebUI.delay(3)
 
+'input no record based on global variable value captured during sah simpan'
 WebUI.setText(findTestObject('Perolehan/003 Pengesah/input_No_Rekod'), GlobalVariable.PesananTempatanRekodID)
 
 'Select first row from the list of Senarai Tugas'
 WebUI.doubleClick(findTestObject('Perolehan/003 Pengesah/Senarai_Tugas_Item_No_1', [('text') : GlobalVariable.PesananTempatanRekodID]))
 
+'delay'
 WebUI.delay(3)
 
 'Get todays year and date'
@@ -62,6 +65,7 @@ String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/003 Pengesah/Label
 'verify tarikh semasa matches system date'
 WebUI.verifyMatch(TarikhSemasa, formattedDate, false)
 
+'delay'
 WebUI.delay(3)
 
 'get jumlah pesanan tempatan value '
@@ -76,6 +80,7 @@ WebUI.verifyMatch(jumlah, GlobalVariable.TotalAmaunPT, false)
 'Click on Sah button to sah'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/button_sah'))
 
+'delay'
 WebUI.delay(3)
 
 'click on Ya to confirm sah'
@@ -84,6 +89,7 @@ WebUI.click(findTestObject('Perolehan/003 Pengesah/Button_ya_sahkan'))
 'Delay'
 WebUI.delay(5)
 
+'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 60)
 
 'Delay'
@@ -92,5 +98,6 @@ WebUI.delay(5)
 'click on OK to close the prompt after Sah is complete'
 WebUI.click(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'))
 
+'close browser'
 WebUI.closeBrowser()
 

@@ -56,7 +56,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokume
 'Delay'
 WebUI.delay(3)
 
-'Set text RekodID based on the variable get from Pelulus page on Pesanan Tempatan  '
+'Set text RekodID based on the variable get from Pelulus page on Inden Kerja'
 WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
 
 'Delay'

@@ -29,11 +29,13 @@ WebUI.doubleClick(findTestObject('Perolehan/004 Pelulus/Dashboard_To_Lulus'))
 'Delay'
 WebUI.delay(3)
 
+'input no record based on global variable value captured during sah simpan'
 WebUI.setText(findTestObject('Perolehan/004 Pelulus/input_No_Rekod'), GlobalVariable.PesananTempatanRekodID)
 
 'Double click on item no 1 from senarai tugas'
 WebUI.doubleClick(findTestObject('Perolehan/004 Pelulus/Senarai_Tugas_Item_No_1', [('text') : GlobalVariable.PesananTempatanRekodID]))
 
+'Delay'
 WebUI.delay(3)
 
 'Get todays year and date'
@@ -63,11 +65,13 @@ String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/003 Pengesah/Label
 'verify tarikh semasa matches system date'
 WebUI.verifyMatch(TarikhSemasa, formattedDate, false)
 
+'Delay'
 WebUI.delay(20)
 
 'get jumlah pesanan tempatan value '
 String jumlah = WebUI.getText(findTestObject('Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan'))
 
+'Delay'
 WebUI.delay(3)
 
 'print jumlah'
@@ -85,6 +89,7 @@ WebUI.click(findTestObject('Perolehan/004 Pelulus/button_ya_luluskan'))
 'Delay'
 WebUI.delay(8)
 
+'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/004 Pelulus/button_OK_Berjaya_lulus'), 180)
 
 'Get text of Rekod ID from the alert popup'
@@ -102,10 +107,12 @@ println(PTDokumenID)
 'set global variable value of RekodID with variable RekodNo'
 GlobalVariable.PesananTempatanDokumenID = PTDokumenID
 
+'Delay'
 WebUI.delay(3)
 
 'click on OK to close the prompt after lulus is complete'
 WebUI.click(findTestObject('Perolehan/004 Pelulus/button_OK_Berjaya_lulus'))
 
+'close browser'
 WebUI.closeBrowser()
 

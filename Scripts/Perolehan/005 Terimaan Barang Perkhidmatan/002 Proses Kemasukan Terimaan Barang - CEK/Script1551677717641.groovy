@@ -56,7 +56,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokume
 'Delay'
 WebUI.delay(3)
 
-'Set text RekodID based on the variable get from Pelulus page on Pesanan Tempatan  '
+'input dokumen no based on the variable get from Pelulus page on Pesanan Tempatan  '
 WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
 
 'Delay'
@@ -65,10 +65,13 @@ WebUI.delay(5)
 'Select the No Dokumen displayed after the filter'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/select_No_Dokumen'))
 
+'delay'
 WebUI.delay(3)
 
+'click on cari button to find the record'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Cari'))
 
+'delay'
 WebUI.delay(3)
 
 'Click on OK to close the prompt box '
@@ -114,6 +117,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Simpan'))
 'Delay'
 WebUI.delay(3)
 
+'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 60)
 
 'Click OK to close the prompt box'
@@ -128,6 +132,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Ya_Sah_Simpa
 'Delay'
 WebUI.delay(3)
 
+'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 180)
 
 'Take screenshot of the rekod ID'

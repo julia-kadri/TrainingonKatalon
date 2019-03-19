@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 'click on drop down nama pembekal'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
-'input nama pembekal green miracle enterprise from the drop down list'
+'input nama pembekal green miracle enterprise in the filter textbox'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), 'GREEN MIRACLE ENTERPRISE')
 
 'select nama pembekal from the filter result'
@@ -123,54 +123,58 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
 'select kod akaun from filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis'))
 
-'Click Rekod Baru button'
+'input kuantiti as 7'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kuantiti'), '7')
 
-'Click Rekod Baru button'
+'input harga seunit as 1.58'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_harga_seunit'), '1.58')
 
-'Click'
+'Click on icon simpan maklumat terperinci button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_maklumat_terperinci'))
 
+'delay'
 WebUI.delay(3)
 
-'Click'
+'Click on OK button to close the popup message budget is sufficient '
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_peruntukan_mencukupi'))
 
+'delay'
 WebUI.delay(3)
 
-'Click'
+'Click on Simpan button to save the record'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Simpan'))
 
+'delay'
 WebUI.delay(3)
 
-'Click'
+'Click on OK button to close the popup message record is saved successfully'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_rekod_berjaya_disimpan'))
 
-'Click'
+'Click Senarai semak button to open senarai semak checkbox list'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Senarai_Semak'))
 
+'delay'
 WebUI.delay(3)
 
-'Click'
+'Check on senarai semak item'
 WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak1'))
 
-'Click'
+'Check on senarai semak item'
 WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak2'))
 
-'Click'
+'Check on senarai semak item'
 WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak3'))
 
-'Click'
+'Click simpan senarai semak button to save senarai semak info'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_senarai_semak'))
 
-'Click'
+'Click on OK button to close the popup message recors is saved successfully'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_maklumat_berjaya_disimpan'))
 
 'Click X button on top left to close Senarai Semak screen'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_X_close_senarai_semak'))
 
-'Get the Amaun'
+'Get the total Amaun'
 String Total = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT'))
 
 'print Total'
@@ -179,20 +183,20 @@ println(Total)
 'set global variable value of TotalAmaun with variable Total'
 GlobalVariable.TotalAmaunPT = Total
 
-'Click'
+'Click sah simpam button to confirm save record'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_sah_simpan'))
 
-'Click'
+'Click Ya button to confirm action'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Ya_Sah_Simpan'))
 
-'Click'
-String PTRekodberjayaID = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Rekod_berjaya_No_Rekod'))
+'get value of record id '
+def PTRekodberjayaID = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Rekod_berjaya_No_Rekod'))
 
 'print PTRekodberjayaID'
 println(PTRekodberjayaID)
 
 'Take only the PTRekodID value from the get text'
-String PTRekodID = PTRekodberjayaID[(47..61)]
+def PTRekodID = PTRekodberjayaID[(47..61)]
 
 'print the value'
 println(PTRekodID)
@@ -200,11 +204,15 @@ println(PTRekodID)
 'set global variable value of PesananTempatanRekodID with variable PTRekodID'
 GlobalVariable.PesananTempatanRekodID = PTRekodID
 
+'delay'
 WebUI.delay(3)
 
+'take screenshot of the popup message with record id for reference'
 WebUI.takeScreenshot()
 
+'click OK button to close the popup message'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan'))
 
+'close browser'
 WebUI.closeBrowser()
 
