@@ -163,7 +163,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kod_Akaun_B0
 'Click kod barang drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Barang'))
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 'Select kod barang 2110100000000000000 - MAKANAN DAN MINUMAN'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/SelectKod_Barang'))

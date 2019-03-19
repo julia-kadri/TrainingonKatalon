@@ -13,107 +13,114 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Call test to open menu sisi and then select pesanan tempatan / inden kerja'
 WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru'))
 
+'delay'
 WebUI.delay(3)
 
-'Click Rekod Baru button'
+'Click on drop down Jenis Urusniaga'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Jenis_Urusniaga'))
 
+'delay'
 WebUI.delay(2)
 
 'Get todays year and date'
 mydate = new Date()
 
-'Click Rekod Baru button'
+'Select inden kerja auto from the drop down list'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_INDEN KERJA AUTO'))
 
-'Click Rekod Baru button'
+'click on drop down nama pembekal'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
-'Click Rekod Baru button'
+'input nama pembekal green miracle enterprise from the drop down list'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), 'GREEN MIRACLE ENTERPRISE')
 
-'Click Rekod Baru button'
+'select nama pembekal from the filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Pembekal_Green_Miracle'))
 
-'Click Rekod Baru button'
+'click on the calendar date picker for sila bekalkan'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan'))
 
+'delay'
 WebUI.delay(3)
 
-'Click Rekod Baru button'
+'click next month from the calendar picker'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Next_month'))
 
-'Click Rekod Baru button'
+'select date 26th of the month'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Select_date_26th'))
 
-'Click Rekod Baru button'
+'input no tanggungan'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_no_tanggungan'), '2')
 
-'Click Rekod Baru button'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_amaun_tanggungan'), '2')
+'input amaun tanggungan'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_amaun_tanggungan'), '100')
 
-'Click Rekod Baru button'
+'input ringkasan kerja'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ringkasan_kerja'), 'ringkasan kerja untuk inden kerja')
 
 'int RN is created to generete random number'
-int RN = ((Math.random() * 100000) as int)
+def RN = ((Math.random() * 100000) as int)
 
-'Click Rekod Baru button'
+'input rujukan fail as random number that starts with IK00 + RN number'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'), 'IK00' + 
     RN)
 
 'get Input Rujukan fail value'
-GlobalVariable.IKno_rujukan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'))
+GlobalVariable.IKno_rujukan = 'IK00' + RN
 
 println(GlobalVariable.IKno_rujukan)
 
-'Click Rekod Baru button'
+'input kerja terperinci with current date and time stamp'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'), 'kerja terperinci ' + 
     mydate)
 
-'Click Rekod Baru button'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'), 'test here ' + 
+'input perihal test with current date and time stamp'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'), 'test inden kerja cara bayaran EFT ' + 
     mydate)
 
-'Click Rekod Baru button'
+'Click on button add to add maklumat terperinci details'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci'))
 
+'delay'
 WebUI.delay(3)
 
-'Click Rekod Baru button'
+'click on drop down vot dana'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana'))
 
+'delay'
 WebUI.delay(8)
 
-'Click Rekod Baru button'
+'input vot dana kod value B31 to filter for this kod '
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Vot_kod'), 'B31')
 
-'Click'
+'select vot dana from filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_B31'))
 
-'Click Rekod Baru button'
+'Click drop down program aktiviti'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti'))
 
+'delay'
 WebUI.delay(3)
 
-'Click Rekod Baru button'
+'input program aktiviti kod value 160080 to filter for this kod'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ProgramAktiviti_kod'), '160080')
 
-'Click'
+'select program aktiviti kod from filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti_010080'))
 
-'Click Rekod Baru button'
+'click drop down kod akaun'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun'))
 
-'Click Rekod Baru button'
+'input kod akaun value B0227102 to filter for this kod'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kod_Akaun_kod'), 'B0227102')
 
-'Click'
+'select kod akaun from filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis'))
 
 'Click Rekod Baru button'
