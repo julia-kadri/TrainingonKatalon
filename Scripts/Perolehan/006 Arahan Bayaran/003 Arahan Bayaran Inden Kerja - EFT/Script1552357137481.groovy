@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/D
 'Delay'
 WebUI.delay(3)
 
-'Select Kod Jenis Baucar Bayaran that is ARAHAN BAYARAN-PESANAN TEMPATAN'
+'Select Kod Jenis Baucar Bayaran that is ARAHAN BAYARAN-INDEN KERJA'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_AB0303_Inden_Kerja'))
 
 'Delay'
@@ -69,20 +69,22 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/D
 'Delay'
 WebUI.delay(3)
 
-'Select Nama Pembekal AA DUA'
+'Select Nama Pembekal'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_G0804CM29379'))
 
 'Delay'
 WebUI.delay(10)
 
+'click on jenis pemfaktoran drop down list'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
 
+'select Ya from the drop down list'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya'))
 
 'Get todays year, date and time'
 mydate = new Date()
 
-'Input Perihal'
+'Input Perihal with date and time stamp'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
     mydate)
 
@@ -95,16 +97,19 @@ WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja -
 'Delay'
 WebUI.delay(3)
 
+'click on date picker to display calendar'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TI'))
 
+'select today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_picker_TI_Today'))
 
-'Click on Date Picker to display calendar to choose date'
+'Click on Date Picker to display calendar to choose tarikh terima kewangan date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK'), FailureHandling.STOP_ON_FAILURE)
 
 'Click today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
 
+'delay'
 WebUI.delay(3)
 
 'Input Amaun'
@@ -124,17 +129,21 @@ WebUI.delay(5)
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
 
+'delay'
 WebUI.delay(3)
 
+'click on tambah button to add maklumat penerima - this is allowed to add when Dengan Pemfaktoran = Ya'
 WebUI.scrollToElement(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
     180)
 
+'wait for the element to become visible and present'
 WebUI.waitForElementPresent(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
     180)
 
 'click on + icon to add information on Maklumat Penerima'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'))
 
+'delay'
 WebUI.delay(3)
 
 'click on drop down Penerima No K/P or Daftar'
@@ -143,7 +152,7 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/P
 'delay'
 WebUI.delay(3)
 
-'select the pembekal as K0806SS29058'
+'select the pembekal kod as M0808SM29376'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
 
 'delay'

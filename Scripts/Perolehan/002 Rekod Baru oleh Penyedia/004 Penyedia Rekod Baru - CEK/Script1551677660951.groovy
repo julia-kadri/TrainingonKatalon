@@ -83,11 +83,13 @@ WebUI.delay(3)
 'set text value as JAMAL CHEF CATERING into Nama Pembekal to filter for this pembekal'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_name_Nama Pembekal'), 'JAMAL CHEF CATERING')
 
+'delay'
 WebUI.delay(3)
 
 'Select Pembekal from the list'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_Pembekal Jamal'))
 
+'delay'
 WebUI.delay(3)
 
 'Verify that No Akaun Pembekal is populated'
@@ -115,16 +117,19 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Date_Picker_Bekal_K
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Text_box_Perihal'), 'This is a test for PT - Cek automation scripts - Julia ' + 
     mydate)
 
+'delay'
 WebUI.delay(3)
 
 'Click button Tambah Caj Line'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_TambahCajLine'))
 
+'delay'
 WebUI.delay(3)
 
 'Click Vot Dana drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'))
 
+'delay'
 WebUI.delay(8)
 
 'wait for the element becomes clickable'
@@ -139,6 +144,7 @@ WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Sel
 'Select Vot Dana B31'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'))
 
+'delay'
 WebUI.delay(3)
 
 'Click Program Aktiviti drop down to select a value'
@@ -150,6 +156,7 @@ WebUI.delay(3)
 'Select Program Aktiviti 160080'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Program_160080'))
 
+'delay'
 WebUI.delay(3)
 
 'Click Kod Akaun drop down to select a value'
@@ -167,11 +174,13 @@ WebUI.delay(3)
 'Select Kod Akaun B0229401'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kod_Akaun_B0229401'))
 
+'delay'
 WebUI.delay(3)
 
 'Click kod barang drop down to select a value'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Barang'))
 
+'delay'
 WebUI.delay(8)
 
 'Select kod barang 2940100000000000000 - MAKANAN DAN MINUMAN'
@@ -222,6 +231,7 @@ WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/b
 'Click OK to close the prompt'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'))
 
+'delay'
 WebUI.delay(3)
 
 'Get value of Jumlah Pesanan Tempatan'

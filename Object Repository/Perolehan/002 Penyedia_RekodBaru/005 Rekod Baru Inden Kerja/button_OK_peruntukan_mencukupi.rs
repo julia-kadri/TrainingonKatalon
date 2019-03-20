@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='PERUNTUKAN MENCUKUPI'])[1]/following::span[2]</value>
+         <value>//span[contains(text(),'Ok')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -72,8 +72,9 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru In
     RN)
 
 'get Input Rujukan fail value'
-GlobalVariable.IKno_rujukan = 'IK00' + RN
+GlobalVariable.IKno_rujukan = ('IK00' + RN)
 
+'print the value into console for display'
 println(GlobalVariable.IKno_rujukan)
 
 'input kerja terperinci with current date and time stamp'

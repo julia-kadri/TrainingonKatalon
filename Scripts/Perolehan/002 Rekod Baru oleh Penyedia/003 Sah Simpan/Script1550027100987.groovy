@@ -24,6 +24,7 @@ println(Total)
 'set global variable value of TotalAmaun with variable Total'
 GlobalVariable.TotalAmaunPT = Total
 
+'delay'
 WebUI.delay(3)
 
 'Click on button Sah Simpan'
@@ -32,6 +33,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/but
 'Click Ya to confirm Sah Simpan'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/button_Ya_Sah_Simpan'))
 
+'delay'
 WebUI.delay(3)
 
 'wait for the element to be clickable'
@@ -40,7 +42,7 @@ WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/0
 'Take screenshot of the Rekod ID'
 WebUI.takeScreenshot()
 
-'Get the PTRekodberjayaID from popup'
+'Get the PTRekodberjayaID from popup message'
 String PTRekodberjayaID = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/RekodBerjayadiSahSimpan'))
 
 'print PTRekodberjayaID'
@@ -55,6 +57,7 @@ println(PTRekodID)
 'set global variable value of PesananTempatanRekodID with variable PTRekodID'
 GlobalVariable.PesananTempatanRekodID = PTRekodID
 
+'delay'
 WebUI.delay(3)
 
 'Click OK to close the prompt box'

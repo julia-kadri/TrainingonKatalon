@@ -23,6 +23,7 @@ CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekst
 'Delay'
 WebUI.delay(3)
 
+'change role to peranan penyedia PTJ'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
 
 'Click on Menu Sisi to display Menu selections'
@@ -100,16 +101,19 @@ println(RN)
 'Input No Invois with random number generated from RN'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_No_Invois'), 'INV0' + RN)
 
+'delay'
 WebUI.delay(3)
 
 'Input Amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Amaun_Invois_RM'), GlobalVariable.TotalAmaunPT)
 
+'delay'
 WebUI.delay(3)
 
+'click on the label Tarikh Invois'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Label_Tarikh_Invois'))
 
-'Click on Date Picker to display calendar to choose date'
+'Click on Date Picker to display calendar to choose tarikh invois date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Tarikh_Invois'), FailureHandling.STOP_ON_FAILURE)
 
 'Delay'
@@ -118,7 +122,7 @@ WebUI.delay(2)
 'Click Today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Today_Tarikh_Invois'), FailureHandling.STOP_ON_FAILURE)
 
-'Click on Date Picker to display calendar to choose date'
+'Click on Date Picker to display calendar to choose tarikh terima oleh kewangan date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Tarikh Terima Oleh Kewangan'), FailureHandling.STOP_ON_FAILURE)
 
 'Delay'

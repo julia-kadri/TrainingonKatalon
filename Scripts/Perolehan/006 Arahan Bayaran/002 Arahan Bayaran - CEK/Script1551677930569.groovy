@@ -94,12 +94,13 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Dengan_Pemfak
 'select dengan pemfaktoran as Ya'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Select_Ya_Dengan_Pemfaktoran'))
 
+'delay'
 WebUI.delay(3)
 
 'Get todays year, date and time'
 mydate = new Date()
 
-'Input Perihal'
+'Input Perihal with date and time stamp'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Perihal'), 'This is a test for Pesanan Tempatan Cara Bayaran CEK ' + 
     mydate)
 
@@ -124,7 +125,7 @@ WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_No_Invois'), 'I
 'Input Amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_Amaun_Invois_RM'), GlobalVariable.TotalAmaunPT)
 
-'Click on Date Picker to display calendar to choose date'
+'Click on Date Picker to display calendar to choose tarikh invois date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Tarikh_Invois'), FailureHandling.STOP_ON_FAILURE)
 
 'Delay'
@@ -133,7 +134,7 @@ WebUI.delay(2)
 'Click Today'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Today_Tarikh_Invois'), FailureHandling.STOP_ON_FAILURE)
 
-'Click on Date Picker to display calendar to choose date'
+'Click on Date Picker to display calendar to choose tarikh terima oleh kewangan date'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/a_Tarikh Terima Oleh Kewangan'), FailureHandling.STOP_ON_FAILURE)
 
 'Delay'
@@ -157,7 +158,7 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/Drop_Down_Penerima_No_D
 'delay'
 WebUI.delay(3)
 
-'enter pembekal with kod K0806SS29058'
+'input pembekal with kod K0806SS29058'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/input_name_kod Pembekal'), 'K0806SS29058')
 
 'delay'
@@ -235,6 +236,7 @@ println(ArahanBayaranID)
 'set global variable value of RekodID with variable RekodNo'
 GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 
+'delay'
 WebUI.delay(3)
 
 'Click OK to close the prompt box'
