@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[19]/div[@title='']/div/div[@title='']//table[@class='datagrid-btable']//tr//div[contains(text(),'B0227102')]</value>
+         <value>//div[contains(text(),'B0227102')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

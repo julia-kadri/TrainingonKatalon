@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//body/div[24]/div[@title='']/div/div[@title='']//table[@class='datagrid-btable']/tbody/tr[2]//div[contains (@class,'kod')]</value>
+         <value>//div[contains(text(),'160080')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
