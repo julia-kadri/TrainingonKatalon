@@ -46,74 +46,74 @@ assert true
 WebUI.delay(3)
 
 'Arahan Bayaran page loaded successfully'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/button_REKOD_BARU'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_REKOD_BARU'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click Jenis Baucar Bayaran drop down'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran'), FailureHandling.STOP_ON_FAILURE)
 
 'Delay'
 WebUI.delay(3)
 
 'Select Kod Jenis Baucar Bayaran that is ARAHAN BAYARAN-INDEN KERJA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_AB0303_Inden_Kerja'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_AB0303_Inden_Kerja'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click Nama Pembekal drop down'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Nama_Pembekal'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Nama_Pembekal'))
 
 'Delay'
 WebUI.delay(3)
 
 'Select Nama Pembekal'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/select_G0804CM29379'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_G0804CM29379'))
 
 'Delay'
 WebUI.delay(10)
 
 'click on jenis pemfaktoran drop down list'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
 
 'select Ya from the drop down list'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya'))
 
 'Get todays year, date and time'
 mydate = new Date()
 
 'Input Perihal with date and time stamp'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
     mydate)
 
 'Delay'
 WebUI.delay(3)
 
 'Click on 1st item from the list of records'
-WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/List_maklumat_terimaan_barang'))
+WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/List_maklumat_terimaan_barang'))
 
 'Delay'
 WebUI.delay(3)
 
 'click on date picker to display calendar'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TI'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TI'))
 
 'select today'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_picker_TI_Today'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_picker_TI_Today'))
 
 'Click on Date Picker to display calendar to choose tarikh terima kewangan date'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK'), FailureHandling.STOP_ON_FAILURE)
 
 'Click today'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK_Today'), FailureHandling.STOP_ON_FAILURE)
 
 'delay'
 WebUI.delay(3)
 
 'Input Amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Amaun_Invois'), GlobalVariable.TotalAmaunPT)
 
 'int RN is created to generete random number'
 int RN = ((Math.random() * 10000) as int)
@@ -122,89 +122,89 @@ int RN = ((Math.random() * 10000) as int)
 println(RN)
 
 'Input No Invois with random number generated from RN'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_No_Invois'), 'INV0' + RN)
 
 WebUI.delay(5)
 
 'Click on Save icon to save maklumat terima barang'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
 
 'delay'
 WebUI.delay(3)
 
 'click on tambah button to add maklumat penerima - this is allowed to add when Dengan Pemfaktoran = Ya'
-WebUI.scrollToElement(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
+WebUI.scrollToElement(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
     180)
 
 'wait for the element to become visible and present'
-WebUI.waitForElementPresent(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
+WebUI.waitForElementPresent(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima'), 
     180)
 
 'click on + icon to add information on Maklumat Penerima'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_tambah_maklumat_penerima'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima'))
 
 'delay'
 WebUI.delay(3)
 
 'click on drop down Penerima No K/P or Daftar'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat'))
 
 'delay'
 WebUI.delay(3)
 
 'select the pembekal kod as M0808SM29376'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
 
 'delay'
 WebUI.delay(3)
 
 'input total amaun'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)
 
 'save the information'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Penerima_button_save'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_button_save'))
 
 'Click on Simpan button to save the record'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Simpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan'))
 
 'Click Ya to confirm save'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Ya_Simpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Simpan'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click OK button to close the prompt box'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_OK_rekod_disimpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_disimpan'))
 
 'Click on Senarai Semak button to select list of senarai semak'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Senarai Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Senarai Semak'))
 
 'Check on the first item from senarai semak '
-WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_1'))
+WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1'))
 
 'Check on the first item from senarai semak '
-WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_Semak_2'))
+WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2'))
 
 'Check on the first item from senarai semak '
-WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Senarai_semak_3'))
+WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3'))
 
 'Click on Simpan to save the Senarai Semak'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Simpan_Senarai_Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan_Senarai_Semak'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click OK to close the prompt box'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_OK_maklumat_Senarai_Semak_disimpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_maklumat_Senarai_Semak_disimpan'))
 
 'Click X to close the popup window'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_X_close_senarai_semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak'))
 
 'Click Sah Simpan button to Sah Simpan the record'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Sah Simpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan'))
 
 'Click Ya to confirm '
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_Ya_Sah_Simpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Sah_Simpan'))
 
 'Delay'
 WebUI.delay(3)
@@ -213,7 +213,7 @@ WebUI.delay(3)
 WebUI.takeScreenshot()
 
 'Get text of Rekod ID from the alert popup'
-String attribute = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/Rekod Telah Berjaya Disah Simpan'))
+String attribute = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Rekod Telah Berjaya Disah Simpan'))
 
 'print the value'
 println(attribute)
@@ -231,7 +231,7 @@ GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 WebUI.delay(3)
 
 'Click OK to close the prompt box'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'))
 
 'Close the browser'
 WebUI.closeBrowser()

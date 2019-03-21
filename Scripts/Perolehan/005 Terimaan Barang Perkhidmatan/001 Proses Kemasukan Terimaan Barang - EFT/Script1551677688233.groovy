@@ -45,95 +45,95 @@ assert true
 WebUI.delay(5)
 
 'Click on button Rekod Baru '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_REKOD BARU'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_REKOD BARU'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click No Dokumen drop down list'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Drop_down_No_Dokumen'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Drop_down_No_Dokumen'))
 
 'Delay'
 WebUI.delay(3)
 
 'input no dokumen based on the variable get from Pelulus page on Pesanan Tempatan  '
-WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
+WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
 
 'Delay'
 WebUI.delay(5)
 
 'Select the No Dokumen displayed after the filter'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/select_No_Dokumen'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_No_Dokumen'))
 
 'delay'
 WebUI.delay(3)
 
 'click on Cari button to start search for the record with dokumen no'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Cari'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Cari'))
 
 'delay'
 WebUI.delay(3)
 
 'Click on OK to close the prompt box '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/OK_Rekod_Wujud'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/OK_Rekod_Wujud'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click on drop down Jenis terimaan '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Drop_down_Jenis_Terimaan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Drop_down_Jenis_Terimaan'))
 
 'Select value Terimaan Barang Penuh '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/select_TERIMAAN_BARANG_PENUH'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_TERIMAAN_BARANG_PENUH'))
 
 'Set text Nota Penghantaran '
-WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/input_No_nota_penghantaran'), 'Test Nota No 123')
+WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_nota_penghantaran'), 'Test Nota No 123')
 
 'Click on Date Picker to select tarikh terimaan '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Date_Picker_Tarikh_Terimaan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Date_Picker_Tarikh_Terimaan'))
 
 'Click on Todays date '
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Select_Today'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Select_Today'))
 
 'Delay'
 WebUI.delay(3)
 
 'Double click on the field to make it editable'
-WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/Perihal_Barang - EFT'))
+WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Perihal_Barang - EFT'))
 
 'Input value for Dihantar using spinner - click until 4 times'
 for (def index : (1..4)) {
-    WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Spinner_up_Dihantar'))
+    WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Spinner_up_Dihantar'))
 }
 
 'Input value for Diterima using spinner - click until 4 times'
 for (def index : (1..4)) {
-    WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/Spinner_up_Diterima'))
+    WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Spinner_up_Diterima'))
 }
 
 'Click Simpan to save the record'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Simpan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Simpan'))
 
 'Delay'
 WebUI.delay(3)
 
 'wait for the element to become clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 60)
 
 'Click OK to close the prompt box'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'))
 
 'Click on Sah Simpan button'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Sah_Simpan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Sah_Simpan'))
 
 'Click Ya to confirm Sah Simpan'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_Ya_Sah_Simpan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Ya_Sah_Simpan'))
 
 'Delay'
 WebUI.delay(3)
 
 'wait for the element to become clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 60)
 
 'Take screenshot of the rekod ID'
 WebUI.takeScreenshot()
@@ -142,7 +142,7 @@ WebUI.takeScreenshot()
 WebUI.delay(3)
 
 'Click OK to close the prompt box'
-WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/button_OK_Rekod_disimpan'))
+WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'))
 
 'Close browser'
 WebUI.closeBrowser()

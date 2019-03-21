@@ -24,43 +24,43 @@ CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekst
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
 
 'click on menu sisi to expand the menu on the left'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/Menu_Sisi'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi'))
 
 'delay'
 WebUI.delay(3)
 
 'select menu akaun belum bayar'
-WebUI.click(findTestObject('Object Repository/Perolehan/007 Proses Baucar Bayaran/Menu_Akaun Belum Bayar'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Akaun Belum Bayar'))
 
 'delay'
 WebUI.delay(3)
 
 'expand baucar bayaran menu selection'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/Menu_Expand_Baucar_Bayaran'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Expand_Baucar_Bayaran'))
 
 'delay'
 WebUI.delay(3)
 
 'select sub-menu integrasi dalaman'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/Menu_Integrasi_Dalaman'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Integrasi_Dalaman'))
 
 'delay'
 WebUI.delay(3)
 
 'enter arahan bayaran rekod id into filter field for rekod no '
-WebUI.setText(findTestObject('Perolehan/007 Proses Baucar Bayaran/input_No_Rekod'), GlobalVariable.ArahanBayaranRekodID)
+WebUI.setText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/input_No_Rekod'), GlobalVariable.ArahanBayaranRekodID)
 
 'delay'
 WebUI.delay(3)
 
 'double click on the record after filter, there is only one record'
-WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/select_No_Rekod', [('text') : GlobalVariable.ArahanBayaranRekodID]))
+WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/select_No_Rekod', [('text') : GlobalVariable.ArahanBayaranRekodID]))
 
 'delay'
 WebUI.delay(3)
 
 'get text of amount from the screen'
-String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/jumlah_amaun'))
+String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun'))
 
 'delay'
 WebUI.delay(15)
@@ -69,19 +69,19 @@ WebUI.delay(15)
 WebUI.verifyMatch(jumlahkeseluruhan, '4.90', false)
 
 'click on button lulus to approve the record'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/button_Lulus'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus'))
 
 'delay'
 WebUI.delay(3)
 
 'click on Ya to confirm approve of the record'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/button_Ya_Lulus'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Lulus'))
 
 'delay'
 WebUI.delay(3)
 
 'Get text of No Baucar from the prompt'
-String No_Baucar = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/div_Rekod Berjaya Diluluskan'))
+String No_Baucar = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan'))
 
 'print the text'
 println(No_Baucar)
@@ -99,7 +99,7 @@ GlobalVariable.Nombor_Baucar = Baucar_id
 WebUI.delay(3)
 
 'click Ya to print the baucar'
-WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/button_Ya_Cetak'))
+WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'))
 
 'switch to next tab to display the baucar printed'
 WebUI.switchToWindowIndex(1)

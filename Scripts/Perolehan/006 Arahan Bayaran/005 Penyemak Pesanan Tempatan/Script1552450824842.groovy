@@ -23,29 +23,29 @@ CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekst
 'change peranan to penyemak ptj'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyemakPTJ'()
 
-WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/Dashboard_Senarai_Semak'))
+WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/Dashboard_Senarai_Semak'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/input_TABLE_NAME_noRekod'), GlobalVariable.ArahanBayaranRekodID)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod'), GlobalVariable.ArahanBayaranRekodID)
 
 WebUI.delay(3)
 
-WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/select_noRekod', [('text') : GlobalVariable.ArahanBayaranRekodID]))
+WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/select_noRekod', [('text') : GlobalVariable.ArahanBayaranRekodID]))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_Senarai_Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Senarai_Semak'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementChecked(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/Check_Senarai_Semak_Item'), 3)
+WebUI.verifyElementChecked(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/Check_Senarai_Semak_Item'), 3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_X_Close_Senarai_Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_X_Close_Senarai_Semak'))
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Semak'))
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_Ya_Semak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Ya_Semak'))
 
 WebUI.delay(3)
 
@@ -53,7 +53,7 @@ WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Penyemak/button_OK_berjaya_disemak'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

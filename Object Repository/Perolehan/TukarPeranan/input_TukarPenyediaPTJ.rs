@@ -6,6 +6,10 @@
    <elementGuidId>f127c67e-af43-4b21-9e1c-33d44772d0d1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @name = 'pengguna' and @id = 'penggunaLogin' and @value = '255']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='contentBody']/table/tbody/tr[5]/td/input</value>
       </entry>
@@ -52,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>3902</value>
+      <value>255</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

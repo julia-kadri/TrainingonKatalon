@@ -95,7 +95,7 @@ class reusablefunctions {
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 		'Click Radio Button Penyemak PTJ'
-		WebUI.click(findTestObject('Object Repository/Perolehan/TukarPeranan/input_TukarPenyemakPTJ'))
+		WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
 
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
@@ -209,6 +209,6 @@ class reusablefunctions {
 	@Keyword
 	def openbrowser() {
 		'Open browser and input homepage URL '
-		WebUI.openBrowser('https://175.143.52.101:7011/1SPEKSv2/')
+		WebUI.openBrowser(GlobalVariable.URL_Homepage)
 	}
 }

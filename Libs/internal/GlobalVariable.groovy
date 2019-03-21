@@ -10,64 +10,94 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile 7010 : username value
-Profile Staging : username value</p>
+     * <p>Profile Staging : username value</p>
      */
     public static Object username
      
     /**
-     * <p>Profile 7010 : password value
-Profile Staging : password value</p>
+     * <p>Profile Staging : password value</p>
      */
     public static Object password
      
     /**
-     * <p>Profile 7010 : URL
-Profile Staging : URL</p>
+     * <p>Profile Staging : URL</p>
      */
     public static Object URL_Homepage
      
     /**
-     * <p>Profile 7010 : Tahun Kewangan
-Profile Staging : Tahun Kewangan</p>
+     * <p>Profile Staging : Tahun Kewangan</p>
      */
     public static Object TahunKewangan
      
     /**
-     * <p>Profile 7010 : rekod id for Arahan Bayaran
-Profile Staging : rekod id for Arahan Bayaran</p>
+     * <p>Profile Staging : rekod id for Arahan Bayaran</p>
      */
     public static Object ArahanBayaranRekodID
      
     /**
-     * <p>Profile 7010 : baucar id for Proses Baucar Bayaran
-Profile Staging : baucar id for Proses Baucar Bayaran</p>
+     * <p>Profile Staging : baucar id for Proses Baucar Bayaran</p>
      */
     public static Object Nombor_Baucar
      
     /**
-     * <p>Profile 7010 : rekod id for Pesanan Tempatan
-Profile Staging : rekod id for Pesanan Tempatan</p>
+     * <p>Profile Staging : rekod id for Pesanan Tempatan</p>
      */
     public static Object PesananTempatanRekodID
      
     /**
-     * <p>Profile 7010 : Dokumen ID generated after lulus
-Profile Staging : Dokumen ID generated after lulus</p>
+     * <p>Profile Staging : Dokumen ID generated after lulus</p>
      */
     public static Object PesananTempatanDokumenID
      
     /**
-     * <p>Profile 7010 : get the total amount in the record
-Profile Staging : get the total amount in the record</p>
+     * <p>Profile Staging : get the total amount in the record</p>
      */
     public static Object TotalAmaunPT
      
     /**
-     * <p>Profile 7010 : get no rujukan for inden kerja
-Profile Staging : get no rujukan for inden kerja</p>
+     * <p>Profile Staging : get no rujukan for inden kerja</p>
      */
     public static Object IKno_rujukan
+     
+    /**
+     * <p></p>
+     */
+    public static Object URL_7011
+     
+    /**
+     * <p></p>
+     */
+    public static Object Vot_dana
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_pembekal
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_program_aktiviti
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_akaun
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_barang
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_jabatan
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_PTJ
      
 
     static {
@@ -86,6 +116,14 @@ Profile Staging : get no rujukan for inden kerja</p>
             PesananTempatanDokumenID = selectedVariables['PesananTempatanDokumenID']
             TotalAmaunPT = selectedVariables['TotalAmaunPT']
             IKno_rujukan = selectedVariables['IKno_rujukan']
+            URL_7011 = selectedVariables['URL_7011']
+            Vot_dana = selectedVariables['Vot_dana']
+            kod_pembekal = selectedVariables['kod_pembekal']
+            kod_program_aktiviti = selectedVariables['kod_program_aktiviti']
+            kod_akaun = selectedVariables['kod_akaun']
+            kod_barang = selectedVariables['kod_barang']
+            kod_jabatan = selectedVariables['kod_jabatan']
+            kod_PTJ = selectedVariables['kod_PTJ']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

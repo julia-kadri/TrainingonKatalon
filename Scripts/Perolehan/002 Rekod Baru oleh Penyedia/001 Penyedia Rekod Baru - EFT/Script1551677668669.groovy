@@ -13,8 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Click on Rekod Baru to create new record'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_REKODBARU'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_REKODBARU'))
 
 'Delay'
 WebUI.delay(3)
@@ -35,7 +37,7 @@ println(formattedDate)
 println(formattedYear)
 
 'Get the year of Tahun Kewangan from the top section of the page'
-String TahunKewangan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/span_tahun_kewangan'))
+String TahunKewangan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/span_tahun_kewangan'))
 
 'Verify the year is a match'
 WebUI.verifyMatch(TahunKewangan, formattedYear, false)
@@ -43,260 +45,276 @@ WebUI.verifyMatch(TahunKewangan, formattedYear, false)
 assert true
 
 'Get the date of Tarikh Semasa'
-String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/span_tarikhSemasa'))
+String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/span_tarikhSemasa'))
 
 'Verify the date is a match'
 WebUI.verifyMatch(formattedDate, TarikhSemasa, false)
 
 'Verify Jenis Urusniaga is visible'
-WebUI.verifyElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_Jenis Urusniaga'))
+WebUI.verifyElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Jenis Urusniaga'))
 
 'Select from dropdown list of Jenis Urusniaga\r\n'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/a_Jenis Urusniaga _textbox-ico'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/a_Jenis Urusniaga _textbox-ico'))
 
 'Delay'
 WebUI.delay(2)
 
 'select PESANAN TEMPATAN AUTO'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/div_Pesanan_Tempatan_Auto'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/div_Pesanan_Tempatan_Auto'))
 
 'verify No.Dokumen label is present'
-WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_No. Dokumen'), 0)
+WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_No. Dokumen'), 
+    0)
 
 'verify Tarikh Dokumen label is present'
-WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_Tarikh Dokumen'), 0)
+WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Tarikh Dokumen'), 
+    0)
 
 'verify Pembekal label is present'
-WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_Pembekal'), 0)
+WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Pembekal'), 
+    0)
 
 'verify Cawangan Pembekal label is present'
-WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_Cawangan Pembekal'), 0)
+WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Cawangan Pembekal'), 
+    0)
 
 'verify Sila Bekalkan Sebelum atau pada label is present'
-WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/label_Sila Bekalkan Sebelum at'), 0)
+WebUI.verifyElementPresent(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Sila Bekalkan Sebelum at'), 
+    0)
 
 'Click to select Pembekal drop-down'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/a_Pembekal _textbox-icon combo'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/a_Pembekal _textbox-icon combo'))
+
+'filter for kod pembekal'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.kod_pembekal)
+
+WebUI.delay(3)
 
 'Select Pembekal from the list'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Pembekal_AA_DUA'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Pembekal', [('text') : GlobalVariable.kod_pembekal]))
 
+'delay'
 WebUI.delay(5)
 
-'Verify that No Akaun Pembekal is populated'
-WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_No.Akaun Pembekal _textb'), FailureHandling.STOP_ON_FAILURE)
-
-'Verify that Cawangan Pembekal is populated'
-WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_Cawangan Pembekal _textb'), FailureHandling.STOP_ON_FAILURE)
-
 'Select date picker'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Date_Picker_Bekal_Kerja'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Date_Picker_Bekal_Kerja'))
 
 'Delay'
 WebUI.delay(1)
 
 'Select for next month from date picker'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Date_Picker_Bekal_Kerja_Next_Month'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Date_Picker_Bekal_Kerja_Next_Month'))
 
 'Delay'
 WebUI.delay(1)
 
 'Select date'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Date_Picker_Bekal_Kerja_Date'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Date_Picker_Bekal_Kerja_Date'))
 
 'Input Perihal details'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Text_box_Perihal'), 'This is a test for PT - EFT automation scripts - Julia ' + 
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Text_box_Perihal'), 'This is a test for PT - EFT automation scripts - Julia ' + 
     mydate)
 
 WebUI.delay(3)
 
 'Click button Tambah Caj Line'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_TambahCajLine'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_TambahCajLine'))
 
 WebUI.delay(3)
 
 'Click Vot Dana drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Vot_Dana'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Vot_Dana'))
 
-WebUI.delay(8)
+WebUI.delay(3)
 
 'put a wait to find element Vot Dana. This is important to not let the test failed as Vot Dana takes time to filter'
-WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 60)
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'), 
+    60)
 
 'set text B31 into Vot Dana filter'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Input_Vot_Dana'), 'B31')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'), GlobalVariable.Vot_dana)
 
 'Wait for 60seconds to get the result in the page'
-WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'), 60)
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana_B31', 
+        [('text') : GlobalVariable.Vot_dana]), 60)
 
 'Select Vot Dana B31'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Vot_Dana_B31'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana_B31', [('text') : GlobalVariable.Vot_dana]))
 
 WebUI.delay(3)
 
 'Click Program Aktiviti drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Program_Aktiviti'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Program_Aktiviti'))
 
-'Delay'
-WebUI.delay(3)
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_Kod_Program_Aktiviti'), 
+    GlobalVariable.kod_program_aktiviti)
 
 'Select Program Aktiviti 010080'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Program_010080'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Program_010080', [('text') : GlobalVariable.kod_program_aktiviti]))
 
 WebUI.delay(3)
 
 'Click Kod Akaun drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Akaun'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Kod_Akaun'))
 
 'Delay'
 WebUI.delay(3)
 
 'Search for Kod Akaun B0221101'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_kod_akaun'), 'B0221101')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_akaun', [('text') : GlobalVariable.kod_akaun]), 
+    GlobalVariable.kod_akaun)
 
 'Delay'
 WebUI.delay(3)
 
 'Select Kod Akaun B0221101'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kod_Akaun_B0221101'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Kod_Akaun', [('text') : GlobalVariable.kod_akaun]))
 
 'Click kod barang drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kod_Barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Kod_Barang'))
 
-WebUI.delay(8)
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_barang'), GlobalVariable.kod_barang)
 
 'Select kod barang 2110100000000000000 - MAKANAN DAN MINUMAN'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/SelectKod_Barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/SelectKod_Barang', [('text') : GlobalVariable.kod_barang]))
 
 'Click Kategori Pesanan drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Kategori_Pesanan_Tempatan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Kategori_Pesanan_Tempatan'))
 
 'Select kategori pesanan Barang'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Select_Kategori_Pesanan_BARANG'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Kategori_Pesanan_BARANG'))
 
 'Input Kuantiti as 4'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_kuantiti'), '4')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kuantiti'), '4')
 
 'Click unit ukuran drop down value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Unit_Ukuran'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Unit_Ukuran'))
 
 'Delay'
 WebUI.delay(3)
 
 'Select unit ukuran buah'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_unit_ukuran_buah'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/select_unit_ukuran_buah'))
 
 'Input Harga Seunit as 1.22'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_harga_seunit'), '1.22')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_harga_seunit'), '1.22')
 
 'Click on button Simpan to save the record'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_simpan_caj_line'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_simpan_caj_line'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click on OK button to close the popup message'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'), 3)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Peruntukan_cukup'), 
+    3)
 
 'Click OK on prompt Bajet Mencukupi'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Peruntukan_cukup'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Peruntukan_cukup'))
 
 'Click on Simpan to Save the record. Rekod ID will be generated'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_Simpan_Rekod'))
 
 'Delay'
 WebUI.delay(3)
 
 'wait for the pop up with OK button to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    60)
 
 'Click OK to close the prompt'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'))
 
 'Get value of Jumlah Pesanan Tempatan'
-String JumlahPesananTempatan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/Jumlah_pesanan_tempatan'))
+String JumlahPesananTempatan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Jumlah_pesanan_tempatan'))
 
 'print Jumlah Pesanan Tempatan'
 println(JumlahPesananTempatan)
 
 'Tab Penghantaran Barang is displayed'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Tab_Penghantaran_Barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Tab_Penghantaran_Barang'))
 
 'Tambah Maklumat Bekalan details is displayed'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_tambah_master_barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_tambah_master_barang'))
 
 'Input Yang Berkenaan value'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_untuk_perhatian'), 'Yang Berkenaan')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_untuk_perhatian'), 
+    'Yang Berkenaan')
 
 'Select Jabatan from the dropdown list'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_bekal_kepada_Jabatan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_bekal_kepada_Jabatan'))
 
 'Input 004000 to search'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_bekal_kepada_jabatan'), '004000')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_bekal_kepada_jabatan'), 
+    GlobalVariable.kod_jabatan)
 
 'Delay'
 WebUI.delay(3)
 
 'Select Jabatan 004000'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_jabatan_004000'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/select_jabatan', [('text') : GlobalVariable.kod_jabatan]))
 
 WebUI.delay(3)
 
 'Click to select drop down value '
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_master_PTJ'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_master_PTJ'))
 
 'Delay'
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ'), 60)
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_PTJ'), GlobalVariable.kod_PTJ)
 
 'Select 00400101 - Pejabat Kewangan & Perbendaharaan (Pegawai Kewangan Negeri)'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/select_master_PTJ'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/select_master_PTJ', [('text') : GlobalVariable.kod_PTJ]))
 
 'Delay'
 WebUI.delay(3)
 
-WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/checkbox_alamat_utama'))
+WebUI.check(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/checkbox_alamat_utama'))
 
 'Click on button Tambah Senarai Barang'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_tambah_senarai_barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_tambah_senarai_barang'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click on drop down to select a value'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_senarai_barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_senarai_barang'))
 
 'Delay'
 WebUI.delay(3)
 
 'Click on Senarai Barang item no 1'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Drop_down_Barang_1'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Barang_1', [('text') : GlobalVariable.kod_barang]))
 
 'Input kuantiti as 4'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/input_Kuantiti_senarai_barang'), '4')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_Kuantiti_senarai_barang'), 
+    '4')
 
 'Click on save icon to save senarai barang'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_save_senarai_barang'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_save_senarai_barang'))
 
 'Click on save icon to save maklumat bekalan'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_simpan_maklumat_bekalan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_simpan_maklumat_bekalan'))
 
 'Go back to pesanan tempatan tab'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/Tab_Pesanan_Tempatan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Tab_Pesanan_Tempatan'))
 
 'Click on button Simpan to save the record'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_Simpan_Rekod'))
 
 'Delay'
 WebUI.delay(3)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    60)
 
 'take screenshot'
 WebUI.takeScreenshot()
 
 'Click OK to close the prompt'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'))
 

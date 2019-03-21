@@ -43,12 +43,12 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/Senarai_semak_close_X'))
 
 'Click on button Simpan to save Senarai Semak update'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_Simpan_Rekod'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_Simpan_Rekod'))
 
 WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 60)
 
 'Click OK button to close the prompt box'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/button_OK_Rekod_Berjaya_disimpan'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'))
 
