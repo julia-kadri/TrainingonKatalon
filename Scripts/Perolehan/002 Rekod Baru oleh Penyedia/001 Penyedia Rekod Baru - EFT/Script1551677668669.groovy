@@ -135,11 +135,11 @@ WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'), GlobalVariable.Vot_dana)
 
 'Wait for 60seconds to get the result in the page'
-WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana_B31', 
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana', 
         [('text') : GlobalVariable.Vot_dana]), 60)
 
 'Select Vot Dana B31'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana_B31', [('text') : GlobalVariable.Vot_dana]))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana', [('text') : GlobalVariable.Vot_dana]))
 
 WebUI.delay(3)
 
@@ -150,7 +150,7 @@ WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pe
     GlobalVariable.kod_program_aktiviti)
 
 'Select Program Aktiviti 010080'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Program_010080', [('text') : GlobalVariable.kod_program_aktiviti]))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Program', [('text') : GlobalVariable.kod_program_aktiviti]))
 
 WebUI.delay(3)
 
@@ -161,8 +161,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesa
 WebUI.delay(3)
 
 'Search for Kod Akaun B0221101'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_akaun', [('text') : GlobalVariable.kod_akaun]), 
-    GlobalVariable.kod_akaun)
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_akaun'), GlobalVariable.kod_akaun)
 
 'Delay'
 WebUI.delay(3)

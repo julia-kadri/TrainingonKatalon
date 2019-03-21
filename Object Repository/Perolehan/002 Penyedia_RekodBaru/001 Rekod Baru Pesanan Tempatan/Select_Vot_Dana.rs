@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Kod_Akaun_B0229401</name>
+   <name>Select_Vot_Dana</name>
    <tag></tag>
-   <elementGuidId>fa03fe26-b11a-4b3f-bf4a-27e011343b52</elementGuidId>
+   <elementGuidId>c3e4d1ec-3181-49c0-8d91-91a3aca27dd2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'B0229401' or . = 'B0229401')]</value>
+         <value>//div[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='datagrid-cell datagrid-cell-c4-kod'][contains(text(),'B0221101')]</value>
+         <value>//div[contains(text(),'B31')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,6 +28,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>B0229401</value>
+      <value>${text}</value>
    </webElementProperties>
 </WebElementEntity>

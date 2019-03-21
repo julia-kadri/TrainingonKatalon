@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select_Program_160080</name>
+   <name>Select_Program</name>
    <tag></tag>
-   <elementGuidId>3b45ac24-726d-4a41-8911-cb150702222f</elementGuidId>
+   <elementGuidId>63cdd596-e1cf-4b9c-be51-b324d0643e4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = '160080' or . = '160080')]</value>
+         <value>//div[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,25 +24,11 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datagrid-cell datagrid-cell-c8-kod</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>160080</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;panel combo-p&quot;]/div[@class=&quot;combo-panel panel-body panel-body-noheader&quot;]/div[@class=&quot;panel datagrid easyui-fluid&quot;]/div[@class=&quot;datagrid-wrap panel-body panel-body-noheader panel-body-noborder&quot;]/div[@class=&quot;datagrid-view&quot;]/div[@class=&quot;datagrid-view2&quot;]/div[@class=&quot;datagrid-body&quot;]/table[@class=&quot;datagrid-btable&quot;]/tbody[1]/tr[@id=&quot;datagrid-row-r8-2-0&quot;]/td[1]/div[@class=&quot;datagrid-cell datagrid-cell-c8-kod&quot;]</value>
+      <value>${text}</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

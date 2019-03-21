@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='calendar calendar-noborder easyui-fluid']//td[contains(@class,'calendar-day')][contains(text(),'29')]</value>
+         <value>//div[contains(@class,'datebox-calendar-inner panel-noscroll')]//tr[2]//td[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

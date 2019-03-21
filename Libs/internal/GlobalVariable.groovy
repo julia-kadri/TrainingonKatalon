@@ -10,16 +10,6 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile Staging : username value</p>
-     */
-    public static Object username
-     
-    /**
-     * <p>Profile Staging : password value</p>
-     */
-    public static Object password
-     
-    /**
      * <p>Profile Staging : URL</p>
      */
     public static Object URL_Homepage
@@ -99,6 +89,21 @@ public class GlobalVariable {
      */
     public static Object kod_PTJ
      
+    /**
+     * <p></p>
+     */
+    public static Object kod_pembekal_cek
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_akaun_cek
+     
+    /**
+     * <p></p>
+     */
+    public static Object kod_barang_cek
+     
 
     static {
         try {
@@ -106,8 +111,6 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            username = selectedVariables['username']
-            password = selectedVariables['password']
             URL_Homepage = selectedVariables['URL_Homepage']
             TahunKewangan = selectedVariables['TahunKewangan']
             ArahanBayaranRekodID = selectedVariables['ArahanBayaranRekodID']
@@ -124,6 +127,9 @@ public class GlobalVariable {
             kod_barang = selectedVariables['kod_barang']
             kod_jabatan = selectedVariables['kod_jabatan']
             kod_PTJ = selectedVariables['kod_PTJ']
+            kod_pembekal_cek = selectedVariables['kod_pembekal_cek']
+            kod_akaun_cek = selectedVariables['kod_akaun_cek']
+            kod_barang_cek = selectedVariables['kod_barang_cek']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
