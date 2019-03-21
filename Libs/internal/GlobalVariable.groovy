@@ -104,6 +104,11 @@ public class GlobalVariable {
      */
     public static Object kod_barang_cek
      
+    /**
+     * <p></p>
+     */
+    public static Object nama_pembekal
+     
 
     static {
         try {
@@ -130,6 +135,7 @@ public class GlobalVariable {
             kod_pembekal_cek = selectedVariables['kod_pembekal_cek']
             kod_akaun_cek = selectedVariables['kod_akaun_cek']
             kod_barang_cek = selectedVariables['kod_barang_cek']
+            nama_pembekal = selectedVariables['nama_pembekal']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

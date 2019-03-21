@@ -38,10 +38,10 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
 'input nama pembekal green miracle enterprise in the filter textbox'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), 'GREEN MIRACLE ENTERPRISE')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), GlobalVariable.nama_pembekal)
 
 'select nama pembekal from the filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Pembekal_Green_Miracle'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_nama_pembekal', [('text') : GlobalVariable.nama_pembekal]))
 
 'click on the calendar date picker for sila bekalkan'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan'))
@@ -98,10 +98,10 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.delay(8)
 
 'input vot dana kod value B31 to filter for this kod '
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Vot_kod'), 'B31')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Vot_kod'), GlobalVariable.Vot_dana)
 
 'select vot dana from filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_B31'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_dana', [('text') : GlobalVariable.Vot_dana]))
 
 'Click drop down program aktiviti'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti'))
@@ -110,10 +110,10 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.delay(3)
 
 'input program aktiviti kod value 160080 to filter for this kod'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ProgramAktiviti_kod'), '160080')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ProgramAktiviti_kod'), GlobalVariable.kod_program_aktiviti)
 
 'select program aktiviti kod from filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti_010080'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti'))
 
 'click drop down kod akaun'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun'))

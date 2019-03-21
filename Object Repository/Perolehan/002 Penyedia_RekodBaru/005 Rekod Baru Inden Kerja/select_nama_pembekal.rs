@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Kod_Pembekal_Julia_Competency</name>
+   <name>select_nama_pembekal</name>
    <tag></tag>
-   <elementGuidId>2d0bfa04-f28c-4de6-8160-d6a7916418df</elementGuidId>
+   <elementGuidId>47044dc3-1718-4d8c-9cde-a2c573d487de</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '${text}' or . = '${text}')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//tr[@id='datagrid-row-r1-2-6']/td/div)[9]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'J1010SA31301' or . = 'J1010SA31301')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,25 +24,11 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datagrid-cell datagrid-cell-c1-kod</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>J1010SA31301</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;panel combo-p&quot;]/div[@class=&quot;combo-panel panel-body panel-body-noheader&quot;]/div[@class=&quot;panel datagrid easyui-fluid&quot;]/div[@class=&quot;datagrid-wrap panel-body panel-body-noheader panel-body-noborder&quot;]/div[@class=&quot;datagrid-view&quot;]/div[@class=&quot;datagrid-view2&quot;]/div[@class=&quot;datagrid-body&quot;]/table[@class=&quot;datagrid-btable&quot;]/tbody[1]/tr[@id=&quot;datagrid-row-r1-2-6&quot;]/td[1]/div[@class=&quot;datagrid-cell datagrid-cell-c1-kod&quot;]</value>
+      <value>${text}</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

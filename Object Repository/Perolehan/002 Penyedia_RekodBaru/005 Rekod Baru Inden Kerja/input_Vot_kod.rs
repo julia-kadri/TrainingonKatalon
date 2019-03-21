@@ -6,15 +6,19 @@
    <elementGuidId>b9d61f98-2058-4ab6-b93c-1b7f68937aaa</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'kod']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>body .combo-p:nth-child(28) [name='kod']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='kod'])[44]</value>
+         <value>//table[@id='votDana_thead']//input[@name='kod']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,40 +55,4 @@
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;panel combo-p&quot;]/div[@class=&quot;combo-panel panel-body panel-body-noheader&quot;]/div[@class=&quot;panel datagrid easyui-fluid&quot;]/div[@class=&quot;datagrid-wrap panel-body panel-body-noheader panel-body-noborder&quot;]/div[@class=&quot;datagrid-view&quot;]/div[@class=&quot;datagrid-view2&quot;]/div[@class=&quot;datagrid-header&quot;]/div[@class=&quot;datagrid-header-inner&quot;]/table[@class=&quot;datagrid-htable&quot;]/tbody[1]/tr[@class=&quot;datagrid-header-row datagrid-filter-row&quot;]/td[1]/div[@class=&quot;datagrid-filter-c&quot;]/input[@class=&quot;datagrid-editable-input datagrid-filter&quot;]</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>(//input[@name='kod'])[44]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vot'])[4]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kod'])[38]/following::input[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='B31'])[1]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pejabat Kewangan Negeri'])[1]/preceding::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//div[130]/div/div/div/div/div[2]/div/div/table/tbody/tr[2]/td/div/input</value>
-   </webElementXpaths>
 </WebElementEntity>

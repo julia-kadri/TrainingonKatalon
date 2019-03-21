@@ -6,11 +6,11 @@
    <elementGuidId>afd33a8f-1c1c-44ec-ae49-d0110a033a1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>//div[24]//td[1]//input[1]</value>
+         <key>XPATH</key>
+         <value>//table[@id='aktiviti_thead']//input[@name='kod']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>CSS</key>
          <value>//div[24]//td[1]//input[1]</value>
       </entry>
    </selectorCollection>

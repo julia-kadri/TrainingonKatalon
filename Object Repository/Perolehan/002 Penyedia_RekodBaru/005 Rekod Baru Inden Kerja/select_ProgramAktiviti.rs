@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_ProgramAktiviti_010080</name>
+   <name>select_ProgramAktiviti</name>
    <tag></tag>
    <elementGuidId>d27e2f34-62c4-4dbb-8d44-454d53099319</elementGuidId>
    <selectorCollection>
