@@ -16,12 +16,23 @@ import internal.GlobalVariable as GlobalVariable
 'open browser and enter ispek URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
-'login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+'login into the application'
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+        2, 7))
 
-'change peranan to Pelulus PTJ'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '220']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Pelulus PTJ'
+WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [PTJ]', false)
 
 'click on menu sisi to expand menu selection'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi'))
@@ -60,12 +71,13 @@ WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulu
 WebUI.delay(3)
 
 'get the value of Nama Penerima'
-String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Nama_Penerima'))
+String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/nama_Penerima', [
+            ('text') : GlobalVariable.kod_pembekal_cek]))
 
 WebUI.delay(3)
 
 'verify that nama penerima is what is set when filling in dengan pemfaktoran = Ya'
-WebUI.verifyMatch(namapenerima, 'KEDAI BUKU ARMADA', false)
+WebUI.verifyMatch(namapenerima, 'JULIANA TRADING', false)
 
 'get text of amount from the screen'
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun'))

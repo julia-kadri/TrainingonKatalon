@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'kodPelanggan') and (text() = 'K0806SS29058' or . = 'K0806SS29058')]</value>
+         <value>//div[(text() = '${text}' or . = '${text}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,16 +21,9 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>kodPelanggan</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>K0806SS29058</value>
+      <value>${text}</value>
    </webElementProperties>
 </WebElementEntity>

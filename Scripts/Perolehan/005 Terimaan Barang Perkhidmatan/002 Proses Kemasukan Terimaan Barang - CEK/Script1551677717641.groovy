@@ -112,7 +112,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'Double click on the field to make it editable'
-WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Perihal_Barang - CEK'))
+WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Perihal_Barang - CEK', 
+        [('text') : GlobalVariable.kod_barang_cek]))
 
 'Input value for Dihantar using spinner - click until 3 times'
 for (def index : (1..3)) {

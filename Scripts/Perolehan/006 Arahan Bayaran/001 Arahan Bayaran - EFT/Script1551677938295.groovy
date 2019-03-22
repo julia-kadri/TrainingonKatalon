@@ -82,12 +82,14 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Nama_Pembekal'))
 
 'Delay'
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal)
+
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.kod_pembekal)
-
 'Select Nama Pembekal AA DUA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.kod_pembekal]))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.nama_pembekal]))
 
 'Delay'
 WebUI.delay(5)

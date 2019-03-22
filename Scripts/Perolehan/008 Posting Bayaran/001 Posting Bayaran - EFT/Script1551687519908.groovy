@@ -34,7 +34,7 @@ WebUI.delay(25)
 'Verify Peranan is now Pelulus BN'
 WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [BN]', false)
 
-'expand menu sis'
+'expand menu sisi'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
 'delay'

@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
 'Delay'
 WebUI.delay(3)
@@ -40,8 +40,6 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 'Click on Menu sisi and select Arahan Bayaran'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
-
-assert true
 
 'Delay'
 WebUI.delay(3)
@@ -70,14 +68,12 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Dr
 'Delay'
 WebUI.delay(3)
 
-'input nama pembekal - jamal chef catering to search for this pembekal record'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_nama_pembekal'), 'JAMAL CHEF CATERING')
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal)
 
-'delay'
 WebUI.delay(3)
 
-'Select Nama Pembekal Jamal chef catering'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Pembekal Jamal'))
+'Select Nama Pembekal AA DUA'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.nama_pembekal]))
 
 'Delay'
 WebUI.delay(5)
@@ -159,13 +155,13 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Dr
 WebUI.delay(3)
 
 'input pembekal with kod K0806SS29058'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'), 'K0806SS29058')
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'), GlobalVariable.kod_pembekal_cek)
 
 'delay'
 WebUI.delay(3)
 
 'select the pembekal as K0806SS29058'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada', [('text') : GlobalVariable.kod_pembekal_cek]))
 
 'delay'
 WebUI.delay(5)

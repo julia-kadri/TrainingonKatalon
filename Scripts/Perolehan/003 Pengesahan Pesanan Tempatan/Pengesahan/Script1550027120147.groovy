@@ -13,8 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open browser'
-CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL_Homepage)
 
 'Login into the system'
 CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 6), findTestData('ispekstestdata').getValue(

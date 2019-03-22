@@ -10,42 +10,50 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile Staging : URL</p>
+     * <p>Profile Staging : URL
+Profile Staging - Copy : URL</p>
      */
     public static Object URL_Homepage
      
     /**
-     * <p>Profile Staging : Tahun Kewangan</p>
+     * <p>Profile Staging : Tahun Kewangan
+Profile Staging - Copy : Tahun Kewangan</p>
      */
     public static Object TahunKewangan
      
     /**
-     * <p>Profile Staging : rekod id for Arahan Bayaran</p>
+     * <p>Profile Staging : rekod id for Arahan Bayaran
+Profile Staging - Copy : rekod id for Arahan Bayaran</p>
      */
     public static Object ArahanBayaranRekodID
      
     /**
-     * <p>Profile Staging : baucar id for Proses Baucar Bayaran</p>
+     * <p>Profile Staging : baucar id for Proses Baucar Bayaran
+Profile Staging - Copy : baucar id for Proses Baucar Bayaran</p>
      */
     public static Object Nombor_Baucar
      
     /**
-     * <p>Profile Staging : rekod id for Pesanan Tempatan</p>
+     * <p>Profile Staging : rekod id for Pesanan Tempatan
+Profile Staging - Copy : rekod id for Pesanan Tempatan</p>
      */
     public static Object PesananTempatanRekodID
      
     /**
-     * <p>Profile Staging : Dokumen ID generated after lulus</p>
+     * <p>Profile Staging : Dokumen ID generated after lulus
+Profile Staging - Copy : Dokumen ID generated after lulus</p>
      */
     public static Object PesananTempatanDokumenID
      
     /**
-     * <p>Profile Staging : get the total amount in the record</p>
+     * <p>Profile Staging : get the total amount in the record
+Profile Staging - Copy : get the total amount in the record</p>
      */
     public static Object TotalAmaunPT
      
     /**
-     * <p>Profile Staging : get no rujukan for inden kerja</p>
+     * <p>Profile Staging : get no rujukan for inden kerja
+Profile Staging - Copy : get no rujukan for inden kerja</p>
      */
     public static Object IKno_rujukan
      

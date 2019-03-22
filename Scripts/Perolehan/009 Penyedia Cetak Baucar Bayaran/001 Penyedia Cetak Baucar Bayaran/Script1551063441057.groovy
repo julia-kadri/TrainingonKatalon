@@ -65,16 +65,18 @@ WebUI.setText(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari'))
 
 'delay'
-WebUI.delay(15)
+WebUI.delay(3)
 
 'click on button cetak to print the baucar again'
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(5)
+
+WebUI.switchToWindowIndex(1)
 
 'wait for the page to load the document which will take some times'
-WebUI.waitForPageLoad(180)
+WebUI.waitForPageLoad(180, FailureHandling.STOP_ON_FAILURE)
 
 'take the screen shot of the document loaded'
 WebUI.takeScreenshot()

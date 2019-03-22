@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='cariNamaPembekal_thead']//td[@field='kod']//span[@class='textbox']//input[@type='text']</value>
+         <value>//table[@id='cariNamaPembekal_thead']//td[@field='nama']//span[@class='textbox']//input[@type='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

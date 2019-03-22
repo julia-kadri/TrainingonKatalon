@@ -17,13 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+        2, 7))
 
-'change peranan to Pelulus BN'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusBN'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
-'expand menu sis'
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '2474']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(25)
+
+'Verify Peranan is now Pelulus BN'
+WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [BN]', false)
+
+'expand menu sisi'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
 'delay'

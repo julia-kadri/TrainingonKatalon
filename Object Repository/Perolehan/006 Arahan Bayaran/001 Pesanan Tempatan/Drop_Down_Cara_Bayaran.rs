@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='maklumat_ArahanBayaran']//tr[7]//td[2]//span[1]//span[1]//a[1]</value>
+         <value>//tr[6]//td[2]//span[1]//span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
