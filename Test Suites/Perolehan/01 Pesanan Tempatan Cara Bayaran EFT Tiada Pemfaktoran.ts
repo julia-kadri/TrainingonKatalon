@@ -11,30 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>96b89d26-ac04-4a4d-a1ce-e1a4dfc9b9cf</testSuiteGuid>
    <testCaseLink>
-      <guid>d22306e6-17ab-47ee-9e47-6b4b18cb02cd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c0b8fbfd-0357-4967-bf56-b9062c68b0ca</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ispekstestdata</testDataId>
-      </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>edb8e252-0693-4258-b53d-c239ed0ba630</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ispekstestdata</testDataId>
-      </testDataLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4e69feb5-934c-4276-9c50-5c091d7064fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -17,14 +17,25 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
 'Delay'
 WebUI.delay(3)
 
-'change role to peranan penyedia PTJ'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Penyedia PTJ'
+WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)
 
 'Click on Menu Sisi to display Menu selections'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
@@ -71,10 +82,12 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Nama_Pembekal'))
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(10)
+
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.kod_pembekal)
 
 'Select Nama Pembekal AA DUA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.kod_pembekal]))
 
 'Delay'
 WebUI.delay(5)

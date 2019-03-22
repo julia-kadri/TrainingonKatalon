@@ -17,11 +17,22 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the application'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+        2, 7))
 
-'change peranan to pelulus PTJ'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '220']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Pelulus PTJ'
+WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [PTJ]', false)
 
 'click on menu sisi to expand the menu on the left'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi'))
@@ -66,7 +77,7 @@ String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Ba
 WebUI.delay(15)
 
 'verify that amount is a match'
-WebUI.verifyMatch(jumlahkeseluruhan, '4.90', false)
+WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.TotalAmaunPT, false)
 
 'click on button lulus to approve the record'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus'))
@@ -79,6 +90,9 @@ WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/b
 
 'delay'
 WebUI.delay(3)
+
+WebUI.waitForElementPresent(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan'), 
+    500)
 
 'Get text of No Baucar from the prompt'
 String No_Baucar = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan'))

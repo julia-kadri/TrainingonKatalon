@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//table[@id='edit']/tbody/tr/td[2]/table/tbody/tr[4]/td[2]/span/input)[1]</value>
+         <value>//div[@id='terimaan']//tr[4]//td[2]//span[1]//input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

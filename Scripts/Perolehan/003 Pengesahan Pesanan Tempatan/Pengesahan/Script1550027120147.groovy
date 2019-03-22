@@ -17,11 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 6), findTestData('ispekstestdata').getValue(
+        2, 6))
 
-'Change Peranan to Pengesah BN'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPengesahBN'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '2933']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Penyemak BN'
+WebUI.verifyTextPresent('Peranan : [Pengesah] Peringkat : [BN]', false)
+
+WebUI.delay(5)
 
 'Select Pesanan Tempatan - Jumlah untuk disahkan from Dashboard'
 WebUI.doubleClick(findTestObject('Perolehan/003 Pengesah/Dashboard_To_Sah'))

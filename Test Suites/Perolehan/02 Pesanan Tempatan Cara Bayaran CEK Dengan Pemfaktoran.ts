@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>21e9c71b-b70f-498e-a3eb-dbf2d1c9c87a</testSuiteGuid>
    <testCaseLink>
-      <guid>94608760-3253-481e-a1e2-a685335be624</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8ee44e9a-5c94-4689-affd-1c92d453c789</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

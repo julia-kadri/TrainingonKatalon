@@ -74,7 +74,7 @@ String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Ba
 WebUI.delay(15)
 
 'verify that amount is a match'
-WebUI.verifyMatch(jumlahkeseluruhan, '6.30', false)
+WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.TotalAmaunPT, false)
 
 'click on button Lulus to approve the record'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus'))

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='holder']/div[@id='body']/div[1]/div[@title='']//div[@class='datagrid-view2']/div[@class='datagrid-body']/table[@class='datagrid-btable']/tbody/tr[17]/td[4]</value>
+         <value>//div[@id='holder']/div[@id='body']/div[1]/div[@title='']//div[@class='datagrid-view2']/div[@class='datagrid-body']/table[@class='datagrid-btable']/tbody/tr[7]/td[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

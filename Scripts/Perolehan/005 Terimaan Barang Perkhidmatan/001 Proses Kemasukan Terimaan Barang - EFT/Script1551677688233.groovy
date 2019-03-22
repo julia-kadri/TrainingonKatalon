@@ -18,11 +18,22 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into ispek'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
-'Change role to Penyedia PTJ'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Penyedia PTJ'
+WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)
 
 'Click on Menu Sisi to display Menu selections'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
@@ -57,7 +68,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'input no dokumen based on the variable get from Pelulus page on Pesanan Tempatan  '
-WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
+WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'), 
+    GlobalVariable.PesananTempatanDokumenID)
 
 'Delay'
 WebUI.delay(5)
@@ -87,7 +99,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_TERIMAAN_BARANG_PENUH'))
 
 'Set text Nota Penghantaran '
-WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_nota_penghantaran'), 'Test Nota No 123')
+WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_nota_penghantaran'), 
+    'Test Nota No 123')
 
 'Click on Date Picker to select tarikh terimaan '
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Date_Picker_Tarikh_Terimaan'))
@@ -99,7 +112,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'Double click on the field to make it editable'
-WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Perihal_Barang - EFT'))
+WebUI.doubleClick(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Perihal_Barang - EFT', 
+        [('text') : GlobalVariable.kod_barang]))
 
 'Input value for Dihantar using spinner - click until 4 times'
 for (def index : (1..4)) {
@@ -118,7 +132,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'wait for the element to become clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 
+    60)
 
 'Click OK to close the prompt box'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'))
@@ -133,7 +148,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'wait for the element to become clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 60)
+WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 
+    180)
 
 'Take screenshot of the rekod ID'
 WebUI.takeScreenshot()

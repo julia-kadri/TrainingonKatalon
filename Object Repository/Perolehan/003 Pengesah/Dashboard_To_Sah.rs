@@ -6,12 +6,12 @@
    <elementGuidId>94d33afc-a281-4c19-b11f-10aefc954d69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='holder']/div[@id='body']/div[1]/div[@title='']//div[@class='datagrid-view2']/div[@class='datagrid-body']/table[@class='datagrid-btable']/tbody/tr[11]/td[6]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//td[(text() = 'Perolehan (PROC)' or . = 'Perolehan (PROC)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='holder']/div[@id='body']/div[1]/div[@title='']//div[@class='datagrid-view2']/div[@class='datagrid-body']/table[@class='datagrid-btable']/tbody/tr[6]/td[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

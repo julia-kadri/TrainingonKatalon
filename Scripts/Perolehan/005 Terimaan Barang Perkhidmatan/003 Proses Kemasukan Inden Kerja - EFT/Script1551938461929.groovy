@@ -18,8 +18,8 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into ispek'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
 'Change role to Penyedia PTJ'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyediaPTJ'()
@@ -57,7 +57,8 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.delay(3)
 
 'input dokumen no based on the variable get from Pelulus page on Inden Kerja'
-WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'), GlobalVariable.PesananTempatanDokumenID)
+WebUI.setText(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'), 
+    GlobalVariable.PesananTempatanDokumenID)
 
 'Delay'
 WebUI.delay(5)

@@ -17,11 +17,24 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the system as PROC test'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 5), findTestData('ispekstestdata').getValue(
+        2, 5))
 
-'change peranan to penyemak ptj'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPenyemakPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '372']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Penyemak PTJ'
+WebUI.verifyTextPresent('Peranan : [Penyemak] Peringkat : [PTJ]', false)
+
+WebUI.delay(5)
 
 WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/Dashboard_Senarai_Semak'))
 
@@ -51,7 +64,9 @@ WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.delay(3)
+WebUI.delay(5)
+
+WebUI.waitForElementClickable(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'), 240)
 
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'))
 
