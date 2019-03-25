@@ -136,6 +136,8 @@ WebUI.delay(3)
 'take screenshot of the record id for reference'
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 'click OK to close the popup message'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'))
 

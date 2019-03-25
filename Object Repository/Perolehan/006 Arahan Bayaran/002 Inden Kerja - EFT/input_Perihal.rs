@@ -6,11 +6,15 @@
    <elementGuidId>aea89f81-9a29-484e-b8af-15479229b9c2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//textarea[starts-with(@class, 'textbox-text validatebox-text')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//form[@id='procArahanBayaran']/table/tbody/tr[14]/td[2]/span/textarea</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,32 +24,11 @@
       <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>textbox-text validatebox-text tooltip-f validatebox-invalid</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>135</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;maklumat_ArahanBayaran&quot;)/form[@id=&quot;procArahanBayaran&quot;]/table[1]/tbody[1]/tr[14]/td[2]/span[@class=&quot;textbox textbox-invalid textbox-focused&quot;]/textarea[@class=&quot;textbox-text validatebox-text tooltip-f validatebox-invalid&quot;]</value>
+      <value>textbox-text validatebox-text</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

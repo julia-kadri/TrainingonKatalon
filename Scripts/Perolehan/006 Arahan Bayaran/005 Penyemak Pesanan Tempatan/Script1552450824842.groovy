@@ -36,8 +36,24 @@ WebUI.verifyTextPresent('Peranan : [Penyemak] Peringkat : [PTJ]', false)
 
 WebUI.delay(5)
 
-WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/Dashboard_Senarai_Semak'))
+'Click on Menu Sisi to display Menu selections'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'Select Perolehan Sub-menu'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
+
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'Click on Menu sisi and select Arahan Bayaran'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
+
+assert true
+
+'Delay'
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod'), GlobalVariable.ArahanBayaranRekodID)
@@ -64,7 +80,7 @@ WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 WebUI.waitForElementClickable(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'), 240)
 

@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
 'Delay'
 WebUI.delay(3)
@@ -69,11 +69,21 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/D
 'Delay'
 WebUI.delay(3)
 
-'Select Nama Pembekal'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_G0804CM29379'))
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal)
+
+WebUI.delay(10)
+
+'Select Nama Pembekal AA DUA'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.nama_pembekal]))
 
 'Delay'
-WebUI.delay(10)
+WebUI.delay(5)
+
+'click on drop down cara bayaran to select'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Cara_Bayaran'))
+
+'select cara bayaran as CEK'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - EFT'))
 
 'click on jenis pemfaktoran drop down list'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Pemfaktoran'))
@@ -85,7 +95,7 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/D
 mydate = new Date()
 
 'Input Perihal with date and time stamp'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Julia ' + 
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal'), 'This is a test for Arahan Bayaran Inden Kerja Julia ' + 
     mydate)
 
 'Delay'
@@ -152,11 +162,17 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/P
 'delay'
 WebUI.delay(3)
 
-'select the pembekal kod as M0808SM29376'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_select_M0808SM29376'))
+'input pembekal with kod K0806SS29058'
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'), GlobalVariable.kod_pembekal_pemfaktoran)
 
 'delay'
 WebUI.delay(3)
+
+'select the pembekal as K0806SS29058'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada', [('text') : GlobalVariable.kod_pembekal_pemfaktoran]))
+
+'delay'
+WebUI.delay(5)
 
 'input total amaun'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_input_amaun'), GlobalVariable.TotalAmaunPT)

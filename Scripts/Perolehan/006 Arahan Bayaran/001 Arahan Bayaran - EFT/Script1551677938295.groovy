@@ -94,6 +94,12 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Se
 'Delay'
 WebUI.delay(5)
 
+'click on drop down cara bayaran to select'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Cara_Bayaran'))
+
+'select cara bayaran as CEK'
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - EFT'))
+
 'Get todays year, date and time'
 mydate = new Date()
 

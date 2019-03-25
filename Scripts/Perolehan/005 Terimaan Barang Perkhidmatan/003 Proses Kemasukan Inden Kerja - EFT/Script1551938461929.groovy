@@ -136,6 +136,8 @@ WebUI.delay(3)
 'take screenshot of the record successfully saved as reference'
 WebUI.takeScreenshot()
 
+WebUI.delay(3)
+
 'click OK button to close the popup message'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'))
 

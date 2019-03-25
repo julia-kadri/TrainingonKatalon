@@ -37,10 +37,21 @@ WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [PTJ]', false)
 
 WebUI.delay(5)
 
-'Select Pesanan Tempatan - Jumlah untuk diluluskan'
-WebUI.doubleClick(findTestObject('Perolehan/004 Pelulus/Dashboard_To_Lulus'))
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
 'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'Select Perolehan Sub-menu'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
+
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'Click on Menu sisi'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
+
+'Pesanan Tempatan page loaded successfully'
 WebUI.delay(3)
 
 'input no record based on global variable value captured during sah simpan'

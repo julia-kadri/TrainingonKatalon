@@ -15,6 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
+WebUI.waitForElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_REKODBARU'), 
+    180)
+
 'Click on Rekod Baru to create new record'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_REKODBARU'))
 
@@ -36,19 +41,29 @@ println(formattedDate)
 'print year in yyyy format'
 println(formattedYear)
 
+'Tarikh Perakaunan'
+def tarikh_perakaunan = 'Tarikh Perakaunan : ' + formattedDate
+
+'print tarikh perakaunan'
+println(tarikh_perakaunan)
+
 'Get the year of Tahun Kewangan from the top section of the page'
 String TahunKewangan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/span_tahun_kewangan'))
 
 'Verify the year is a match'
 WebUI.verifyMatch(TahunKewangan, formattedYear, false)
 
-assert true
-
 'Get the date of Tarikh Semasa'
 String TarikhSemasa = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/span_tarikhSemasa'))
 
 'Verify the date is a match'
 WebUI.verifyMatch(formattedDate, TarikhSemasa, false)
+
+'Get the date of Tarikh Perakaunan'
+String TarikhPerakaunan = WebUI.getText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/tarikh_perakaunan'))
+
+'Verify the date is a match'
+WebUI.verifyMatch(tarikh_perakaunan, TarikhPerakaunan, false)
 
 'Verify Jenis Urusniaga is visible'
 WebUI.verifyElementVisible(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/label_Jenis Urusniaga'))

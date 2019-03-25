@@ -6,19 +6,19 @@
    <elementGuidId>4bea1cc7-075c-48c4-bcdb-c71d9b9cfac1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[41]/div[@class='panel-header panel-header-noborder window-header']//a[@href='javascript:void(0)']</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:void(0)']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>body .window:nth-child(46) .panel-tool-close</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'javascript:void(0)']</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Senarai Semak'])[4]/following::a[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

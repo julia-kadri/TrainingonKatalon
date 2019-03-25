@@ -48,7 +48,7 @@ if (WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)) {
     WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
 
     'Pesanan Tempatan page loaded successfully'
-    WebUI.delay(5)
+    WebUI.delay(3)
 } else {
     'Click on icon Tukar Peranan'
     WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
@@ -80,6 +80,6 @@ if (WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)) {
     WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
 
     'Pesanan Tempatan page loaded successfully'
-    WebUI.delay(5)
+    WebUI.delay(3)
 }
 

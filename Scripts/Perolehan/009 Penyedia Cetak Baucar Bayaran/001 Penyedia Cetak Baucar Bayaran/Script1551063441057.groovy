@@ -78,6 +78,8 @@ WebUI.switchToWindowIndex(1)
 'wait for the page to load the document which will take some times'
 WebUI.waitForPageLoad(180, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 'take the screen shot of the document loaded'
 WebUI.takeScreenshot()
 

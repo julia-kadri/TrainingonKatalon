@@ -145,7 +145,7 @@ WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesan
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Ya_Sah_Simpan'))
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(8)
 
 'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'), 
@@ -155,7 +155,7 @@ WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/0
 WebUI.takeScreenshot()
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Click OK to close the prompt box'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_OK_Rekod_disimpan'))

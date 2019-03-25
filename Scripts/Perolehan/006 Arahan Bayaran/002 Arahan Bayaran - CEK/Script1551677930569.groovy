@@ -68,12 +68,12 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Dr
 'Delay'
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal_cek)
 
 WebUI.delay(3)
 
 'Select Nama Pembekal AA DUA'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.nama_pembekal]))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal', [('text') : GlobalVariable.nama_pembekal_cek]))
 
 'Delay'
 WebUI.delay(5)
@@ -155,13 +155,13 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Dr
 WebUI.delay(3)
 
 'input pembekal with kod K0806SS29058'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'), GlobalVariable.kod_pembekal_cek)
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'), GlobalVariable.kod_pembekal_pemfaktoran)
 
 'delay'
 WebUI.delay(3)
 
 'select the pembekal as K0806SS29058'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada', [('text') : GlobalVariable.kod_pembekal_cek]))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada', [('text') : GlobalVariable.kod_pembekal_pemfaktoran]))
 
 'delay'
 WebUI.delay(5)
