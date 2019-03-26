@@ -36,6 +36,18 @@ WebUI.verifyTextPresent('Peranan : [Penyemak] Peringkat : [PTJ]', false)
 
 WebUI.delay(5)
 
+'Click on Menu Sisi to display Menu selections'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
+
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+'Select Perolehan Sub-menu'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
+
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
 'Click on Menu sisi and select Arahan Bayaran'
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
 

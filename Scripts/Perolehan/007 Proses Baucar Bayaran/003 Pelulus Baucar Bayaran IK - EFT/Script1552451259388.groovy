@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+        2, 7))
 
 'change peranan to Pelulus PTJ'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
@@ -65,7 +65,7 @@ String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar 
 WebUI.delay(3)
 
 'verify that nama penerima is what is set when filling in dengan pemfaktoran = Ya'
-WebUI.verifyMatch(namapenerima, 'MANJUNG POINT ONE ENTERPRISE', false)
+WebUI.verifyMatch(namapenerima, 'JULIANA TRADING', false)
 
 'get text of amount from the screen'
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun'))

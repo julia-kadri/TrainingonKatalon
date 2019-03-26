@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+        2, 7))
 
 'change peranan to Pelulus PTJ'
 CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
