@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'open browser and enter ispek URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
@@ -20,8 +22,19 @@ CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
         2, 7))
 
-'change peranan to Pelulus PTJ'
-CustomKeywords.'reusablefunctions.reusablefunctions.PerananPelulusPTJ'()
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '220']))
+
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+
+WebUI.delay(20)
+
+'Verify Peranan is now Pelulus PTJ'
+WebUI.verifyTextPresent('Peranan : [Pelulus] Peringkat : [PTJ]', false)
 
 'click on menu sisi to expand menu selection'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi'))
@@ -60,12 +73,13 @@ WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulu
 WebUI.delay(3)
 
 'get the value of Nama Penerima'
-String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/002 Pelulus IK/Nama_Penerima - CEK'))
+String kodpembekal = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/002 Pelulus IK/pembekal_penerima - CEK', 
+        [('text') : GlobalVariable.kod_pembekal_cek]))
 
 WebUI.delay(3)
 
 'verify that nama penerima is what is set when filling in dengan pemfaktoran = Ya'
-WebUI.verifyMatch(namapenerima, 'JULIA COMPETENCY TRAINING & SERVICES', false)
+WebUI.verifyMatch(kodpembekal, GlobalVariable.kod_pembekal_cek, false)
 
 'get text of amount from the screen'
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun'))
@@ -105,6 +119,17 @@ GlobalVariable.Nombor_Baucar = Baucar_id
 
 'delay'
 WebUI.delay(3)
+
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'), 
+    300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
 'click on Ya button to confirm cetak'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'))

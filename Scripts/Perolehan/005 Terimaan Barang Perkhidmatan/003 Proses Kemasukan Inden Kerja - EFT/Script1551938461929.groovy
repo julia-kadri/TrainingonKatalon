@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'Open browser and navigate to Homepage URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
@@ -138,8 +140,21 @@ WebUI.delay(10)
 WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'), 
     180)
 
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
+	300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'),
+	300)
+
+
 'take screenshot of the record successfully saved as reference'
 WebUI.takeScreenshot()
+
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
 'click OK button to close the popup message'
 WebUI.click(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'))

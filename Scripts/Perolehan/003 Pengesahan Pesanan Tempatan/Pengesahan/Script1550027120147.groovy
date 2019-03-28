@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.openBrowser('')
 
@@ -116,6 +118,18 @@ WebUI.delay(5)
 
 'wait for the element to become clickable'
 WebUI.waitForElementClickable(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 60)
+
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
+	300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'),
+	300)
+
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
 'Delay'
 WebUI.delay(5)

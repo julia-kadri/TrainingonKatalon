@@ -12,9 +12,20 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'Call test to open menu sisi and then select pesanan tempatan / inden kerja'
 WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'declare object to find as an element'
+WebElement rekodbaru = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru'), 
+    300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(rekodbaru))
+
+WebUI.delay(5)
 
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru'))
@@ -210,6 +221,13 @@ WebUI.delay(3)
 
 'take screenshot of the popup message with record id for reference'
 WebUI.takeScreenshot()
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan'), 
+    300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
 'click OK button to close the popup message'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan'))

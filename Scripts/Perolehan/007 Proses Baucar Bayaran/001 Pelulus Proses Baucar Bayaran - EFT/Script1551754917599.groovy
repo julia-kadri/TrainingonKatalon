@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'open browser and enter ispek url'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
@@ -111,6 +113,18 @@ GlobalVariable.Nombor_Baucar = Baucar_id
 
 'delay'
 WebUI.delay(3)
+
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
+	300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'),
+	300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
+
 
 'click Ya to print the baucar'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'))

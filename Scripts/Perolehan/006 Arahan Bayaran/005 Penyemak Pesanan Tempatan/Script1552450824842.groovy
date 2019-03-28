@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'open browser and enter ispek URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
@@ -83,6 +85,18 @@ WebUI.takeScreenshot()
 WebUI.delay(8)
 
 WebUI.waitForElementClickable(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'), 240)
+
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
+	300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'),
+	300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
+
 
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'))
 

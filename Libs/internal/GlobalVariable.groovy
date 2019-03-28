@@ -127,6 +127,11 @@ Profile Staging - Copy : get no rujukan for inden kerja</p>
      */
     public static Object kod_pembekal_pemfaktoran
      
+    /**
+     * <p></p>
+     */
+    public static Object nama_pembekal_pemfaktoran
+     
 
     static {
         try {
@@ -156,6 +161,7 @@ Profile Staging - Copy : get no rujukan for inden kerja</p>
             nama_pembekal = selectedVariables['nama_pembekal']
             nama_pembekal_cek = selectedVariables['nama_pembekal_cek']
             kod_pembekal_pemfaktoran = selectedVariables['kod_pembekal_pemfaktoran']
+            nama_pembekal_pemfaktoran = selectedVariables['nama_pembekal_pemfaktoran']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

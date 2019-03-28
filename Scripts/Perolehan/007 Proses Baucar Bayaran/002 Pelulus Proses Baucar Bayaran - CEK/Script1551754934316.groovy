@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.WebElement as WebElement
 
 'open browser and enter ispek URL'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
@@ -71,13 +73,13 @@ WebUI.doubleClick(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulu
 WebUI.delay(3)
 
 'get the value of Nama Penerima'
-String namapenerima = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/nama_Penerima', [
-            ('text') : GlobalVariable.kod_pembekal_cek]))
+String kodpembekal = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/kod_pembekal_Penerima', 
+        [('text') : GlobalVariable.nama_pembekal_pemfaktoran]))
 
 WebUI.delay(3)
 
 'verify that nama penerima is what is set when filling in dengan pemfaktoran = Ya'
-WebUI.verifyMatch(namapenerima, 'JULIANA TRADING', false)
+WebUI.verifyMatch(kodpembekal, GlobalVariable.nama_pembekal_pemfaktoran, false)
 
 'get text of amount from the screen'
 String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun'))
@@ -117,6 +119,17 @@ GlobalVariable.Nombor_Baucar = Baucar_id
 
 'delay'
 WebUI.delay(3)
+
+'wait for the element to be clickable'
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
+
+'declare object to find as an element'
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'), 
+    300)
+
+'click on the element using javascript'
+WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
 'click on Ya button to confirm cetak'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'))

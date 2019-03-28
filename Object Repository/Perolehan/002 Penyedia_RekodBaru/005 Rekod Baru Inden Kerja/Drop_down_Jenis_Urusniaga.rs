@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='procPesananTempatanFormV2']//tr[1]//td[2]//span[1]//span[1]</value>
+         <value>//form[@id='procPesananTempatanFormV2']//tr[1]//td[2]//span[1]//span[1]//a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
