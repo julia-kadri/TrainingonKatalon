@@ -16,7 +16,6 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (def index : (1..9)) {
-	
     WebUI.delay(3)
 
     WebUI.doubleClick(findTestObject('Object Repository/30JAN_Record_and_Play/div_19DAPT030100122'))
@@ -29,7 +28,10 @@ for (def index : (1..9)) {
 
     WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/a_Ok'))
 
+    WebUI.acceptAlert()
 }
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 
