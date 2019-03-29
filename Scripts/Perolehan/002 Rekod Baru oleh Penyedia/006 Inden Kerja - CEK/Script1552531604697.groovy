@@ -18,7 +18,7 @@ import org.openqa.selenium.WebElement as WebElement
 'Call test to open menu sisi and then select pesanan tempatan / inden kerja'
 WebUI.callTestCase(findTestCase('Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(8)
 
 'Click Rekod Baru button'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru'))
@@ -42,10 +42,12 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
 'input nama pembekal julia competency training in the filter textbox'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), 'JULIA COMPETENCY TRAINING')
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), GlobalVariable.nama_pembekal_cek)
+
+WebUI.delay(0)
 
 'select nama pembekal from the filter result'
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Pembekal', [('text') : GlobalVariable.kod_pembekal_cek]))
 
 'click on the calendar date picker for sila bekalkan'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan'))
@@ -95,38 +97,45 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 'delay'
 WebUI.delay(3)
 
-'click on drop down vot dana'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana'))
-
-'delay'
-WebUI.delay(8)
-
-'input vot dana kod value B31 to filter for this kod '
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Vot_kod'), 'B31')
-
-'select vot dana from filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_dana'))
-
-'Click drop down program aktiviti'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti'))
+'Click Vot Dana drop down to select a value'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Vot_Dana'))
 
 'delay'
 WebUI.delay(3)
 
-'input program aktiviti kod value 160080 to filter for this kod'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ProgramAktiviti_kod'), '160080')
+'set value Vot Dana B31 into the filter for KOD'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'), GlobalVariable.Vot_dana)
 
-'select program aktiviti kod from filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti'))
+'Select Vot Dana B31'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Vot_Dana', [('text') : GlobalVariable.Vot_dana]))
 
-'click drop down kod akaun'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun'))
+WebUI.delay(3)
 
-'input kod akaun value B0227102 to filter for this kod'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kod_Akaun_kod'), 'B0227102')
+'Click Program Aktiviti drop down to select a value'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Program_Aktiviti'))
 
-'select kod akaun from filter result'
-WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis'))
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_Kod_Program_Aktiviti'), 
+    GlobalVariable.kod_program_aktiviti)
+
+'Select Program Aktiviti 010080'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Program', [('text') : GlobalVariable.kod_program_aktiviti]))
+
+WebUI.delay(3)
+
+'Click Kod Akaun drop down to select a value'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Drop_down_Kod_Akaun'))
+
+'Delay'
+WebUI.delay(3)
+
+'Search for Kod Akaun B0221101'
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/input_kod_akaun'), GlobalVariable.kod_akaun_cek)
+
+'Delay'
+WebUI.delay(3)
+
+'Select Kod Akaun B0221101'
+WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/Select_Kod_Akaun', [('text') : GlobalVariable.kod_akaun_cek]))
 
 'input kuantiti as 4'
 WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kuantiti'), '4')

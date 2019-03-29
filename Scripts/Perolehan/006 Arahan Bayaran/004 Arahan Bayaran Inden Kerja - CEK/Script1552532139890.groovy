@@ -19,8 +19,8 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 2), findTestData('ispekstestdata').getValue(
-        2, 2))
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+        2, 4))
 
 'Delay'
 WebUI.delay(3)
@@ -72,16 +72,17 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/D
 WebUI.delay(3)
 
 'Search for Nama Pembekal JULIA COMPETENCY TRAINING'
-WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/Input_Nama_Pembekal'), 'JULIA COMPETENCY TRAINING & SERVICES')
+WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'), GlobalVariable.nama_pembekal_cek)
 
 WebUI.delay(3)
 
 'select nama pembekal from the filter result'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/select_nama_pembekal'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/select_nama_pembekal', [('text') : GlobalVariable.nama_pembekal_cek]), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/Drop_down_cara_bayaran'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Cara_Bayaran'))
 
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/Select_CEK'))
 
@@ -138,6 +139,18 @@ WebUI.delay(5)
 
 'Click on Save icon to save maklumat terima barang'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_save_maklumat_terimaan_barang'))
+
+WebUI.delay(3)
+
+WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/Maklumat_penerima', [('text') : GlobalVariable.nama_pembekal_cek]))
+
+WebUI.delay(0)
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/maklumat_penerima_drop_down_no_akaun'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/maklumat_penerima_no_akaun'))
+
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/Maklumat_penerima_save'))
 
 WebUI.delay(3)
 
@@ -208,13 +221,12 @@ GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 WebUI.delay(3)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'),
-	300)
-
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'), 
+    300)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))

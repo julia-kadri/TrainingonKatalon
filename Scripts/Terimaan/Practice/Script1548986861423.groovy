@@ -15,10 +15,41 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL_Homepage)
+WebUI.navigateToUrl('https://175.143.52.101:7011/1SPEKSv2/')
 
-CustomKeywords.'ispeks.random.loginfunction'(findTestData('ispekstestdata').getValue(1, 1), findTestData('ispekstestdata').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS/input_LOG Masuk_textbox-text validatebox-text'), 
+    '790214108888')
 
-WebUI.closeBrowser()
+WebUI.setEncryptedText(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS/input_LOG Masuk_textbox-text validatebox-text_1'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS/input_LOG Masuk_button large bg-darkBlue fg-white'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/a_Housekeeping_layout-button-right'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/div_Akaun Belum Terima'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/a_Tanpa Bil'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/div_18LATR050300341'))
+
+WebUI.doubleClick(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/div_18LATR050300341'))
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/span_Direct Print'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/a_Ok'))
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/span_Direct Print'))
+
+WebUI.click(findTestObject('Object Repository/30JAN_Record_and_Play/Page_1SPEKS-Utama/span_Ok'))
 
