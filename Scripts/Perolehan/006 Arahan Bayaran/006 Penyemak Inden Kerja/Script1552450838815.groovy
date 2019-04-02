@@ -58,52 +58,69 @@ assert true
 'Delay'
 WebUI.delay(3)
 
+'input arahan bayaran rekod id to filter for the specific record'
 WebUI.setText(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod'), GlobalVariable.ArahanBayaranRekodID)
 
+'delay'
 WebUI.delay(3)
 
+'double click on the filter result - there is only one result after filter'
 WebUI.doubleClick(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/select_noRekod', [('text') : GlobalVariable.ArahanBayaranRekodID]))
 
-WebUI.delay(3)
+'delay'
+WebUI.delay(5)
 
+'get jumlah arahan bayaran'
+def jumlah = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/jumlah_PT'))
+
+'verify jumlah during semak is matching with jumlah during creation'
+WebUI.verifyMatch(jumlah, GlobalVariable.TotalAmaunPT, false)
+
+'click on senarai semak button'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Senarai_Semak'))
 
+'delay'
 WebUI.delay(3)
 
+'verify element checked during semak is same as during create rekod baru'
 WebUI.verifyElementChecked(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1'), 3)
 
+'verify element checked during semak is same as during create rekod baru'
 WebUI.verifyElementChecked(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2'), 3)
 
+'verify element checked during semak is same as during create rekod baru'
 WebUI.verifyElementChecked(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3'), 3)
 
+'close senarai semak window'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_X_Close_Senarai_Semak'))
 
+'click on semak button'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Semak'))
 
+'click Ya to confirm semak record'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_Ya_Semak'))
 
+'delay'
 WebUI.delay(3)
 
-
-
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'),
-	300)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'), 
+    300)
 
+'take screenshot'
 WebUI.takeScreenshot()
 
+'delay'
 WebUI.delay(3)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
 
-/*
- * WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'))
- */
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
