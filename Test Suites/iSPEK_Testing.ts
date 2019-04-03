@@ -3,7 +3,7 @@
    <description></description>
    <name>iSPEK_Testing</name>
    <tag></tag>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
@@ -19,7 +19,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Staging</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Perolehan/02 Pesanan Tempatan Cara Bayaran CEK Dengan Pemfaktoran</testSuiteEntity>
@@ -37,7 +37,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Staging</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Perolehan/04 Inden Kerja Cara Bayaran CEK Tiada Pemfaktoran</testSuiteEntity>
