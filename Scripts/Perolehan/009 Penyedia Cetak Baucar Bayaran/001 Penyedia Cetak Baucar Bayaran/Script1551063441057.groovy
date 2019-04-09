@@ -19,14 +19,14 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the application'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Click on icon Tukar Peranan'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 'Click Radio Button Penyedia PTJ'
-WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPenyediaPTJ]))
 
 'Click Ya to confirm change of role'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
@@ -67,7 +67,7 @@ WebUI.setText(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari'))
 
 'delay'
-WebUI.delay(3)
+WebUI.delay(10)
 
 'click on button cetak to print the baucar again'
 WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak'))
@@ -75,18 +75,16 @@ WebUI.click(findTestObject('Perolehan/009 Penyedia Cetak Baucar Bayaran/button_C
 'delay'
 WebUI.delay(5)
 
-WebUI.switchToWindowIndex(1)
+'wait 180seconds  for the baucar bayaran page to load '
+WebUI.waitForPageLoad(180)
 
-'wait for the page to load the document which will take some times'
-WebUI.waitForPageLoad(180, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
+'delay'
+WebUI.delay(30)
 
 'take the screen shot of the document loaded'
 WebUI.takeScreenshot()
 
-'switch to window tab index 1 to get the baucar displayed'
-WebUI.switchToWindowIndex(0)
+WebUI.closeWindowIndex(1)
 
 'delay'
 WebUI.delay(3)

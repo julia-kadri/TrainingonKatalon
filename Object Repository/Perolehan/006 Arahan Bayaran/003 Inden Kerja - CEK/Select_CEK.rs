@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(),'CEK')]</value>
+         <value>//body/div[10]/div[@title='']/div[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

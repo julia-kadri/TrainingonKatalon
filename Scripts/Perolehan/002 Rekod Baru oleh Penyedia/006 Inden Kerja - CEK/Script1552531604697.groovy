@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
 'input nama pembekal julia competency training in the filter textbox'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), GlobalVariable.nama_pembekal_cek)
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kod_Pembekal'), GlobalVariable.kod_pembekal_cek)
 
 WebUI.delay(0)
 

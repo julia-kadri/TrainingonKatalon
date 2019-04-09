@@ -6,6 +6,10 @@
    <elementGuidId>07dbb594-bdf0-4f27-920b-24f945b63610</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'checkbox' and @name = 'pkid' and @value = '1225']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//tr[@id='datagrid-row-r35-2-4']/td/div/input</value>
       </entry>
@@ -39,13 +43,6 @@
       <name>value</name>
       <type>Main</type>
       <value>1225</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;datagrid-row-r35-2-4&quot;)/td[1]/div[@class=&quot;datagrid-cell-check&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

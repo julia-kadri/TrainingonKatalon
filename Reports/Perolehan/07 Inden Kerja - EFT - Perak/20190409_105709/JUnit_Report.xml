@@ -1,0 +1,2351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="07 Inden Kerja - EFT - Perak" time="834" tests="8" failures="1" errors="0">
+   <testsuite name="07 Inden Kerja - EFT - Perak" tests="8" failures="1" errors="0" time="834" timestamp="2019-04-09 10:57:17" hostname="Consultant_MSPHitect - DESKTOP-V9TS2EM" id="Test Suites/Perolehan/07 Inden Kerja - EFT - Perak">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709"/>
+         <property name="logFiles" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554778727788.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554778983899.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779111708.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779183084.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779298333.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779394864.png, C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779470898.png"/>
+         <property name="hostName" value="Consultant_MSPHitect - DESKTOP-V9TS2EM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.182.160"/>
+         <property name="sessionId" value="be9e048bb46fe30cc3bb0b09f82b56d3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/009 Inden Kerja - EFT" classname="Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/009 Inden Kerja - EFT" status="PASSED">
+         <system-out><![CDATA[2019-04-09 10:57:17 - [TEST_CASE][PASSED] - Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/009 Inden Kerja - EFT: Test Cases/Perolehan/002 Rekod Baru oleh Penyedia/009 Inden Kerja - EFT
+
+2019-04-09 10:57:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan' successfully
+
+2019-04-09 10:57:18 - [TEST_CASE][PASSED] - Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan: Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan
+
+2019-04-09 10:57:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-09 10:57:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 10:57:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-09 10:57:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-09 10:57:21 - [TEST_STEP][PASSED] - navigateToUrl(URL_Homepage): Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 10:57:23 - [MESSAGE][PASSED] - Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 10:57:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_NoKadPengenalan"), PenyediaPTJ): Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 10:57:23 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 10:57:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password"), findTestData("ispekstestdata").getValue(2, 4)): Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 10:57:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 10:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/input_ButtonLogMasuk")): Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 10:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 10:57:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 10:57:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 10:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 10:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 10:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPenyediaPTJ])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 10:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 10:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 10:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 10:57:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 10:57:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 10:57:50 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Penyedia] Peringkat : [PTJ]", false): Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 10:57:52 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 10:57:52 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 10:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 10:57:53 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 10:57:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 10:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 10:57:56 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 10:57:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PesananTempatan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 10:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 10:57:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Perolehan/001 Left Menu Selection/Select Menu Pesanan Tempatan' successfully
+
+2019-04-09 10:58:02 - [TEST_STEP][PASSED] - rekodbaru = findWebElement(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru"), 300): null
+
+2019-04-09 10:58:02 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(rekodbaru)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:58:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:58:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 10:58:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 10:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru' is clicked on
+
+2019-04-09 10:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Rekod_Baru' is clicked on
+
+2019-04-09 10:58:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Jenis_Urusniaga")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Jenis_Urusniaga' is clicked on
+
+2019-04-09 10:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Jenis_Urusniaga' is clicked on
+
+2019-04-09 10:58:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-09 10:58:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-09 10:58:13 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2019-04-09 10:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_INDEN KERJA AUTO")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_INDEN KERJA AUTO' is clicked on
+
+2019-04-09 10:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_INDEN KERJA AUTO' is clicked on
+
+2019-04-09 10:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal' is clicked on
+
+2019-04-09 10:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal' is clicked on
+
+2019-04-09 10:58:13 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_pembekal"), kod_pembekal): Text 'B0804ML33681' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_pembekal'
+
+2019-04-09 10:58:13 - [MESSAGE][PASSED] - Text 'B0804ML33681' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_pembekal'
+
+2019-04-09 10:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_nama_pembekal", ["text":kod_pembekal])): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_nama_pembekal' is clicked on
+
+2019-04-09 10:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_nama_pembekal' is clicked on
+
+2019-04-09 10:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan' is clicked on
+
+2019-04-09 10:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Sila_Bekalkan' is clicked on
+
+2019-04-09 10:58:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Next_month")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Next_month' is clicked on
+
+2019-04-09 10:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Next_month' is clicked on
+
+2019-04-09 10:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Select_date_26th")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Select_date_26th' is clicked on
+
+2019-04-09 10:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Date_Picker_Select_date_26th' is clicked on
+
+2019-04-09 10:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_no_tanggungan"), "2"): Text '2' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_no_tanggungan'
+
+2019-04-09 10:58:17 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_no_tanggungan'
+
+2019-04-09 10:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_amaun_tanggungan"), "100"): Text '100' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_amaun_tanggungan'
+
+2019-04-09 10:58:17 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_amaun_tanggungan'
+
+2019-04-09 10:58:17 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ringkasan_kerja"), "ringkasan kerja untuk inden kerja"): Text 'ringkasan kerja untuk inden kerja' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ringkasan_kerja'
+
+2019-04-09 10:58:18 - [MESSAGE][PASSED] - Text 'ringkasan kerja untuk inden kerja' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_ringkasan_kerja'
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - RN = Math.random() * 100000: null
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail"), "IK00" + RN): Text 'IK0098717' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'
+
+2019-04-09 10:58:18 - [MESSAGE][PASSED] - Text 'IK0098717' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_rujukan_fail'
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - IKno_rujukan = "IK00" + RN: null
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - println(IKno_rujukan): null
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci"), "kerja terperinci " + mydate): Text 'kerja terperinci Tue Apr 09 10:58:13 SGT 2019' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'
+
+2019-04-09 10:58:18 - [MESSAGE][PASSED] - Text 'kerja terperinci Tue Apr 09 10:58:13 SGT 2019' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kerja_terperinci'
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal"), "test inden kerja cara bayaran EFT " + mydate): Text 'test inden kerja cara bayaran EFT Tue Apr 09 10:58:13 SGT 2019' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'
+
+2019-04-09 10:58:18 - [MESSAGE][PASSED] - Text 'test inden kerja cara bayaran EFT Tue Apr 09 10:58:13 SGT 2019' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_Perihal'
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci' is clicked on
+
+2019-04-09 10:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/tambah_maklumat_terperinci' is clicked on
+
+2019-04-09 10:58:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana' is clicked on
+
+2019-04-09 10:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Vot_Dana' is clicked on
+
+2019-04-09 10:58:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:24 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/Input_Vot_Dana"), Vot_dana): Text 'B31' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'
+
+2019-04-09 10:58:25 - [MESSAGE][PASSED] - Text 'B31' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/Input_Vot_Dana'
+
+2019-04-09 10:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_dana", ["text":Vot_dana])): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_dana' is clicked on
+
+2019-04-09 10:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Vot_dana' is clicked on
+
+2019-04-09 10:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti' is clicked on
+
+2019-04-09 10:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Program_Aktiviti' is clicked on
+
+2019-04-09 10:58:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_Kod_Program_Aktiviti"), kod_program_aktiviti): Text '160080' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_Kod_Program_Aktiviti'
+
+2019-04-09 10:58:28 - [MESSAGE][PASSED] - Text '160080' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_Kod_Program_Aktiviti'
+
+2019-04-09 10:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti", ["text":kod_program_aktiviti])): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti' is clicked on
+
+2019-04-09 10:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_ProgramAktiviti' is clicked on
+
+2019-04-09 10:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun' is clicked on
+
+2019-04-09 10:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Kod_Akaun' is clicked on
+
+2019-04-09 10:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_Akaun"), kod_akaun): Text 'B0221101' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_Akaun'
+
+2019-04-09 10:58:29 - [MESSAGE][PASSED] - Text 'B0221101' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/007 Rekod Baru Pesanan Tempatan/input_kod_Akaun'
+
+2019-04-09 10:58:29 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis", ["text":kod_akaun])): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis' is clicked on
+
+2019-04-09 10:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_Kod_Akaun_Alat_tulis' is clicked on
+
+2019-04-09 10:58:29 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kuantiti"), "7"): Text '7' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kuantiti'
+
+2019-04-09 10:58:30 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kuantiti'
+
+2019-04-09 10:58:30 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_harga_seunit"), "1.58"): Text '1.58' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_harga_seunit'
+
+2019-04-09 10:58:30 - [MESSAGE][PASSED] - Text '1.58' is set on object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_harga_seunit'
+
+2019-04-09 10:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_maklumat_terperinci")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_maklumat_terperinci' is clicked on
+
+2019-04-09 10:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_maklumat_terperinci' is clicked on
+
+2019-04-09 10:58:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_peruntukan_mencukupi")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_peruntukan_mencukupi' is clicked on
+
+2019-04-09 10:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_peruntukan_mencukupi' is clicked on
+
+2019-04-09 10:58:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Simpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Simpan' is clicked on
+
+2019-04-09 10:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Simpan' is clicked on
+
+2019-04-09 10:58:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_rekod_berjaya_disimpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_rekod_berjaya_disimpan' is clicked on
+
+2019-04-09 10:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_rekod_berjaya_disimpan' is clicked on
+
+2019-04-09 10:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Senarai_Semak")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Senarai_Semak' is clicked on
+
+2019-04-09 10:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Senarai_Semak' is clicked on
+
+2019-04-09 10:58:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:42 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak1")): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak1' is checked
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak1' is checked
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak2")): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak2' is checked
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak2' is checked
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak3")): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak3' is checked
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/senarai_semak3' is checked
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_senarai_semak")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_senarai_semak' is clicked on
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_simpan_senarai_semak' is clicked on
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_maklumat_berjaya_disimpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_maklumat_berjaya_disimpan' is clicked on
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_maklumat_berjaya_disimpan' is clicked on
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_X_close_senarai_semak")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_X_close_senarai_semak' is clicked on
+
+2019-04-09 10:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_X_close_senarai_semak' is clicked on
+
+2019-04-09 10:58:43 - [TEST_STEP][PASSED] - Total = getText(findTestObject("Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT")): Text of object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT' is: '11.06'
+
+2019-04-09 10:58:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/0022 Sah_Simpan/TotalAmaunPT' is: '11.06'
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - println(Total): null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - TotalAmaunPT = Total: null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_sah_simpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_sah_simpan' is clicked on
+
+2019-04-09 10:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_sah_simpan' is clicked on
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Ya_Sah_Simpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 10:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - PTRekodberjayaID = getText(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Rekod_berjaya_No_Rekod")): Text of object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Rekod_berjaya_No_Rekod' is: 'Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DAIK030100078 ]
+Ok'
+
+2019-04-09 10:58:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Rekod_berjaya_No_Rekod' is: 'Rekod Telah Berjaya Di Sah Simpan. [ NO REKOD :19DAIK030100078 ]
+Ok'
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - println(PTRekodberjayaID): null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - PTRekodID = PTRekodberjayaID[(47..61)]: null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - println(PTRekodID): null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - PesananTempatanRekodID = PTRekodID: null
+
+2019-04-09 10:58:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:58:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:58:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 10:58:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554778727788.png]]
+
+2019-04-09 10:58:48 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan"), 300): null
+
+2019-04-09 10:58:48 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:58:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan")): Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan' is clicked on
+
+2019-04-09 10:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/button_OK_berjaya_disah_simpan' is clicked on
+
+2019-04-09 10:58:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 10:58:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan" classname="Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan" status="PASSED">
+         <system-out><![CDATA[2019-04-09 10:58:48 - [TEST_CASE][PASSED] - Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan: Test Cases/Perolehan/003 Pengesahan Pesanan Tempatan/Pengesahan
+
+2019-04-09 10:58:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-09 10:58:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 10:58:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-09 10:58:51 - [TEST_STEP][PASSED] - navigateToUrl(URL_Homepage): Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 10:58:52 - [MESSAGE][PASSED] - Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 10:58:52 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PengesahBN, findTestData("ispekstestdata").getValue(2, 6)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 10:58:52 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 10:58:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 10:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 10:59:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 10:59:03 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 10:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 10:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 10:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPengesahBN])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 10:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 10:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 10:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 10:59:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 10:59:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 10:59:23 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Pengesah] Peringkat : [BN]", false): Text 'Peranan : [Pengesah] Peringkat : [BN]' is present on page 
+
+2019-04-09 10:59:26 - [MESSAGE][PASSED] - Text 'Peranan : [Pengesah] Peringkat : [BN]' is present on page 
+
+2019-04-09 10:59:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 10:59:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 10:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 10:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 10:59:31 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 10:59:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 10:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 10:59:34 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 10:59:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PesananTempatan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 10:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 10:59:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:59:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/003 Pengesah/input_No_Rekod"), PesananTempatanRekodID): Text '19DAIK030100078' is set on object 'Object Repository/Perolehan/003 Pengesah/input_No_Rekod'
+
+2019-04-09 10:59:41 - [MESSAGE][PASSED] - Text '19DAIK030100078' is set on object 'Object Repository/Perolehan/003 Pengesah/input_No_Rekod'
+
+2019-04-09 10:59:41 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/003 Pengesah/Senarai_Tugas_Item_No_1", ["text":PesananTempatanRekodID])): Object: 'Object Repository/Perolehan/003 Pengesah/Senarai_Tugas_Item_No_1' is double clicked on
+
+2019-04-09 10:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/003 Pengesah/Senarai_Tugas_Item_No_1' is double clicked on
+
+2019-04-09 10:59:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:59:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - formattedDate = mydate.format("dd/MM/yyyy"): null
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - formattedYear = mydate.format("yyyy"): null
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - println(formattedDate): null
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - println(formattedYear): null
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - TahunKewangan = getText(findTestObject("Perolehan/003 Pengesah/Label_tahun_kewangan")): Text of object 'Object Repository/Perolehan/003 Pengesah/Label_tahun_kewangan' is: '2019'
+
+2019-04-09 10:59:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/Label_tahun_kewangan' is: '2019'
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - verifyMatch(TahunKewangan, formattedYear, false): Actual text '2019' and expected text '2019' are matched 
+
+2019-04-09 10:59:44 - [MESSAGE][PASSED] - Actual text '2019' and expected text '2019' are matched 
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - TarikhSemasa = getText(findTestObject("Perolehan/003 Pengesah/Label_Tarikh_semasa")): Text of object 'Object Repository/Perolehan/003 Pengesah/Label_Tarikh_semasa' is: '09/04/2019'
+
+2019-04-09 10:59:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/Label_Tarikh_semasa' is: '09/04/2019'
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - verifyMatch(TarikhSemasa, formattedDate, false): Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-09 10:59:44 - [MESSAGE][PASSED] - Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-09 10:59:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:59:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:47 - [TEST_STEP][PASSED] - jumlah = getText(findTestObject("Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan")): Text of object 'Object Repository/Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan' is: '11.06'
+
+2019-04-09 10:59:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan' is: '11.06'
+
+2019-04-09 10:59:47 - [TEST_STEP][PASSED] - println(jumlah): null
+
+2019-04-09 10:59:47 - [TEST_STEP][PASSED] - verifyMatch(jumlah, TotalAmaunPT, false): Actual text '11.06' and expected text '11.06' are matched 
+
+2019-04-09 10:59:47 - [MESSAGE][PASSED] - Actual text '11.06' and expected text '11.06' are matched 
+
+2019-04-09 10:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/003 Pengesah/button_sah")): Object: 'Object Repository/Perolehan/003 Pengesah/button_sah' is clicked on
+
+2019-04-09 10:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/003 Pengesah/button_sah' is clicked on
+
+2019-04-09 10:59:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 10:59:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 10:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/003 Pengesah/Button_ya_sahkan")): Object: 'Object Repository/Perolehan/003 Pengesah/Button_ya_sahkan' is clicked on
+
+2019-04-09 10:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/003 Pengesah/Button_ya_sahkan' is clicked on
+
+2019-04-09 10:59:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 10:59:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 10:59:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/003 Pengesah/button_OK_berjaya_disah"), 60): Object 'Object Repository/Perolehan/003 Pengesah/button_OK_berjaya_disah' is clickable
+
+2019-04-09 10:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/003 Pengesah/button_OK_berjaya_disah' is clickable
+
+2019-04-09 10:59:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 10:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 10:59:55 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/003 Pengesah/button_OK_berjaya_disah"), 300): null
+
+2019-04-09 10:59:55 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:59:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 10:59:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:00:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/003 Pengesah/button_OK_berjaya_disah")): Object: 'Object Repository/Perolehan/003 Pengesah/button_OK_berjaya_disah' is clicked on
+
+2019-04-09 11:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/003 Pengesah/button_OK_berjaya_disah' is clicked on
+
+2019-04-09 11:00:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:00:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus" classname="Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:00:01 - [TEST_CASE][PASSED] - Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus: Test Cases/Perolehan/004 Pelulus Pesanan Tempatan/Pelulus
+
+2019-04-09 11:00:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-09 11:00:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:00:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-09 11:00:04 - [TEST_STEP][PASSED] - navigateToUrl(URL_Homepage): Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 11:00:04 - [MESSAGE][PASSED] - Navigate to 'https://175.143.52.101:7011/1SPEKSv2/' successfully
+
+2019-04-09 11:00:04 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PelulusPTJ, findTestData("ispekstestdata").getValue(2, 7)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:00:04 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:00:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:00:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:00:16 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPelulusPTJ])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:00:16 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 11:00:36 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:00:36 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Pelulus] Peringkat : [PTJ]", false): Text 'Peranan : [Pelulus] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:00:38 - [MESSAGE][PASSED] - Text 'Peranan : [Pelulus] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:00:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:00:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:00:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:00:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:00:47 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:00:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PesananTempatan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 11:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PesananTempatan' is clicked on
+
+2019-04-09 11:00:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/004 Pelulus/input_No_Rekod"), PesananTempatanRekodID): Text '19DAIK030100078' is set on object 'Object Repository/Perolehan/004 Pelulus/input_No_Rekod'
+
+2019-04-09 11:00:53 - [MESSAGE][PASSED] - Text '19DAIK030100078' is set on object 'Object Repository/Perolehan/004 Pelulus/input_No_Rekod'
+
+2019-04-09 11:00:53 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/004 Pelulus/Senarai_Tugas_Item_No_1", ["text":PesananTempatanRekodID])): Object: 'Object Repository/Perolehan/004 Pelulus/Senarai_Tugas_Item_No_1' is double clicked on
+
+2019-04-09 11:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/004 Pelulus/Senarai_Tugas_Item_No_1' is double clicked on
+
+2019-04-09 11:00:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:00:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - formattedDate = mydate.format("dd/MM/yyyy"): null
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - formattedYear = mydate.format("yyyy"): null
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - println(formattedDate): null
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - println(formattedYear): null
+
+2019-04-09 11:00:56 - [TEST_STEP][PASSED] - TahunKewangan = getText(findTestObject("Perolehan/003 Pengesah/Label_tahun_kewangan")): Text of object 'Object Repository/Perolehan/003 Pengesah/Label_tahun_kewangan' is: '2019'
+
+2019-04-09 11:00:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/Label_tahun_kewangan' is: '2019'
+
+2019-04-09 11:00:57 - [TEST_STEP][PASSED] - verifyMatch(TahunKewangan, formattedYear, false): Actual text '2019' and expected text '2019' are matched 
+
+2019-04-09 11:00:57 - [MESSAGE][PASSED] - Actual text '2019' and expected text '2019' are matched 
+
+2019-04-09 11:00:57 - [TEST_STEP][PASSED] - TarikhSemasa = getText(findTestObject("Perolehan/003 Pengesah/Label_Tarikh_semasa")): Text of object 'Object Repository/Perolehan/003 Pengesah/Label_Tarikh_semasa' is: '09/04/2019'
+
+2019-04-09 11:00:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/Label_Tarikh_semasa' is: '09/04/2019'
+
+2019-04-09 11:00:57 - [TEST_STEP][PASSED] - verifyMatch(TarikhSemasa, formattedDate, false): Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-09 11:00:57 - [MESSAGE][PASSED] - Actual text '09/04/2019' and expected text '09/04/2019' are matched 
+
+2019-04-09 11:00:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 11:01:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:01:17 - [TEST_STEP][PASSED] - jumlah = getText(findTestObject("Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan")): Text of object 'Object Repository/Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan' is: '11.06'
+
+2019-04-09 11:01:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/003 Pengesah/label_Jumlah_pesanan_tempatan' is: '11.06'
+
+2019-04-09 11:01:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:01:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:01:20 - [TEST_STEP][PASSED] - println(jumlah): null
+
+2019-04-09 11:01:20 - [TEST_STEP][PASSED] - verifyMatch(jumlah, TotalAmaunPT, false): Actual text '11.06' and expected text '11.06' are matched 
+
+2019-04-09 11:01:20 - [MESSAGE][PASSED] - Actual text '11.06' and expected text '11.06' are matched 
+
+2019-04-09 11:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/004 Pelulus/button_Lulus")): Object: 'Object Repository/Perolehan/004 Pelulus/button_Lulus' is clicked on
+
+2019-04-09 11:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/004 Pelulus/button_Lulus' is clicked on
+
+2019-04-09 11:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/004 Pelulus/button_ya_luluskan")): Object: 'Object Repository/Perolehan/004 Pelulus/button_ya_luluskan' is clicked on
+
+2019-04-09 11:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/004 Pelulus/button_ya_luluskan' is clicked on
+
+2019-04-09 11:01:20 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2019-04-09 11:01:28 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/004 Pelulus/button_OK_Berjaya_lulus"), 180): Object 'Object Repository/Perolehan/004 Pelulus/button_OK_Berjaya_lulus' is clickable
+
+2019-04-09 11:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/004 Pelulus/button_OK_Berjaya_lulus' is clickable
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - RekodBerjayaLulus = getText(findTestObject("Perolehan/004 Pelulus/RekodBerjayaLulus")): Text of object 'Object Repository/Perolehan/004 Pelulus/RekodBerjayaLulus' is: 'Rekod Telah Berjaya Diluluskan. [ NO DOKUMEN :19DAIK0300060 ]
+Ok'
+
+2019-04-09 11:01:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/004 Pelulus/RekodBerjayaLulus' is: 'Rekod Telah Berjaya Diluluskan. [ NO DOKUMEN :19DAIK0300060 ]
+Ok'
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - println(RekodBerjayaLulus): null
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - PTDokumenID = RekodBerjayaLulus[(46..58)]: null
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - println(PTDokumenID): null
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - PesananTempatanDokumenID = PTDokumenID: null
+
+2019-04-09 11:01:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:01:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:01:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:01:31 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/004 Pelulus/button_OK_Berjaya_lulus"), 300): null
+
+2019-04-09 11:01:31 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:01:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/004 Pelulus/button_OK_Berjaya_lulus")): Object: 'Object Repository/Perolehan/004 Pelulus/button_OK_Berjaya_lulus' is clicked on
+
+2019-04-09 11:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/004 Pelulus/button_OK_Berjaya_lulus' is clicked on
+
+2019-04-09 11:01:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:01:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/003 Proses Kemasukan Inden Kerja - EFT" classname="Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/003 Proses Kemasukan Inden Kerja - EFT" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:01:32 - [TEST_CASE][PASSED] - Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/003 Proses Kemasukan Inden Kerja - EFT: Test Cases/Perolehan/005 Terimaan Barang Perkhidmatan/003 Proses Kemasukan Inden Kerja - EFT
+
+2019-04-09 11:01:32 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:01:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:01:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:01:36 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:01:36 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PenyediaPTJ, findTestData("ispekstestdata").getValue(2, 4)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:01:36 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:01:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:01:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:01:47 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:01:47 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ(): reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-04-09 11:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:02:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:02:10 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:02:10 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-04-09 11:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:02:10 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:02:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan' is clicked on
+
+2019-04-09 11:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_ClickonPerolehan' is clicked on
+
+2019-04-09 11:02:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:02:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang' is clicked on
+
+2019-04-09 11:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Kemasukan_Terimaan_Barang' is clicked on
+
+2019-04-09 11:02:16 - [TEST_STEP][PASSED] - assert true: null
+
+2019-04-09 11:02:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_REKOD BARU")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_REKOD BARU' is clicked on
+
+2019-04-09 11:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_REKOD BARU' is clicked on
+
+2019-04-09 11:02:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Drop_down_No_Dokumen")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Drop_down_No_Dokumen' is clicked on
+
+2019-04-09 11:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/Drop_down_No_Dokumen' is clicked on
+
+2019-04-09 11:02:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value"), PesananTempatanDokumenID): Text '19DAIK0300060' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'
+
+2019-04-09 11:02:26 - [MESSAGE][PASSED] - Text '19DAIK0300060' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/input_No_Dokumen_value'
+
+2019-04-09 11:02:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:02:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_No_Dokumen")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_No_Dokumen' is clicked on
+
+2019-04-09 11:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/select_No_Dokumen' is clicked on
+
+2019-04-09 11:02:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Cari")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Cari' is clicked on
+
+2019-04-09 11:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/button_Cari' is clicked on
+
+2019-04-09 11:02:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/OK_Rekod_Wujud")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/OK_Rekod_Wujud' is clicked on
+
+2019-04-09 11:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/001 Kemasukan Pesanan Tempatan/OK_Rekod_Wujud' is clicked on
+
+2019-04-09 11:02:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Drop_down_Jenis_Terimaan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Drop_down_Jenis_Terimaan' is clicked on
+
+2019-04-09 11:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Drop_down_Jenis_Terimaan' is clicked on
+
+2019-04-09 11:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/select_TERIMAAN INDEN KERJA PENUH")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/select_TERIMAAN INDEN KERJA PENUH' is clicked on
+
+2019-04-09 11:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/select_TERIMAAN INDEN KERJA PENUH' is clicked on
+
+2019-04-09 11:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_No_Rujukan"), "123456789012345"): Text '123456789012345' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_No_Rujukan'
+
+2019-04-09 11:02:40 - [MESSAGE][PASSED] - Text '123456789012345' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_No_Rujukan'
+
+2019-04-09 11:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_No_Rujukan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_No_Rujukan' is clicked on
+
+2019-04-09 11:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_No_Rujukan' is clicked on
+
+2019-04-09 11:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TR_Today")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TR_Today' is clicked on
+
+2019-04-09 11:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TR_Today' is clicked on
+
+2019-04-09 11:02:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_Siap")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_Siap' is clicked on
+
+2019-04-09 11:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_Tarikh_Siap' is clicked on
+
+2019-04-09 11:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TS_Today")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TS_Today' is clicked on
+
+2019-04-09 11:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/Date_Picker_TS_Today' is clicked on
+
+2019-04-09 11:02:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_Catatan"), "Test Catatan 000"): Text 'Test Catatan 000' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_Catatan'
+
+2019-04-09 11:02:47 - [MESSAGE][PASSED] - Text 'Test Catatan 000' is set on object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/input_Catatan'
+
+2019-04-09 11:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Simpan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Simpan' is clicked on
+
+2019-04-09 11:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Simpan' is clicked on
+
+2019-04-09 11:02:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan"), 60): Object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan' is clickable
+
+2019-04-09 11:02:50 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan' is clickable
+
+2019-04-09 11:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan' is clicked on
+
+2019-04-09 11:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_rekod_berjaya_disimpan' is clicked on
+
+2019-04-09 11:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Sah_Simpan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Sah_Simpan' is clicked on
+
+2019-04-09 11:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Sah_Simpan' is clicked on
+
+2019-04-09 11:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Ya_Sah_Simpan")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 11:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 11:02:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:02:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:02:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 11:03:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:03:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya"), 180): Object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya' is clickable
+
+2019-04-09 11:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya' is clickable
+
+2019-04-09 11:03:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:03:03 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya"), 300): null
+
+2019-04-09 11:03:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 11:03:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554778983899.png]]
+
+2019-04-09 11:03:04 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:03:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya")): Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya' is clicked on
+
+2019-04-09 11:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya' is clicked on
+
+2019-04-09 11:03:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:03:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/006 Arahan Bayaran/007 Arahan Bayaran Inden Kerja - EFT" classname="Test Cases/Perolehan/006 Arahan Bayaran/007 Arahan Bayaran Inden Kerja - EFT" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:03:04 - [TEST_CASE][PASSED] - Test Cases/Perolehan/006 Arahan Bayaran/007 Arahan Bayaran Inden Kerja - EFT: Test Cases/Perolehan/006 Arahan Bayaran/007 Arahan Bayaran Inden Kerja - EFT
+
+2019-04-09 11:03:05 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:03:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:03:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:03:08 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:03:08 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PenyediaPTJ, findTestData("ispekstestdata").getValue(2, 4)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:03:08 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:03:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:03:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:03:19 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:03:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:03:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:03:22 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ(): reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-04-09 11:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:03:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:03:45 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:03:45 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.PerananPenyediaPTJ is PASSED
+
+2019-04-09 11:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:03:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:03:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:03:49 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:03:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-04-09 11:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-04-09 11:03:52 - [TEST_STEP][PASSED] - assert true: null
+
+2019-04-09 11:03:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:03:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_REKOD_BARU")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_REKOD_BARU' is clicked on
+
+2019-04-09 11:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_REKOD_BARU' is clicked on
+
+2019-04-09 11:03:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:03:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran"), STOP_ON_FAILURE): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran' is clicked on
+
+2019-04-09 11:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Jenis_Baucar_Bayaran' is clicked on
+
+2019-04-09 11:03:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_AB0303_Inden_Kerja")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_AB0303_Inden_Kerja' is clicked on
+
+2019-04-09 11:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/select_AB0303_Inden_Kerja' is clicked on
+
+2019-04-09 11:04:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Nama_Pembekal")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Nama_Pembekal' is clicked on
+
+2019-04-09 11:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Drop_Down_Nama_Pembekal' is clicked on
+
+2019-04-09 11:04:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal"), nama_pembekal): Text 'BAYU DINAMIK ENTERPRISE' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'
+
+2019-04-09 11:04:08 - [MESSAGE][PASSED] - Text 'BAYU DINAMIK ENTERPRISE' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_kod_pembekal'
+
+2019-04-09 11:04:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 11:04:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:04:18 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal", ["text":nama_pembekal])): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal' is clicked on
+
+2019-04-09 11:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Nama_Pembekal' is clicked on
+
+2019-04-09 11:04:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:04:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Cara_Bayaran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Cara_Bayaran' is clicked on
+
+2019-04-09 11:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Cara_Bayaran' is clicked on
+
+2019-04-09 11:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - EFT")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - EFT' is clicked on
+
+2019-04-09 11:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - EFT' is clicked on
+
+2019-04-09 11:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Dengan_Pemfaktoran")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Dengan_Pemfaktoran' is clicked on
+
+2019-04-09 11:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/Drop_Down_Dengan_Pemfaktoran' is clicked on
+
+2019-04-09 11:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya' is clicked on
+
+2019-04-09 11:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Dengan_Pemfaktoran_Ya' is clicked on
+
+2019-04-09 11:04:24 - [TEST_STEP][PASSED] - mydate = new java.util.Date(): null
+
+2019-04-09 11:04:24 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal"), "This is a test for Arahan Bayaran Inden Kerja Julia " + mydate): Text 'This is a test for Arahan Bayaran Inden Kerja Julia Tue Apr 09 11:04:24 SGT 2019' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal'
+
+2019-04-09 11:04:24 - [MESSAGE][PASSED] - Text 'This is a test for Arahan Bayaran Inden Kerja Julia Tue Apr 09 11:04:24 SGT 2019' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Perihal'
+
+2019-04-09 11:04:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:27 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/List_maklumat_terimaan_barang")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/List_maklumat_terimaan_barang' is double clicked on
+
+2019-04-09 11:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/List_maklumat_terimaan_barang' is double clicked on
+
+2019-04-09 11:04:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TI")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TI' is clicked on
+
+2019-04-09 11:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TI' is clicked on
+
+2019-04-09 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_picker_TI_Today")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_picker_TI_Today' is clicked on
+
+2019-04-09 11:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_picker_TI_Today' is clicked on
+
+2019-04-09 11:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK"), STOP_ON_FAILURE): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK' is clicked on
+
+2019-04-09 11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK' is clicked on
+
+2019-04-09 11:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK_Today"), STOP_ON_FAILURE): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK_Today' is clicked on
+
+2019-04-09 11:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Date_Picker_TTK_Today' is clicked on
+
+2019-04-09 11:04:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Amaun_Invois"), TotalAmaunPT): Text '11.06' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Amaun_Invois'
+
+2019-04-09 11:04:34 - [MESSAGE][PASSED] - Text '11.06' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_Amaun_Invois'
+
+2019-04-09 11:04:34 - [TEST_STEP][PASSED] - RN = Math.random() * 10000: null
+
+2019-04-09 11:04:34 - [TEST_STEP][PASSED] - println(RN): null
+
+2019-04-09 11:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_No_Invois"), "INV0" + RN): Text 'INV01114' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_No_Invois'
+
+2019-04-09 11:04:34 - [MESSAGE][PASSED] - Text 'INV01114' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/input_No_Invois'
+
+2019-04-09 11:04:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:04:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_save_maklumat_terimaan_barang")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_save_maklumat_terimaan_barang' is clicked on
+
+2019-04-09 11:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_save_maklumat_terimaan_barang' is clicked on
+
+2019-04-09 11:04:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima"), 180): Scroll to object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' successfully
+
+2019-04-09 11:04:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' successfully
+
+2019-04-09 11:04:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima"), 180): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' is present
+
+2019-04-09 11:04:42 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' is present
+
+2019-04-09 11:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' is clicked on
+
+2019-04-09 11:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_tambah_maklumat_penerima' is clicked on
+
+2019-04-09 11:04:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat' is clicked on
+
+2019-04-09 11:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_Drop_Down_No_KPNo_Daftar_Syarikat' is clicked on
+
+2019-04-09 11:04:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:48 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal"), kod_pembekal_pemfaktoran): Text 'I0801SK29724' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'
+
+2019-04-09 11:04:49 - [MESSAGE][PASSED] - Text 'I0801SK29724' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/input_name_kod Pembekal'
+
+2019-04-09 11:04:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:04:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:04:52 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada", ["text":kod_pembekal_pemfaktoran])): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada' is clicked on
+
+2019-04-09 11:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_Maklumat_Penerima_Armada' is clicked on
+
+2019-04-09 11:04:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:04:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_input_amaun"), TotalAmaunPT): Text '11.06' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_input_amaun'
+
+2019-04-09 11:04:57 - [MESSAGE][PASSED] - Text '11.06' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_input_amaun'
+
+2019-04-09 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_button_save")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_button_save' is clicked on
+
+2019-04-09 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Penerima_button_save' is clicked on
+
+2019-04-09 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan' is clicked on
+
+2019-04-09 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan' is clicked on
+
+2019-04-09 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Simpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Simpan' is clicked on
+
+2019-04-09 11:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Simpan' is clicked on
+
+2019-04-09 11:04:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:05:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_disimpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_disimpan' is clicked on
+
+2019-04-09 11:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_disimpan' is clicked on
+
+2019-04-09 11:05:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Senarai Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Senarai Semak' is clicked on
+
+2019-04-09 11:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Senarai Semak' is clicked on
+
+2019-04-09 11:05:01 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1")): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-04-09 11:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-04-09 11:05:01 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2")): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-04-09 11:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-04-09 11:05:02 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3")): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-04-09 11:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-04-09 11:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan_Senarai_Semak' is clicked on
+
+2019-04-09 11:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Simpan_Senarai_Semak' is clicked on
+
+2019-04-09 11:05:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:05:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:05:05 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_maklumat_Senarai_Semak_disimpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_maklumat_Senarai_Semak_disimpan' is clicked on
+
+2019-04-09 11:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_maklumat_Senarai_Semak_disimpan' is clicked on
+
+2019-04-09 11:05:05 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak' is clicked on
+
+2019-04-09 11:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak' is clicked on
+
+2019-04-09 11:05:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:05:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - jumlahbaucarbayaran = getText(findTestObject("Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_baucar_bayaran")): Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_baucar_bayaran' is: '11.05'
+
+2019-04-09 11:05:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_baucar_bayaran' is: '11.05'
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - println(jumlahbaucarbayaran): null
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - jumlah_baucar_bayaran = jumlahbaucarbayaran: null
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan' is clicked on
+
+2019-04-09 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan' is clicked on
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Sah_Simpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Ya_Sah_Simpan' is clicked on
+
+2019-04-09 11:05:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:05:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:05:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 11:05:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779111708.png]]
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - attribute = getText(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Rekod Telah Berjaya Disah Simpan")): Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Rekod Telah Berjaya Disah Simpan' is: 'Rekod Telah Berjaya Disah Simpan. [ NO REKOD :19DAAB030300049 ]'
+
+2019-04-09 11:05:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Rekod Telah Berjaya Disah Simpan' is: 'Rekod Telah Berjaya Disah Simpan. [ NO REKOD :19DAAB030300049 ]'
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - println(attribute): null
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - ArahanBayaranID = attribute[(46..60)]: null
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - println(ArahanBayaranID): null
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - ArahanBayaranRekodID = ArahanBayaranID: null
+
+2019-04-09 11:05:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:05:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:05:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:05:15 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan"), 300): null
+
+2019-04-09 11:05:15 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:05:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan' is clicked on
+
+2019-04-09 11:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan' is clicked on
+
+2019-04-09 11:05:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:05:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/006 Arahan Bayaran/012 Penyemak Inden Kerja" classname="Test Cases/Perolehan/006 Arahan Bayaran/012 Penyemak Inden Kerja" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:05:15 - [TEST_CASE][PASSED] - Test Cases/Perolehan/006 Arahan Bayaran/012 Penyemak Inden Kerja: Test Cases/Perolehan/006 Arahan Bayaran/012 Penyemak Inden Kerja
+
+2019-04-09 11:05:16 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:05:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:05:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:05:18 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:05:18 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PenyemakPTJ, findTestData("ispekstestdata").getValue(2, 5)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:05:19 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:05:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:05:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:05:30 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPenyemakPTJ])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:05:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 11:05:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:05:50 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Penyemak] Peringkat : [PTJ]", false): Text 'Peranan : [Penyemak] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:05:53 - [MESSAGE][PASSED] - Text 'Peranan : [Penyemak] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:05:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:05:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:05:58 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:06:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan' is clicked on
+
+2019-04-09 11:06:01 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2019-04-09 11:06:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-04-09 11:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran' is clicked on
+
+2019-04-09 11:06:05 - [TEST_STEP][PASSED] - assert true: null
+
+2019-04-09 11:06:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:06:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod"), ArahanBayaranRekodID): Text '19DAAB030300049' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-04-09 11:06:08 - [MESSAGE][PASSED] - Text '19DAAB030300049' is set on object 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/input_TABLE_NAME_noRekod'
+
+2019-04-09 11:06:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:06:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/select_noRekod", ["text":ArahanBayaranRekodID])): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/select_noRekod' is double clicked on
+
+2019-04-09 11:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/select_noRekod' is double clicked on
+
+2019-04-09 11:06:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:06:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:06:16 - [TEST_STEP][PASSED] - jumlah = getText(findTestObject("Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_PT")): Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_PT' is: '11.05'
+
+2019-04-09 11:06:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/006 Arahan Bayaran/005 Pesanan Tempatan dan Inden Kerja/jumlah_PT' is: '11.05'
+
+2019-04-09 11:06:16 - [TEST_STEP][PASSED] - verifyMatch(jumlah, jumlah_baucar_bayaran, false): Actual text '11.05' and expected text '11.05' are matched 
+
+2019-04-09 11:06:16 - [MESSAGE][PASSED] - Actual text '11.05' and expected text '11.05' are matched 
+
+2019-04-09 11:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-04-09 11:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Senarai_Semak' is clicked on
+
+2019-04-09 11:06:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1' is checked
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_Semak_2' is checked
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3"), 3): Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_3' is checked
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_X_Close_Senarai_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_X_Close_Senarai_Semak' is clicked on
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Semak' is clicked on
+
+2019-04-09 11:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Semak' is clicked on
+
+2019-04-09 11:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_Ya_Semak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Ya_Semak' is clicked on
+
+2019-04-09 11:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_Ya_Semak' is clicked on
+
+2019-04-09 11:06:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:06:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:06:23 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak"), 300): null
+
+2019-04-09 11:06:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 11:06:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779183084.png]]
+
+2019-04-09 11:06:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:06:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:06:26 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:06:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak")): Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-04-09 11:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/006 Arahan Bayaran/004 Penyemak/button_OK_berjaya_disemak' is clicked on
+
+2019-04-09 11:06:26 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-04-09 11:06:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT" classname="Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:06:27 - [TEST_CASE][PASSED] - Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT: Test Cases/Perolehan/007 Proses Baucar Bayaran/003 Pelulus Baucar Bayaran IK - EFT
+
+2019-04-09 11:06:27 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:06:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:06:30 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:06:30 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PelulusPTJ, findTestData("ispekstestdata").getValue(2, 7)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:06:30 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:06:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:06:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:06:41 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPelulusPTJ])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:06:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 11:07:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:07:01 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Pelulus] Peringkat : [PTJ]", false): Text 'Peranan : [Pelulus] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:07:04 - [MESSAGE][PASSED] - Text 'Peranan : [Pelulus] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi' is clicked on
+
+2019-04-09 11:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Sisi' is clicked on
+
+2019-04-09 11:07:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Akaun Belum Bayar")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Akaun Belum Bayar' is clicked on
+
+2019-04-09 11:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Akaun Belum Bayar' is clicked on
+
+2019-04-09 11:07:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Expand_Baucar_Bayaran")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Expand_Baucar_Bayaran' is clicked on
+
+2019-04-09 11:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Expand_Baucar_Bayaran' is clicked on
+
+2019-04-09 11:07:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Integrasi_Dalaman")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Integrasi_Dalaman' is clicked on
+
+2019-04-09 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/Menu_Integrasi_Dalaman' is clicked on
+
+2019-04-09 11:07:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:16 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/input_No_Rekod"), ArahanBayaranRekodID): Text '19DAAB030300049' is set on object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/input_No_Rekod'
+
+2019-04-09 11:07:17 - [MESSAGE][PASSED] - Text '19DAAB030300049' is set on object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/input_No_Rekod'
+
+2019-04-09 11:07:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:20 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/select_No_Rekod", ["text":ArahanBayaranRekodID])): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/select_No_Rekod' is double clicked on
+
+2019-04-09 11:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/select_No_Rekod' is double clicked on
+
+2019-04-09 11:07:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:23 - [TEST_STEP][PASSED] - kodpembekal = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/002 Pelulus IK/pembekal_penerima - EFT", ["text":nama_pembekal_pemfaktoran])): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/002 Pelulus IK/pembekal_penerima - EFT' is: 'I CLASSICS NETWORK'
+
+2019-04-09 11:07:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/002 Pelulus IK/pembekal_penerima - EFT' is: 'I CLASSICS NETWORK'
+
+2019-04-09 11:07:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:26 - [TEST_STEP][PASSED] - verifyMatch(kodpembekal, nama_pembekal_pemfaktoran, false): Actual text 'I CLASSICS NETWORK' and expected text 'I CLASSICS NETWORK' are matched 
+
+2019-04-09 11:07:26 - [MESSAGE][PASSED] - Actual text 'I CLASSICS NETWORK' and expected text 'I CLASSICS NETWORK' are matched 
+
+2019-04-09 11:07:26 - [TEST_STEP][PASSED] - jumlahkeseluruhan = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun")): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun' is: '11.05'
+
+2019-04-09 11:07:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/jumlah_amaun' is: '11.05'
+
+2019-04-09 11:07:26 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-04-09 11:07:41 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-09 11:07:41 - [TEST_STEP][PASSED] - verifyMatch(jumlahkeseluruhan, jumlah_baucar_bayaran, false): Actual text '11.05' and expected text '11.05' are matched 
+
+2019-04-09 11:07:41 - [MESSAGE][PASSED] - Actual text '11.05' and expected text '11.05' are matched 
+
+2019-04-09 11:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus' is clicked on
+
+2019-04-09 11:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus' is clicked on
+
+2019-04-09 11:07:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Lulus")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Lulus' is clicked on
+
+2019-04-09 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Lulus' is clicked on
+
+2019-04-09 11:07:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:07:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - No_Baucar = getText(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan")): Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan' is: 'Rekod Berjaya Diluluskan.
+No. Baucar : 19DABB0400157
+Adakah Anda Ingin Mencetak Rekod Ini?
+YaTidak'
+
+2019-04-09 11:07:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/div_Rekod Berjaya Diluluskan' is: 'Rekod Berjaya Diluluskan.
+No. Baucar : 19DABB0400157
+Adakah Anda Ingin Mencetak Rekod Ini?
+YaTidak'
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - println(No_Baucar): null
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - Baucar_id = No_Baucar[(39..51)]: null
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - println(Baucar_id): null
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - Nombor_Baucar = Baucar_id: null
+
+2019-04-09 11:07:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:07:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:07:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak"), 300): Object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak' is clickable
+
+2019-04-09 11:07:52 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak' is clickable
+
+2019-04-09 11:07:52 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak"), 300): null
+
+2019-04-09 11:07:52 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:07:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak")): Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak' is clicked on
+
+2019-04-09 11:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak' is clicked on
+
+2019-04-09 11:08:14 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-09 11:08:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-09 11:08:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:08:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:08:17 - [TEST_STEP][PASSED] - waitForPageLoad(180): Wait for page load successfully
+
+2019-04-09 11:08:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-09 11:08:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 11:08:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779298333.png]]
+
+2019-04-09 11:08:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-04-09 11:08:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-04-09 11:08:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:08:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:08:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:08:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT" classname="Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT" status="PASSED">
+         <system-out><![CDATA[2019-04-09 11:08:22 - [TEST_CASE][PASSED] - Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT: Test Cases/Perolehan/008 Posting Bayaran/001 Posting Bayaran - EFT
+
+2019-04-09 11:08:22 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:08:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:08:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:08:25 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:08:25 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PelulusPTJ, findTestData("ispekstestdata").getValue(2, 7)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:08:25 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:08:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:08:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:08:36 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPelulusBN])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:08:36 - [TEST_STEP][PASSED] - delay(25): Delayed 25 second(s)
+
+2019-04-09 11:09:01 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2019-04-09 11:09:01 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Pelulus] Peringkat : [BN]", false): Text 'Peranan : [Pelulus] Peringkat : [BN]' is present on page 
+
+2019-04-09 11:09:04 - [MESSAGE][PASSED] - Text 'Peranan : [Pelulus] Peringkat : [BN]' is present on page 
+
+2019-04-09 11:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:09:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai' is clicked on
+
+2019-04-09 11:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PanelTitlePengurusanTunai' is clicked on
+
+2019-04-09 11:09:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_PostBayaran")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PostBayaran' is clicked on
+
+2019-04-09 11:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_PostBayaran' is clicked on
+
+2019-04-09 11:09:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/Drop_down_No_Baucar")): Object: 'Object Repository/Perolehan/008 Post Bayaran/Drop_down_No_Baucar' is clicked on
+
+2019-04-09 11:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/Drop_down_No_Baucar' is clicked on
+
+2019-04-09 11:09:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar"), Nombor_Baucar): Text '19DABB0400157' is set on object 'Object Repository/Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar'
+
+2019-04-09 11:09:17 - [MESSAGE][PASSED] - Text '19DABB0400157' is set on object 'Object Repository/Perolehan/008 Post Bayaran/input_No. Baucar_noBaucar'
+
+2019-04-09 11:09:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/select_No_Baucar", ["text":Nombor_Baucar])): Object: 'Object Repository/Perolehan/008 Post Bayaran/select_No_Baucar' is clicked on
+
+2019-04-09 11:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/select_No_Baucar' is clicked on
+
+2019-04-09 11:09:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_Cari")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Cari' is clicked on
+
+2019-04-09 11:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Cari' is clicked on
+
+2019-04-09 11:09:23 - [TEST_STEP][PASSED] - delay(23): Delayed 23 second(s)
+
+2019-04-09 11:09:46 - [MESSAGE][PASSED] - Delayed 23 second(s)
+
+2019-04-09 11:09:46 - [TEST_STEP][PASSED] - check(findTestObject("Perolehan/008 Post Bayaran/checkbox_proses")): Object 'Object Repository/Perolehan/008 Post Bayaran/checkbox_proses' is checked
+
+2019-04-09 11:09:47 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/008 Post Bayaran/checkbox_proses' is checked
+
+2019-04-09 11:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_proses")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_proses' is clicked on
+
+2019-04-09 11:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_proses' is clicked on
+
+2019-04-09 11:09:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_Ya_Proses")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Ya_Proses' is clicked on
+
+2019-04-09 11:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_Ya_Proses' is clicked on
+
+2019-04-09 11:09:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:53 - [TEST_STEP][PASSED] - button_ok = findWebElement(findTestObject("Perolehan/008 Post Bayaran/button_OK"), 300): null
+
+2019-04-09 11:09:54 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(button_ok)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:09:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:09:54 - [TEST_STEP][PASSED] - verifyTextPresent("Proses Posting Berjaya.", false): Text 'Proses Posting Berjaya.' is present on page 
+
+2019-04-09 11:09:54 - [MESSAGE][PASSED] - Text 'Proses Posting Berjaya.' is present on page 
+
+2019-04-09 11:09:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-04-09 11:09:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779394864.png]]
+
+2019-04-09 11:09:55 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan"), 300): Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:09:55 - [MESSAGE][PASSED] - Object 'Object Repository/Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan' is clickable
+
+2019-04-09 11:09:55 - [TEST_STEP][PASSED] - element = findWebElement(findTestObject("Perolehan/008 Post Bayaran/button_OK"), 300): null
+
+2019-04-09 11:09:55 - [TEST_STEP][PASSED] - executeJavaScript("arguments[0].click", Arrays.asList(element)): Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:09:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click' successfully
+
+2019-04-09 11:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/008 Post Bayaran/button_OK")): Object: 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is clicked on
+
+2019-04-09 11:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/008 Post Bayaran/button_OK' is clicked on
+
+2019-04-09 11:09:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:09:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:09:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-09 11:09:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran" classname="Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-09 11:09:59 - [TEST_CASE][FAILED] - Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more
+
+
+2019-04-09 11:09:59 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.openbrowser(): reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-09 11:10:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://175.143.52.101:7011/1SPEKSv2/'
+
+2019-04-09 11:10:02 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.openbrowser is PASSED
+
+2019-04-09 11:10:02 - [TEST_STEP][PASSED] - reusablefunctions.reusablefunctions.Login(PenyediaPTJ, findTestData("ispekstestdata").getValue(2, 4)): reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:10:02 - [MESSAGE][PASSED] - Text '601101955194' is set on object 'Object Repository/Login/input_NoKadPengenalan'
+
+2019-04-09 11:10:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+2019-04-09 11:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/input_ButtonLogMasuk' is clicked on
+
+2019-04-09 11:10:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:10:14 - [MESSAGE][PASSED] - reusablefunctions.reusablefunctions.Login is PASSED
+
+2019-04-09 11:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/IconTukarPeranan")): Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/IconTukarPeranan' is clicked on
+
+2019-04-09 11:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/input_TukarPeranan", ["value":RBPenyediaPTJ])): Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/input_TukarPeranan' is clicked on
+
+2019-04-09 11:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/TukarPeranan/button_Ya")): Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/TukarPeranan/button_Ya' is clicked on
+
+2019-04-09 11:10:14 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2019-04-09 11:10:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2019-04-09 11:10:34 - [TEST_STEP][PASSED] - verifyTextPresent("Peranan : [Penyedia] Peringkat : [PTJ]", false): Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:10:37 - [MESSAGE][PASSED] - Text 'Peranan : [Penyedia] Peringkat : [PTJ]' is present on page 
+
+2019-04-09 11:10:37 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft' is clicked on
+
+2019-04-09 11:10:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:10:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar' is clicked on
+
+2019-04-09 11:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/Menu_Akaun Belum Bayar' is clicked on
+
+2019-04-09 11:10:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:10:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar")): Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar' is clicked on
+
+2019-04-09 11:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/001 Left_Menu_Selection/div_Carian_Akaun_Belum_Bayar' is clicked on
+
+2019-04-09 11:10:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 11:10:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 11:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian' is clicked on
+
+2019-04-09 11:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Drop_down_Jenis_Carian' is clicked on
+
+2019-04-09 11:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar' is clicked on
+
+2019-04-09 11:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Select_No_Baucar' is clicked on
+
+2019-04-09 11:10:47 - [TEST_STEP][PASSED] - setText(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar"), Nombor_Baucar): Text '19DABB0400157' is set on object 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar'
+
+2019-04-09 11:10:47 - [MESSAGE][PASSED] - Text '19DABB0400157' is set on object 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/Input_No_Baucar'
+
+2019-04-09 11:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari' is clicked on
+
+2019-04-09 11:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cari' is clicked on
+
+2019-04-09 11:10:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-09 11:10:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-09 11:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak")): Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak' is clicked on
+
+2019-04-09 11:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Perolehan/009 Penyedia Cetak Baucar Bayaran/button_Cetak' is clicked on
+
+2019-04-09 11:10:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:11:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:11:02 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-04-09 11:11:02 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-04-09 11:11:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 11:11:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 11:11:07 - [TEST_STEP][FAILED] - takeScreenshot(): takeScreenshot() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more
+
+
+2019-04-09 11:11:11 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Consultant_MSPHitect\\Katalon Studio\\TrainingonKatalon\\Reports\\Perolehan\\07 Inden Kerja - EFT - Perak\\20190409_105709\\1554779470898.png]]
+
+2019-04-09 11:11:11 - [MESSAGE][FAILED] - takeScreenshot() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-09 11:09:59 - [TEST_CASE][FAILED] - Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-09 10:57:17 - [TEST_SUITE][FAILED] - 07 Inden Kerja - EFT - Perak: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-09 10:57:17 - [TEST_SUITE][FAILED] - 07 Inden Kerja - EFT - Perak: Test Cases/Perolehan/009 Penyedia Cetak Baucar Bayaran/001 Penyedia Cetak Baucar Bayaran FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at 001 Penyedia Cetak Baucar Bayaran.run(001 Penyedia Cetak Baucar Bayaran:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554778629510.run(TempTestSuite1554778629510.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such execution context
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-V9TS2EM', ip: '192.168.182.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\CONSUL~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56915}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: be9e048bb46fe30cc3bb0b09f82b56d3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:342)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2915)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$8.call(Unknown Source)
+	at Script1551063441057.run(Script1551063441057.groovy:84)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

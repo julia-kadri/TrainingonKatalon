@@ -6,15 +6,15 @@
    <elementGuidId>e048d780-96ce-4f5c-87b6-ee004ffa29f6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//body/div[13]/div[@title='']/div[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[starts-with(@id, '_easyui_combobox') and (text() = 'CEK' or . = 'CEK')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'CEK')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

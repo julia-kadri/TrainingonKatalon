@@ -116,7 +116,7 @@ class reusablefunctions {
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 		'Click Radio Button Penyedia PTJ'
-		WebUI.click(findTestObject('Object Repository/Perolehan/TukarPeranan/input_TukarPenyediaPTJ'))
+		WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPenyediaPTJ]))
 
 		'Click Ya to confirm change of role'
 		WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging - Perak</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL</description>
+      <initValue>'https://175.143.52.101:7011/1SPEKSv2/'</initValue>
+      <name>URL_Homepage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tahun Kewangan</description>
+      <initValue>'2019'</initValue>
+      <name>TahunKewangan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>rekod id for Arahan Bayaran</description>
+      <initValue>'19DAAB030100117'</initValue>
+      <name>ArahanBayaranRekodID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>baucar id for Proses Baucar Bayaran</description>
+      <initValue>'19DABB0400158'</initValue>
+      <name>Nombor_Baucar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>rekod id for Pesanan Tempatan</description>
+      <initValue>'19DAPT030100240'</initValue>
+      <name>PesananTempatanRekodID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Dokumen ID generated after lulus</description>
+      <initValue>'19DAIK0300057'</initValue>
+      <name>PesananTempatanDokumenID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>get the total amount in the record</description>
+      <initValue>'6.32'</initValue>
+      <name>TotalAmaunPT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>get no rujukan for inden kerja</description>
+      <initValue>'INV'</initValue>
+      <name>IKno_rujukan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://175.143.52.101:7011/1SPEKSv2/'</initValue>
+      <name>URL_7011</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'B31'</initValue>
+      <name>Vot_dana</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'B0804ML33681'</initValue>
+      <name>kod_pembekal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'160080'</initValue>
+      <name>kod_program_aktiviti</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'B0221101'</initValue>
+      <name>kod_akaun</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2110100000000000000'</initValue>
+      <name>kod_barang</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'004000'</initValue>
+      <name>kod_jabatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'00400101'</initValue>
+      <name>kod_PTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Z0807BK44959'</initValue>
+      <name>kod_pembekal_cek</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'B0227102'</initValue>
+      <name>kod_akaun_cek</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2710200000000000000'</initValue>
+      <name>kod_barang_cek</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'BAYU DINAMIK ENTERPRISE'</initValue>
+      <name>nama_pembekal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ZAM MEDITRADE'</initValue>
+      <name>nama_pembekal_cek</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I0801SK29724'</initValue>
+      <name>kod_pembekal_pemfaktoran</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I CLASSICS NETWORK'</initValue>
+      <name>nama_pembekal_pemfaktoran</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('ispekstestdata').getValue(1, 2)</initValue>
+      <name>PenyediaPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('ispekstestdata').getValue(1, 2)</initValue>
+      <name>PengesahBN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('ispekstestdata').getValue(1, 2)</initValue>
+      <name>PelulusPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Radio button value for peranan</description>
+      <initValue>'3902'</initValue>
+      <name>RBPenyediaPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Radio button value for peranan</description>
+      <initValue>'3906'</initValue>
+      <name>RBPengesahBN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Radio button value for peranan</description>
+      <initValue>'3905'</initValue>
+      <name>RBPelulusBN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Radio button value for peranan</description>
+      <initValue>'3904'</initValue>
+      <name>RBPelulusPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Radio button value for peranan</description>
+      <initValue>'3903'</initValue>
+      <name>RBPenyemakPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('ispekstestdata').getValue(1, 2)</initValue>
+      <name>PenyemakPTJ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5.30'</initValue>
+      <name>jumlah_baucar_bayaran</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

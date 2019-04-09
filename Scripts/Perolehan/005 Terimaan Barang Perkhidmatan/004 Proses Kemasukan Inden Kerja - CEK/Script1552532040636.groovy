@@ -20,7 +20,7 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into ispek'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Change role to Penyedia PTJ'
@@ -139,17 +139,15 @@ WebUI.waitForElementClickable(findTestObject('Perolehan/005 Kemasukan Terimaan/0
     180)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'),
-	300)
-
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/005 Kemasukan Terimaan/002 Kemasukan Inden Kerja/button_OK_close_rekod_berjaya'), 
+    300)
 
 'take screenshot of the record id for reference'
 WebUI.takeScreenshot()
-
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))

@@ -20,14 +20,14 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into ispek'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Click on icon Tukar Peranan'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 'Click Radio Button Penyedia PTJ'
-WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPenyediaPTJ]))
 
 'Click Ya to confirm change of role'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))

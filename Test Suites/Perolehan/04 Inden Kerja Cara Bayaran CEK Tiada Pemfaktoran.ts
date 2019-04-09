@@ -44,7 +44,7 @@
       <guid>75d07841-fa0b-40f9-a522-7f7edb18beca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/006 Penyemak Inden Kerja</testCaseId>
+      <testCaseId>Test Cases/Perolehan/006 Arahan Bayaran/010 Penyemak Inden Kerja</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0d8856f7-e4fc-4f8d-9342-faae952e0cc8</guid>

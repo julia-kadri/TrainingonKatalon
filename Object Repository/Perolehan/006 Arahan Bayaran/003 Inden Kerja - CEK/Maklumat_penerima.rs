@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[contains(@class, 'namaPenerima')]</value>
+         <value>//div[contains(@class, 'namaPenerima') and (text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='panel datagrid easyui-fluid']//div[@class='datagrid-view2']//table[@id='kodAkaunCajlineDenda_thead_tbody']</value>
+         <value>//td[@field='namaPenerima']//div[(contains(text(), '${text}') or contains(., '${text}'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,5 +29,12 @@
       <name>class</name>
       <type>Main</type>
       <value>namaPenerima</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${text}</value>
    </webElementProperties>
 </WebElementEntity>

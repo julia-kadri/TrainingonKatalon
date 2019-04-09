@@ -19,14 +19,14 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PelulusPTJ, findTestData('ispekstestdata').getValue(
         2, 7))
 
 'Click on icon Tukar Peranan'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 'Click Radio Button Penyedia PTJ'
-WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '220']))
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPelulusPTJ]))
 
 'Click Ya to confirm change of role'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
@@ -88,7 +88,7 @@ String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Ba
 WebUI.delay(15)
 
 'verify that amount is a match'
-WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.TotalAmaunPT, false)
+WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.jumlah_baucar_bayaran, false)
 
 'click on button Lulus to approve the record'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus'))

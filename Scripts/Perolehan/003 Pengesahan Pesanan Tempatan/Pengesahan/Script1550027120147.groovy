@@ -20,14 +20,14 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.URL_Homepage)
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 6), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PengesahBN, findTestData('ispekstestdata').getValue(
         2, 6))
 
 'Click on icon Tukar Peranan'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 'Click Radio Button Penyedia PTJ'
-WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '2933']))
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPengesahBN]))
 
 'Click Ya to confirm change of role'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
@@ -120,13 +120,12 @@ WebUI.delay(5)
 WebUI.waitForElementClickable(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 60)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'),
-	300)
-
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/003 Pengesah/button_OK_berjaya_disah'), 
+    300)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))

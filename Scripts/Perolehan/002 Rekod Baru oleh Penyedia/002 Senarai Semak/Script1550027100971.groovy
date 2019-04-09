@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import org.openqa.selenium.WebElement as WebElement
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Click on button Senarai Semak'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/0021 Senarai Semak/button_Senarai Semak'))

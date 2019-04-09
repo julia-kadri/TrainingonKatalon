@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.URL_Homepage)
 
 'Input User Name'
-WebUI.setText(findTestObject('Login/input_NoKadPengenalan'), findTestData('ispekstestdata').getValue(1, 4))
+WebUI.setText(findTestObject('Login/input_NoKadPengenalan'), GlobalVariable.PenyediaPTJ)
 
 'Input Password'
 WebUI.setEncryptedText(findTestObject('Login/input_Password'), findTestData('ispekstestdata').getValue(2, 4))
@@ -33,55 +33,36 @@ WebUI.click(findTestObject('Login/input_ButtonLogMasuk'))
 'Delay'
 WebUI.delay(5)
 
-if (WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)) {
-    'Click on Menu Sisi to display Menu selections'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
+'Click on icon Tukar Peranan'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
-    'Delay'
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+'Click Radio Button Penyedia PTJ'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPenyediaPTJ]))
 
-    'Select Perolehan Sub-menu'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
+'Click Ya to confirm change of role'
+WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
 
-    'Delay'
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(20)
 
-    'Click on Menu sisi'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
+'Verify Peranan is now Penyedia PTJ'
+WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)
 
-    'Pesanan Tempatan page loaded successfully'
-    WebUI.delay(3)
-} else {
-    'Click on icon Tukar Peranan'
-    WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
+'Click on Menu Sisi to display Menu selections'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
 
-    'Click Radio Button Penyedia PTJ'
-    WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '255']))
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-    'Click Ya to confirm change of role'
-    WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
+'Select Perolehan Sub-menu'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
 
-    WebUI.delay(20)
+'Delay'
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-    'Verify Peranan is now Penyedia PTJ'
-    WebUI.verifyTextPresent('Peranan : [Penyedia] Peringkat : [PTJ]', false)
+'Click on Menu sisi'
+WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
 
-    'Click on Menu Sisi to display Menu selections'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/a_ExpandMenuonLeft'))
+'Pesanan Tempatan page loaded successfully'
+WebUI.delay(3)
 
-    'Delay'
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-    'Select Perolehan Sub-menu'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PanelTitlePerolehan'))
-
-    'Delay'
-    WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-    'Click on Menu sisi'
-    WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_PesananTempatan'))
-
-    'Pesanan Tempatan page loaded successfully'
-    WebUI.delay(3)
-}
 

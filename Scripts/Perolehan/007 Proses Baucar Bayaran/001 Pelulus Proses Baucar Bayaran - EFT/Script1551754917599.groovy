@@ -18,15 +18,16 @@ import org.openqa.selenium.WebElement as WebElement
 'open browser and enter ispek url'
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
-'login into the application'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 7), findTestData('ispekstestdata').getValue(
+WebUI.delay(5)
+
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PelulusPTJ, findTestData('ispekstestdata').getValue(
         2, 7))
 
 'Click on icon Tukar Peranan'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/IconTukarPeranan'))
 
 'Click Radio Button Penyedia PTJ'
-WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : '220']))
+WebUI.click(findTestObject('Perolehan/TukarPeranan/input_TukarPeranan', [('value') : GlobalVariable.RBPelulusPTJ]))
 
 'Click Ya to confirm change of role'
 WebUI.click(findTestObject('Perolehan/TukarPeranan/button_Ya'))
@@ -79,7 +80,7 @@ String jumlahkeseluruhan = WebUI.getText(findTestObject('Perolehan/007 Proses Ba
 WebUI.delay(15)
 
 'verify that amount is a match'
-WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.TotalAmaunPT, false)
+WebUI.verifyMatch(jumlahkeseluruhan, GlobalVariable.jumlah_baucar_bayaran, false)
 
 'click on button lulus to approve the record'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Lulus'))
@@ -115,16 +116,14 @@ GlobalVariable.Nombor_Baucar = Baucar_id
 WebUI.delay(3)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'), 300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'),
-	300)
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'), 
+    300)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
-
 
 'click Ya to print the baucar'
 WebUI.click(findTestObject('Perolehan/007 Proses Baucar Bayaran/001 Pelulus PT/button_Ya_Cetak'))

@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inde
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/Drop_down_Pembekal'))
 
 'input nama pembekal green miracle enterprise in the filter textbox'
-WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_nama_Pembekal'), GlobalVariable.kod_pembekal)
+WebUI.setText(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/input_kod_Pembekal'), GlobalVariable.kod_pembekal)
 
 'select nama pembekal from the filter result'
 WebUI.click(findTestObject('Perolehan/002 Penyedia_RekodBaru/005 Rekod Baru Inden Kerja/select_nama_pembekal', [('text') : GlobalVariable.kod_pembekal]))

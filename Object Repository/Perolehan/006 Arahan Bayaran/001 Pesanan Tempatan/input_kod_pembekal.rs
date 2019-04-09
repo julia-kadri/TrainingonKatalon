@@ -7,12 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>${xpath}</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='cariNamaPembekal_thead']//td[@field='nama']//span[@class='textbox']//input[@type='text']</value>
+         <value>//td[@field='nama']//span[@class='textbox']//input[@type='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>${xpath}</value>
+   </webElementProperties>
 </WebElementEntity>

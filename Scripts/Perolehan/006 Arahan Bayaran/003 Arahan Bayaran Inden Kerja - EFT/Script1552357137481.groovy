@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Delay'
@@ -218,6 +218,16 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/b
 'Click X to close the popup window'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak'))
 
+WebUI.delay(3)
+
+def jumlahbaucarbayaran = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/jumlah_baucar_bayaran'))
+
+'print the value'
+println(jumlahbaucarbayaran)
+
+'set global variable value of RekodID with variable RekodNo'
+GlobalVariable.jumlah_baucar_bayaran = jumlahbaucarbayaran
+
 'Click Sah Simpan button to Sah Simpan the record'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan'))
 
@@ -249,17 +259,15 @@ GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 WebUI.delay(3)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'),
-	300)
-
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'), 
+    300)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))
-
 
 'Click OK to close the prompt box'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_OK_rekod_berjaya_sah_simpan'))

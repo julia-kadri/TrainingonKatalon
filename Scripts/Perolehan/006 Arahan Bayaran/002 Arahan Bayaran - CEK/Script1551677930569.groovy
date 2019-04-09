@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Delay'
@@ -44,7 +44,7 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Perolehan/001 Left_Menu_Selection/div_Menu_ArahanBayaran'))
 
 'Delay'
-WebUI.delay(3)
+WebUI.delay(8)
 
 'Arahan Bayaran page loaded successfully'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_REKOD_BARU'))
@@ -83,8 +83,12 @@ WebUI.delay(5)
 'click on drop down cara bayaran to select'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Cara_Bayaran'))
 
+WebUI.delay(3)
+
 'select cara bayaran as CEK'
-WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Select_Cara_Bayaran - CEK'))
+WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/select_CEK'))
+
+WebUI.delay(3)
 
 'click on drop down dengan pemfaktoran'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Drop_Down_Dengan_Pemfaktoran'))
@@ -207,6 +211,16 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/bu
 'Click X to close the popup window'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/Senarai_Semak_X_close'))
 
+WebUI.delay(3)
+
+def jumlahbaucarbayaran = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/jumlah_baucar_bayaran'))
+
+'print the value'
+println(jumlahbaucarbayaran)
+
+'set global variable value of RekodID with variable RekodNo'
+GlobalVariable.jumlah_baucar_bayaran = jumlahbaucarbayaran
+
 'Click Sah Simpan button to Sah Simpan the record'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_Sah_Simpan'))
 
@@ -238,13 +252,12 @@ GlobalVariable.ArahanBayaranRekodID = ArahanBayaranID
 WebUI.delay(3)
 
 'wait for the element to be clickable'
-WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'),
-	300)
+WebUI.waitForElementClickable(findTestObject('Perolehan/002 Penyedia_RekodBaru/001 Rekod Baru Pesanan Tempatan/button_OK_Rekod_Berjaya_disimpan'), 
+    300)
 
 'declare object to find as an element'
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_OK_Rekod_telah_simpan'),
-	300)
-
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('Perolehan/006 Arahan Bayaran/001 Pesanan Tempatan/button_OK_Rekod_telah_simpan'), 
+    300)
 
 'click on the element using javascript'
 WebUI.executeJavaScript('arguments[0].click', Arrays.asList(element))

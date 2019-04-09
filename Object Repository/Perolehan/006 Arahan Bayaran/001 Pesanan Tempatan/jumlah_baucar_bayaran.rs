@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>jumlah_baucar_bayaran</name>
+   <tag></tag>
+   <elementGuidId>c68b4730-15f7-40d4-ab97-5be5f71f66fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>${xpath}</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='totalAmount']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>${xpath}</value>
+   </webElementProperties>
+</WebElementEntity>

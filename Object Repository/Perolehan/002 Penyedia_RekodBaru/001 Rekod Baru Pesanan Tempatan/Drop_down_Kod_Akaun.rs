@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='panelKemasukanCajline']/table/tbody/tr/td[4]/span/span/a</value>
+         <value>//div[@id='panelKemasukanCajline']/table/tbody/tr[1]/td[4]/span/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

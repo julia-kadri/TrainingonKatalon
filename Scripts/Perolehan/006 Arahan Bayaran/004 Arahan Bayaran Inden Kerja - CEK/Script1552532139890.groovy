@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement as WebElement
 CustomKeywords.'reusablefunctions.reusablefunctions.openbrowser'()
 
 'Login into the system'
-CustomKeywords.'reusablefunctions.reusablefunctions.Login'(findTestData('ispekstestdata').getValue(1, 4), findTestData('ispekstestdata').getValue(
+CustomKeywords.'reusablefunctions.reusablefunctions.Login'(GlobalVariable.PenyediaPTJ, findTestData('ispekstestdata').getValue(
         2, 4))
 
 'Delay'
@@ -169,6 +169,9 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/b
 'Click on Senarai Semak button to select list of senarai semak'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Senarai Semak'))
 
+'Delay'
+WebUI.delay(3)
+
 'Check on the first item from senarai semak '
 WebUI.check(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/Senarai_semak_1'))
 
@@ -189,6 +192,16 @@ WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/b
 
 'Click X to close the popup window'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_X_close_senarai_semak'))
+
+WebUI.delay(3)
+
+def jumlahbaucarbayaran = WebUI.getText(findTestObject('Perolehan/006 Arahan Bayaran/003 Inden Kerja - CEK/jumlah_baucar_bayaran'))
+
+'print the value'
+println(jumlahbaucarbayaran)
+
+'set global variable value of RekodID with variable RekodNo'
+GlobalVariable.jumlah_baucar_bayaran = jumlahbaucarbayaran
 
 'Click Sah Simpan button to Sah Simpan the record'
 WebUI.click(findTestObject('Perolehan/006 Arahan Bayaran/002 Inden Kerja - EFT/button_Sah Simpan'))
